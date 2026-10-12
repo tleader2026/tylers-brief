@@ -1,4 +1,5 @@
 import type {RecordData} from './catalog';
+import snapshot from './news-snapshot.json' with {type:'json'};
 export const newsTopics=[
  {id:'health',label:'Long COVID',query:'"long covid" (treatment OR trial OR research OR ensitrelvir)'},
  {id:'wastewater',label:'Wastewater',query:'COVID wastewater surveillance'},
@@ -35,6 +36,10 @@ export async function newsAdapter(){
   try{const url='https://news.google.com/rss/search?'+new URLSearchParams({q:topic.query+' when:14d',hl:'en-US',gl:'US',ceid:'US:en'});const response=await fetch(url,{signal:AbortSignal.timeout(15000),headers:{Accept:'application/rss+xml, application/xml'}});if(!response.ok)throw new Error('HTTP '+response.status);const xml=await response.text();if(!xml.includes('<rss'))throw new Error('Invalid RSS response');return parseNews(xml,topic.id);}
   catch{warnings.push(topic.label+' feed unavailable');return [];}
  }));
- const rows=mergeNews(groups);if(!rows.length&&warnings.length)throw new Error('News feeds unavailable. Previously retrieved articles retained.');
+ const rows=mergeNews(groups);if(!rows.length&&warnings.length){
+  const fallback=snapshot.filter(r=>Date.parse(r.date)>Date.now()-30*86400000).map(r=>({...r,status:'VERIFIED SNAPSHOT',details:{...r.details,limitations:'Dated publisher headline snapshot. Live RSS refresh unavailable; reporting has not been independently verified.'}})) as RecordData[];
+  if(!fallback.length)throw new Error('News feeds unavailable. Previously retrieved articles retained.');
+  return Object.assign(fallback,{warnings});
+ }
  return Object.assign(rows,{warnings});
 }

@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "news:584fc39",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "POLL: Would you support a data center in your community?",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYWlMVU5xc0dBNlh2MEZwQTdhOE5hc3dRc3RBV1k4NUdnVFhKYVR4RlJqUnAzM3Nab1I5LXg5R0xSUkEzTldPUEVtN1hhZEM5R09kS3dMLUdVTmMyTFctTDJscEllMWYxeklHd21JaFRuOXpYMWs4d0g2STBBU0RQMFZoUXJkT0hQN0FuYlRJS04?oc=5",
+    "scope": "KEYE",
+    "date": "2026-10-12T21:24:49.000Z",
+    "published": "2026-10-12T21:24:49.000Z",
+    "retrieved": "2026-10-12T22:52:38.891Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "KEYE",
+      "topics": [
+        "local"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:e51ba632",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "VDH: COVID, viruses slowly increasing",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUUhZSkgyQV9yY1FGOFlVSXgyQzd2dURfdFd6d0lfdC1aclN6ME96UkVkYUdxLWJYR1JlZXZUNzQ0Q25XSlpmVktucGt2QnVkLTJVOUlLdEw0QVBtTmtkbWxGdENaUkh0MmswRWxOTjNBMWNVR0hMVXNsTklQZG1GRVBHNVJsZw?oc=5",
+    "scope": "Vermont Business Magazine",
+    "date": "2026-10-12T20:43:33.000Z",
+    "published": "2026-10-12T20:43:33.000Z",
+    "retrieved": "2026-10-12T22:52:38.738Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Vermont Business Magazine",
+      "topics": [
+        "wastewater"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:28405216",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Long-COVID symptoms may be linked to bacterial mix in the mouth, lungs",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNS10TEwtX3NTLUJrRWU1dU9Ubm5FNjVqcHV6Qmk3TFlucnUxTmE2cm9xYVE0UUFPQmZaZHF3OUdBSWkyR1BkRnFNVVZlYmhiVE9laUR6cUNhSVpmSDVQZ0hlUWtVMEZWM21VTFJld1Zwc1RnY0RoaTJ3U3NtSXBTRTExYUhsRjBlYnI2RlNxY3pQOV9rSEhrX05uYw?oc=5",
+    "scope": "CIDRAP",
+    "date": "2026-10-12T20:36:40.000Z",
+    "published": "2026-10-12T20:36:40.000Z",
+    "retrieved": "2026-10-12T22:52:38.873Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "CIDRAP",
+      "topics": [
+        "health"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:9d86d593",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Meta Says New AI Model Is State-of-the-Art, Will Make Muse Agent Smarter",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQVkxbnFYRFlRdVIwVm5MX2hxakc1a29XeFM2d3E2X1Z6YS15M21mSHB2LVBjVFRTaV9TYkhodklCcTc3R1ZQTk41NWc1LXR4TS1Gc1pzc1FtOFl3TlJRWnF2cm1DT1lWcnhUOG1IWi1YQkJTY3FyRl9SNUl3WnlVb2preFJFeHdhb3JDRkRtdDV1NkxkV3JhQWNJeUpVYjJpV09rWkhtZmVPOXpv?oc=5",
+    "scope": "WSJ",
+    "date": "2026-10-12T20:10:00.000Z",
+    "published": "2026-10-12T20:10:00.000Z",
+    "retrieved": "2026-10-12T22:52:39.052Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "WSJ",
+      "topics": [
+        "ai"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:a24cf452",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Developers aim to renovate decades-old apartments in East Austin",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYS1fbi1DY1k2cTllWGowRnpJOUFZR1NJSjcteXpoeXFfYWlXeEtKaXNDd0otYnpxekZVd2lMbzFJZm9KVEViMHhQbENmXzFfYlUyejJRNG00WkRfVEFkbTY3aEt2WElNMWlPNjhxQXhSZnRNX21VWXhXWmxnV1RsMWMzMmdjeGN0clAwTjRITlRlYTJVcGc1NmxqUVNfNHVBNE5hXzltUQ?oc=5",
+    "scope": "The Business Journals",
+    "date": "2026-10-12T19:34:00.000Z",
+    "published": "2026-10-12T19:34:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.891Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "The Business Journals",
+      "topics": [
+        "local"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:8f5eb55d",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Cooling tech firm scales Austin operations",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0hGV1RYQ2lfNUZvenZXZEhyVXZXckMxNjgzbHRXNlBiOHhqTXBDei1uLVZUc1VmWnp5ZDhOSUhGOElGMWloVEtJT1Y1RVVCT0syR3hLMkVFeVFyM2RWc25sUnE0WnJiM2NpQ1p6eHkyRHhYRG1IWHlkVUZfOHphUmVIdEJpelRuMlNGQlo4bkhNa21td1pUcy1fWXQ?oc=5",
+    "scope": "The Business Journals",
+    "date": "2026-10-12T19:13:00.000Z",
+    "published": "2026-10-12T19:13:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.891Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "The Business Journals",
+      "topics": [
+        "local"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:9b4a171e",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Higher mortgage rates are messing with the housing market",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcUlaeHdwb0xZOGMzWXRLRmpoVXUwdUVpYUE5ekJtMUE2ZUhfd0JzOUZSOS1ZTUh0eE9VZ2JtLVR6cU5tazhZVGdQLVdpR2hxSVd2dWF3bjZFZlpkQlk5M3hETEJJeWJNUm5DcFVxb3J3M2UtU0txNGlfOF9qSkFTS3JrczdQZzBleFR2cTgxLUNSS0k0Ym1R?oc=5",
+    "scope": "The Business Journals",
+    "date": "2026-10-12T18:32:00.000Z",
+    "published": "2026-10-12T18:32:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.891Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "The Business Journals",
+      "topics": [
+        "local"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:44cdfb31",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Eurobank CRO Joseph Antoniou on how AI and advanced analytics are reshaping risk management: “Two magic words are completeness and accuracy”",
+    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNa0VfTGpaQ2x0dWRWSDNnYk9NSW03TTJneDcyQ0lJUnlPcVNKaWpFVlNFTkpXMlJYOTBNMWROdTFxOVVaT18tWUpQMGRMSjZMclB6dXNSbmU1QkV1RUJuWElteHdmamFfYUU1cXc0Q3lxSnozUTlpSF9mSjdGaHdOQlpoUlBuWTlmd0RhMTJ1ZWdLdTluVVJ0aVVxdURvOTZJNDVuTS03SmlpdFVyNFRvY2dHWFdBVldIWThIaktwQWE1LS1vQXRLUDBtLVh6R25ZZGRWQUZTTHNvTDZUT253TzNPeFFBSm9CNmE0ZzlQd0dmcE92Y0NZc19IUHRWM3JONVprWHd3?oc=5",
+    "scope": "CBN.com.cy",
+    "date": "2026-10-12T18:22:30.000Z",
+    "published": "2026-10-12T18:22:30.000Z",
+    "retrieved": "2026-10-12T22:52:38.817Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "CBN.com.cy",
+      "topics": [
+        "world"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:67f679ac",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "U.S. House candidates for Kansas on housing affordability",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUUQxendZY0Vja2JZZ2FfWnBTRzZBSHYyM1N5b0RsV2QyWUZXaHFmSFdzZmRfZjFzTF9hRFV0M1pOYlNfSjgyOUY0QW5FdDlFNVBoZG5XWDZZVWxLbGN5ZThVZFYwUkt4WlBuWWpyOXFsaGdwWDJQaGdGQXFYYnVoVWNhazZvQnVBcEJSWWZidE9Hb283SjNQOThrUHVvTDIxc1o3eE9QSk8?oc=5",
+    "scope": "Johnson County Post",
+    "date": "2026-10-12T18:15:00.000Z",
+    "published": "2026-10-12T18:15:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.884Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Johnson County Post",
+      "topics": [
+        "housing"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:ebacac76",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "The Long Road Home: Examining the Global Housing Affordability Crisis",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX0lHWjcwX1d5blFXQXJsYUpPNDhDYUZKTWxERjJZTVNyXzdzMUtHb2EyS2ZHTEtSNzFlNHVtcXpDUldXRENDLTltOW80alVzRXB1LUpIRTMxVmtrczBsZmF0dFJEOFJIOWQ4N2tBTEI1T0xsRGJ4aU5EYm9mYUxha21TWm9fcFplem1j?oc=5",
+    "scope": "J.P. Morgan",
+    "date": "2026-10-12T18:03:50.000Z",
+    "published": "2026-10-12T18:03:50.000Z",
+    "retrieved": "2026-10-12T22:52:38.884Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "J.P. Morgan",
+      "topics": [
+        "housing"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:1f6e338",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Most Americans won’t be able to afford a house until 2031 — and it’s even worse if you’re on Long Island",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXYyc0Z5ZkxzNjhzMlBocUdWRnlmeGFjY0hHYmM4bkJYM0FtN1F0N0RvbFRoSGVodDRJalhWNkd5Yzh5YzVveXZna0s4Q2l0NU5jU194eFl3LWJYUGhjaTU0VFVZLWxSb2ppWmQ0SFJhenNIaTN6N2V6NExlODFpSU9ickFmaVdsTTJESUlLYUJ3WTZMaG9uSVFXY1I2bGlh?oc=5",
+    "scope": "New York Post",
+    "date": "2026-10-12T18:00:00.000Z",
+    "published": "2026-10-12T18:00:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.884Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "New York Post",
+      "topics": [
+        "housing"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:e3681919",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Mortgage Shock Sends US Pending Home Sales to Near 12-Year Low",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMWU4cUM4ejRkaE5mZ19nREdJUjUxSlNUY2F3YVJteUJqUG5BNWVGSThSU2p6V3ROZmc3dktmVmd6enRTbUFVLUNzOW9JdXhrNzh6MV9WNjNHUUc1LWhTQ0tGV3Q5NVNlQmx2eDdNVTVPUXhNc1ZkV0FTTlEzRWNwTnd1d2NnM3FRdDB2VTE1VGhabE8tbHprM1ozU2t3Q0t6bjhKZjMtT0Z6bWNxWTJBbS1WQQ?oc=5",
+    "scope": "Bloomberg.com",
+    "date": "2026-10-12T17:53:49.000Z",
+    "published": "2026-10-12T17:53:49.000Z",
+    "retrieved": "2026-10-12T22:52:38.884Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Bloomberg.com",
+      "topics": [
+        "housing"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:b26fa3a7",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQWtCRTJBSThLQjBSa09qbEhKc2d2N0xyMDdJYXFXZWg4UGFRcUExcVBBd292eFl2WGwzVXBCVzg2WWtnOFM5eE1ma2gzTGNSMms5SFFpdTZOVjR4TEZEcmlpZmNYbEdUZmxya1FremFRNmVNTTdzYUlRdzZEYmFBV3VwVWNEUmFDMG9NMjNRX25BRW9Gbktyb0RGNWE2a0kxLTV0VEZ1YXozZDRuNm91YkpB?oc=5",
+    "scope": "The Official Microsoft Blog",
+    "date": "2026-10-12T17:24:05.000Z",
+    "published": "2026-10-12T17:24:05.000Z",
+    "retrieved": "2026-10-12T22:52:39.052Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "The Official Microsoft Blog",
+      "topics": [
+        "ai"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:5f50f771",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Meta unveils new frontier-class AI models to compete with OpenAI, Anthropic",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50WlVKQWVQZDJBOUh3M29URVE3aERKWG9CUVNtQjk1eDdKTmN2Sl8wamZQeDRPNEltbU1EelhDWWt5VEtyVFVVUkRJQTJNbWFwcnp1UkVTaU90Vkw4R0pKT0gwN1A1cHZ4Tzg0YkJpVlVZNUJGbnRR?oc=5",
+    "scope": "Axios",
+    "date": "2026-10-12T17:19:14.000Z",
+    "published": "2026-10-12T17:19:14.000Z",
+    "retrieved": "2026-10-12T22:52:39.052Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Axios",
+      "topics": [
+        "ai"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:a6b32b16",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE91ZEsySi16NFVPeGtFbHE2SWRCalRUMjNWYnhKNVI2eFg3aC1ocEJwYWRvdC1zaHhYYXRWNjNna3FfOFQxZXZMMXhRcnpHSGpnR204cGpzMzcxQmxXUkZCcmNXNDFfUXNCTzlMQ2Nmb0ZHaWPSAXhBVV95cUxQd0VSRVJsQ2M3eEtsZXpISkd5VWlMRTlCd29BZ3E2MUNWWUNhczVIOEhMSFFaSjNuemNlZ3l4aW5QdjVBWG15d21rVlRGbV93eUgyVzZOa19tYjVuNktQVDZ4RGYzMjJQU3R4cUUzZFdkM0o3U2pLRUQ?oc=5",
+    "scope": "Facebook",
+    "date": "2026-10-12T17:08:05.000Z",
+    "published": "2026-10-12T17:08:05.000Z",
+    "retrieved": "2026-10-12T22:52:39.052Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Facebook",
+      "topics": [
+        "ai"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:9b152a11",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Meta debuts Muse Wonder AI model in latest test of users' willingness to pay",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11QldFTGNiMGg4N0FwZHE0OGl5ZTBoZkZGdnBjZ1ZyOURmb1lxUHZScVViOXQzMzNmZnJBdlNPbE1xdkVTWEpLSXVPR1R1ajRmTElvSi1JNG5YbHk0SnlnUUhVZzR5SG16YXZyMWFQQWQ2YzRUUmpZ0gF8QVVfeXFMUFVKWjBUSUhEcDFKSk1lQ2M0dVNWMHYtZVVlbkRfS0ZTVnZIQ0E2elc1UEdSbkFKcXRncjhOVjAteDJ0Y0R2YzVhRGlOY0tOWnpuUjN0dmxHSy0zUVk3bW5RWFBlUTJ5LWd0WWMxaEpqVkoxY05pdzY4a3JzSA?oc=5",
+    "scope": "CNBC",
+    "date": "2026-10-12T17:00:25.000Z",
+    "published": "2026-10-12T17:00:25.000Z",
+    "retrieved": "2026-10-12T22:52:39.052Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "CNBC",
+      "topics": [
+        "ai"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:5473a696",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Meta Unveils New Series of Advanced A.I. Models",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ3hUd1VrZ2o4V1lPMjZHeUd1RnRpMTRMZHQ3QUppcWtUdFo0TXYzM1FDUHZoZ0wtUWtwTUhFZFl3b19xT1IwMEpTcWUxcEY4NEliN2ZWRWM5ckJlYkVIZnM3bzg5TUN3dFZyTHNydWNKZ05aTHVqOGRNdXhOUW5jNXl0bEd2QQ?oc=5",
+    "scope": "The New York Times",
+    "date": "2026-10-12T17:00:05.000Z",
+    "published": "2026-10-12T17:00:05.000Z",
+    "retrieved": "2026-10-12T22:52:39.052Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "The New York Times",
+      "topics": [
+        "ai"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:ac385b86",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Mark Zuckerberg says Meta has reached AI ‘frontier’",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMmEtcTdxem5KMG95LXRKM2VIcGF2X3FjLTdCVmNYQzhMODdzQ2plTW5EQ1F4SHZ6RThpUDllZWVpWVVpdmxCODZyMVEybm1oZ3pNX2pOb0VrTzllbXhDTkp0Q1ZmLUhJQklNR0hOUy1mRWlrdGV4cUxkUWthZUVUQkVUZzc?oc=5",
+    "scope": "Financial Times",
+    "date": "2026-10-12T17:00:02.000Z",
+    "published": "2026-10-12T17:00:02.000Z",
+    "retrieved": "2026-10-12T22:52:39.052Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Financial Times",
+      "topics": [
+        "ai"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:832555dc",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Meta Says New Muse Model Reaches AI Frontier After Aggressive Push",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbEE0WWhsM19sbHp4eXRuUHJNeURDWkpQS2tSdE9scThXNUVrWGN0R19KdHZLdXJnZjJQNFJXRnRsNXNWS1RmeGhlSlR6bVFER0JsWjRraFVIeXpZZkZIblc5TmVaeExWYjRqamRnUUl4enVHb0hnN3B5NUdaV1UwVmlmMVE4QlpYWmhQeWlzVUs5X0dTZkVtSHZDdXJZTHNaLWtFQ3luM0puZk91QlQyeWdPTVg0Zw?oc=5",
+    "scope": "Bloomberg.com",
+    "date": "2026-10-12T16:56:51.000Z",
+    "published": "2026-10-12T16:56:51.000Z",
+    "retrieved": "2026-10-12T22:52:39.052Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Bloomberg.com",
+      "topics": [
+        "ai"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:b5192ae4",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Meta's Muse AI agent brings back 73% of new users — nearly double ChatGPT's rate",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeGxtUG55U1Frb2ZCbjhwWUFiMkpfV3cyaGtCV3YwNjByMkJWMnFiekZqa3RYY1RDd1gzcXhEUy1MTVlVdjU2ZjJXemUyTDFDR0VTWXM0dERxZ2F2QVFFaXZMRkdzZXlZOFdZN2ktZ1NtT0JwN0piY0VjaW84Nk91emxIazJXd3RhbnRKdlR0d192NUJFd1ZFQ1NvUjVfWWZla0w4LXpVZVF6akE2NWlRSTUyRkpCeEVrRllFOVVWV1JsbTdkNkZ0ZmkxRmhDdjJhM0E?oc=5",
+    "scope": "Yahoo Finance",
+    "date": "2026-10-12T16:45:57.000Z",
+    "published": "2026-10-12T16:45:57.000Z",
+    "retrieved": "2026-10-12T22:52:39.052Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Yahoo Finance",
+      "topics": [
+        "ai"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:cfd0335a",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Want affordability? California home prices must fall",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOE5JWUhfeDFyRW4yRFp1WUoxX2xrLURad0p4d3B4cTNiTjAwWmp0UzI4YkR6dXJaV0NDY21WZ0dBMHoxOENTX3dkbzJXTjJSeEJTNXFUdlhKVU9jWkVzbHE5REJPQzhyRDIyZFV1eGk0QzgwMnpFa1BGT3FzMVpZXzQ5bHJrQUV6TXEzUFZ6clVlRERR?oc=5",
+    "scope": "Orange County Register",
+    "date": "2026-10-12T16:20:33.000Z",
+    "published": "2026-10-12T16:20:33.000Z",
+    "retrieved": "2026-10-12T22:52:38.884Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Orange County Register",
+      "topics": [
+        "housing"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:234460f2",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Simulating student learning for better AI tutoring",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRDNKSkxBYlN3eTdQQTBsRFBCN2tieGpDWVBrTFRGaUpIWHlfeTNqWWdIZ0E1S18ycGdXZmh3akJlT0xOcUx2NGJvaF9ITEZGT1htRXBuamhsZUozWDE1VXJNQzA2SlRKZWFYVG9LNjBpNDQtSTJpZ3ZzTUo2X2tIdzlCdEtnZ0tlemtlLWFndUw5Szc4WGxUTmt2QmJ3Zw?oc=5",
+    "scope": "Microsoft",
+    "date": "2026-10-12T16:00:00.000Z",
+    "published": "2026-10-12T16:00:00.000Z",
+    "retrieved": "2026-10-12T22:52:39.052Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Microsoft",
+      "topics": [
+        "ai"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:870dc1c2",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Trump Approval at 34% as Gas Prices Jump 41% Ahead of Midterms",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdjBacWNtbVpBM3NrVjZQU2g0eFhjSTJhY2lJb050R180cXpScEh1Zlk2TVdtUUFTa0dha21RcFdvZmpNRGZFbVlBd1ltUnVWUWFMQ0ZYa1A4S0Y2SXRWRHEzaHMzZTZfbml3NFZSb2ItRlJtSDRadURPcDV2bUFTVHJNbkZKWkNscVgxYXFqd0JRZw?oc=5",
+    "scope": "Coinpaper",
+    "date": "2026-10-12T15:59:54.000Z",
+    "published": "2026-10-12T15:59:54.000Z",
+    "retrieved": "2026-10-12T22:52:38.936Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Coinpaper",
+      "topics": [
+        "economy"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:d73619b",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "The Fed Just Asked Americans What They'd Do With Extra Cash - and 47% Gave a Sobering Response",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMnNjUjRhZDhJTVJTb2xuZ19VWmNBNnVMUGV4NGtQcTdrbURHTVk0eXF4WlhpMEM4bEYwc3VGZnUyREJTdG02eTM1cTdQVkZPbktmeDNyNEZUa0xpcTQ2QUlhdTJVdldQLXF3ZW12NThvdHlsLWlSaUs5Q2VuR05sQzVHQTBDdlRSWFJ5a0dFdk1xVjJOcndZYm91NkRZamxmNU1FQ3h2a2hLWTJHZTE5ejFlQnNQSUZnaC1rTHRhMFJ6VXBhY2hYbFJ0SnFrM3M?oc=5",
+    "scope": "24/7 Wall St.",
+    "date": "2026-10-12T15:50:00.000Z",
+    "published": "2026-10-12T15:50:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.936Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "24/7 Wall St.",
+      "topics": [
+        "economy"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:9ef364c9",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Long COVID Linked With Altered Airway Microbiome",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sSU44ckdjeW1lWC11R3JITEVwZW04cHRFR21yRDVaMW8xVUxHYzYzWHlZLV9aSDVxNnh2dWNkODVJRDRsamIySkxqT3BOWnQ1b0xYczlVdWJLN2RrUWQyNEd0YUFzdTh4U2lpQzY3ZU0?oc=5",
+    "scope": "MedPage Today",
+    "date": "2026-10-12T15:46:59.000Z",
+    "published": "2026-10-12T15:46:59.000Z",
+    "retrieved": "2026-10-12T22:52:38.873Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "MedPage Today",
+      "topics": [
+        "health"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:51ee1ba2",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "The 10 most affordable U.S. cities to buy a home right now",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81ZFU4S21iSVMyM1JoeDJpYjI3MVl3SjBvaDJQUVMzUEc4emtvX19ZMUVlOF9WUXZFS1lOcFBwaHE0RmoyamZ3Z0VKcVVqNzk5bDlVNjFqQVQ3TGVTSFlCeXVkTFV3Q2ZXY3c?oc=5",
+    "scope": "qz.com",
+    "date": "2026-10-12T15:30:55.000Z",
+    "published": "2026-10-12T15:30:55.000Z",
+    "retrieved": "2026-10-12T22:52:38.884Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "qz.com",
+      "topics": [
+        "housing"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:4e28fe16",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Congressman Warren Davidson: The Future Of Money Will Decide Western Civilization",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVnh3Q0ZIUWFGbHQ2NWpaQ1lJMGNMUWJkYkhweWpIMHdWSGNnVzdGVm1JYmw4cTFDaXNPSTlNNUp3WVdTQWxULWhDa2ZGbjJRelNEX2lWbGFNdi1ac1NqMFFySnl0VkdmSFFmUmE2WXFRUUpQYjg5QWx1bXl2SFpqRUFRdGlpMUNJV1MxZFJMWWwtNWN5YnlOa2pVNFg4SzhJU2dJMkgzYUpVRHkzS3NtWjg4VEhtZw?oc=5",
+    "scope": "Bitcoin Magazine",
+    "date": "2026-10-12T15:25:42.000Z",
+    "published": "2026-10-12T15:25:42.000Z",
+    "retrieved": "2026-10-12T22:52:38.936Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Bitcoin Magazine",
+      "topics": [
+        "economy"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:87fd1e83",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdHRtZFJkSHY5UmNqNElRSWs1Uk4tNTFMb09nWHl5Y0haeU1DcVVTYU1zdldja3lfY2hiTnZsNGJxek1OZzMtaDhMLWtyRUpqZHZtbzNvb19HYm1wbVVlcmR3cC1Qbk12VjU0U3V5cHduTW9ZQ1M1WlZaQzVNYnltLW5SYUQ?oc=5",
+    "scope": "NVIDIA Blog",
+    "date": "2026-10-12T15:14:23.000Z",
+    "published": "2026-10-12T15:14:23.000Z",
+    "retrieved": "2026-10-12T22:52:39.052Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "NVIDIA Blog",
+      "topics": [
+        "ai"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:47da1925",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU25leElMeUlqdXdSV1pBVElBWWh2aU5tSElwcG9RSFR4d1A3TlRSeE40M3N2a1htZ25BcDlyMHJsdmRwcWRmSDlXbTBha1J5RkFwVzVGMjdNVjJ0RDBWX3lpTXBrQW51MnhGa2xBX0kxell3QlFKNG9vTERORmd6TDdLbDlwUFg5bGRmVXh3Z2VTbGhCQk4yd1hkRHlUZFNvclR4MG1LUFlkcktHUDZWNEJyTjlPckU?oc=5",
+    "scope": "NVIDIA Newsroom",
+    "date": "2026-10-12T15:10:31.000Z",
+    "published": "2026-10-12T15:10:31.000Z",
+    "retrieved": "2026-10-12T22:52:39.052Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "NVIDIA Newsroom",
+      "topics": [
+        "ai"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:dc259515",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Hankang Pharmaceutical Reaches Key Milestone in AI-Driven Small Molecule Discovery Program for Oncology and Autoimmune Diseases",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNdVR6d1F3aFpDS2ZwcjNxeWJoSkZhbG9YZmRqRGZlSnlYYlpCME5QWUF5M3otdDd4VTlWenNadjhpV095Zkp6cGh0U05UT0VtRmFQZWp6OVY3WDY5ek5kUXpQdFlTUlNjU3NvWFhUUm5KWlNEN3FTMExyZmhFejNTVURVaXdmT2FQMUFiSDVEaTNMNkFiRUp2eEtQeEFDa1lpN1FqYmJMMnJIb2JJY3V3ZllzVW50V2JiZGlTMlFJN2JyYUNUTEpMS3pWS09ydXNVNC1MUjBhVTVQZ1k5RjJCSVVBaThRZXNoN1pxbGlyWTJ2aE5kT0VqY1RESQ?oc=5",
+    "scope": "BioSpace",
+    "date": "2026-10-12T15:03:07.000Z",
+    "published": "2026-10-12T15:03:07.000Z",
+    "retrieved": "2026-10-12T22:52:38.875Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "BioSpace",
+      "topics": [
+        "pharma"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:5346b4c1",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Five Seemingly Unrelated Illnesses May Share Faulty Genetic Wiring",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TVnBsdWd6dU1QeXEwVHF3endFMEozZDBpVDJ0aktpT2VzZzNXLVdhSHc5ZEZ1T1IxWDlOTU14THhmWjJtM3dhMWZESUd0SGhaMk9zVGxzdzM1QWg3XzlrMTlmbGlKb0xqanBzR2pUMmxSbXVT?oc=5",
+    "scope": "StudyFinds",
+    "date": "2026-10-12T14:42:30.000Z",
+    "published": "2026-10-12T14:42:30.000Z",
+    "retrieved": "2026-10-12T22:52:38.873Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "StudyFinds",
+      "topics": [
+        "health"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:9e74d95e",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Mortgage Rates Forecast For 2026: Experts Predict Whether Interest Rates Will Drop",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kMlJHRWhRY2owbnpsZWhWOHVVZFR1ZmM3NzhqTUVEVnpHR2xlMHp0QnR2eXFwV2wzQ2FMbXZTN3lTLUJ5OHgxdnk0S3Z2Q3hEQ2pEYW9xcWhrRktVS3B0RXB0NkdnM0hPMzBReG5neWZ1TTdvVWs4bWgxdWFNUkk?oc=5",
+    "scope": "Forbes",
+    "date": "2026-10-12T14:23:00.000Z",
+    "published": "2026-10-12T14:23:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.884Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Forbes",
+      "topics": [
+        "housing"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:4e4ce565",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Pressure from shocks on the global economy",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcVk1NkFTcEFmTXo4VGF1VzNHbVZQOWRrNUpFQk1rN3NtajhuUzN6bFloVXF1emUzc1FtYkwzS2M1Tk1DZ2hQQUNEMThtbUJCMXZNeV9sVTJMa080NGhGSW82cE16T3lNM3poQkdYVUFQY0JzdWFmN0RjVWVrTU9NdEdDNFZfWWM?oc=5",
+    "scope": "Nhan Dan Online",
+    "date": "2026-10-12T13:38:51.000Z",
+    "published": "2026-10-12T13:38:51.000Z",
+    "retrieved": "2026-10-12T22:52:38.817Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Nhan Dan Online",
+      "topics": [
+        "world"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:abcd3e89",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "1 GW Data Center Project Advances Near Austin",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcGF1dkNOa3dlQmF0azlwb2c3N2tnQmJOY0hXcjdqbE8wSnpicjMtZ3ZMcml4M2tVVV9oY0RqWDRLYWsyUGp4R3FUYmV3VjFKVnpKbnBLMU0wTWZrRUhST2YtQm16aDJtLUI0NUZqbFNPaTR6Z255akR1WlFPZC1BV1R5d2QySk1xYVh2Yg?oc=5",
+    "scope": "CommercialSearch",
+    "date": "2026-10-12T13:30:50.000Z",
+    "published": "2026-10-12T13:30:50.000Z",
+    "retrieved": "2026-10-12T22:52:38.891Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "CommercialSearch",
+      "topics": [
+        "local"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:b3a98d78",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Can Zo Qadri Win Again After a Housing Fight Divides Austin's District 9?",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQjc4RWxUajhTaHZwdGQ5UWg1VU1la21XdGdROEdDSVVhX3VsMEJCMnpENDdSdUV3c0k4dlVyRnhRRTdlVEt0ejY3c3RGSlUxeFhDQl91WjExRHhybEktck9xZTBTbFBMS3ZuWExyd1ZCVm9UOE1sSThvQmlLZGZHQQ?oc=5",
+    "scope": "Yahoo",
+    "date": "2026-10-12T13:07:44.000Z",
+    "published": "2026-10-12T13:07:44.000Z",
+    "retrieved": "2026-10-12T22:52:38.891Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Yahoo",
+      "topics": [
+        "local"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:e31d122c",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "U.S. Wealth Surges as Inflation Squeezes Consumers and Agriculture",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTEtBZjB3eXZFd2ZITnNINlBHd1hfTTRUT1l3YkN0MkxqTEFJcTlzSW5KbUd5djMzamROOEhCWkRxUHdCc3ZGc3FwWVJIMTMySFdFemItZXB6algxQmoxeWVwYXVuRGR1S1VXaWoyUE9ZSkZYSTM4Wm9aY1Itb0dscVJmZ2hQa3llUWdSbw?oc=5",
+    "scope": "AgroLatam",
+    "date": "2026-10-12T12:29:33.000Z",
+    "published": "2026-10-12T12:29:33.000Z",
+    "retrieved": "2026-10-12T22:52:38.936Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "AgroLatam",
+      "topics": [
+        "economy"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:993b2ca1",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Enveda Biosciences: $311 Million Series E Fuses Ancient Wisdom With AI-Powered Drug Discovery",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ2pIYk1pRDgxVWM4eXhKb3BveVFCOGo0TFR5WXV6ZE1hUFJPODlWWkFELXZ0eXlobldFVzNYalBPM1lmX0pnTm1PNnItY3lORXBqOURsLUVBRnhGUDZLbzQtMC1pOVNGSlZPMmlOaWFnZDVCbXZYOFE0Q3M5MExkNW5DSlBQNWF0cTVrS0RIQVM0d1ZzOGtSSUZEOFJLV1U3ZkV2MVUzMnRpSldLU2RSQ2RzU0htM0xwTlNN?oc=5",
+    "scope": "Vocal",
+    "date": "2026-10-12T12:09:05.000Z",
+    "published": "2026-10-12T12:09:05.000Z",
+    "retrieved": "2026-10-12T22:52:38.875Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Vocal",
+      "topics": [
+        "pharma"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:9acae9dc",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Haven Housing Acquires The Evergrove at Crystal Village in Austin Suburb",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRTQ0U3FLUmdtSGs3VDVrcW1PYl9JakdWLUJCVDA5YmJXUDVtVEJVYTVQWk5SMXA0aWQ3TXpiT3pVYXFwcnZBWEhCNVdqdTVSdUx0QmY2X24yUE9ZNEZueWZjRHZPTTVNLTNFZG5VelFXZXhqVFRMM3UzR1AxYVJDZjZlM3lkVFFNSG1Yb3RsdmQwTThWQ1dkdjYteDBfbk9WU0VSNEFaUGNLVkJqV2VUUlFKQks?oc=5",
+    "scope": "Multifamily & Affordable Housing Business",
+    "date": "2026-10-12T12:00:00.000Z",
+    "published": "2026-10-12T12:00:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.891Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Multifamily & Affordable Housing Business",
+      "topics": [
+        "local"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:3fc88744",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Austin City Council's District 9 race turns on housing and growth",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMk1vNnJERVRnNENNRG0zemxMNFJCTDByTExHSGktWVRSbnFWTElvWkNxTjV6X3pnVE0yczVzNHlWeHBnY3hFVUJ6S0hrbV8tYkthdW5XdWVSbmtKMm1LUERKbHB4bmdqeUp6ZXhaNE05UFJ1R1BKUU15WUJGZEhDSk0xOVQ2NGVvQVBqLUJBb0toSTY1TVE?oc=5",
+    "scope": "Yahoo",
+    "date": "2026-10-12T11:00:00.000Z",
+    "published": "2026-10-12T11:00:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.891Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Yahoo",
+      "topics": [
+        "local"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:37966cc4",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Carterra and AstraZeneca collaborate on AI-driven drug discovery",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNWF4MDJNekxoOXpXX1ZoQ2trRFJKUUFSai1Yc0pNU05RVTVNRm1FSU1ERXdJRlZsVWhEUlRQOUFiLWlqZlhBUWJBdUtILXZsS0tLaWdpQkxIemxYbVhhUjZ0RHhGWDBvV1VnSWRvamRJeDA4Rk53aUhDT3kzQlJwUVFINVFzakpOeURTdFBzanpOMDMy?oc=5",
+    "scope": "Manufacturing Chemist",
+    "date": "2026-10-12T10:43:41.000Z",
+    "published": "2026-10-12T10:43:41.000Z",
+    "retrieved": "2026-10-12T22:52:38.875Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Manufacturing Chemist",
+      "topics": [
+        "pharma"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:900b2440",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "TDB-DST Signs ₹86 Crore Pact with Peptris to Advance AI-Driven Drug Discovery",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeUdWSmZaUXVETmFoeGdNR3pTblFHM00zVzg5cHZXWW9NU3lac1F6X29BQlBFLWlBUEcxQzFBM3ppajlmODFQdHRxd0RFQXpWY19ZRm5id1o3Q21KWElZN3JrZGlXZG4tb3ItSS12MmpoRWhXX1dEWTc1QkNFY2F1UnI0Z3FFRTVTV2J4S2M1SklzVWt0bndEY3hUZWlhOTNvcFliV2Y2aFhSWDRLUkZ6ODk4Q0NuNGQ0dENfOUFiTXFoUnc?oc=5",
+    "scope": "PSU Connect",
+    "date": "2026-10-12T10:34:00.000Z",
+    "published": "2026-10-12T10:34:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.875Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "PSU Connect",
+      "topics": [
+        "pharma"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:7128688",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "A simple handgrip test offers new clues about long COVID",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdDRwSWhkbkVRM0tETnNIUmFxbEcweHNIYUItSkpONFVUQm5fUXRXX1FwaGRjdXljbG9uYW41NWluZFVGVU5YYzh5eWE4UE1MUWsxUlUwSXVaUk1PUGlPd2JlYThHUDBBM3U4X25nUXJrZVF3aHhPOWhVOHBsYktHMEJ1d19DTnNtak45MXptN2dnRmItRGItMnhWRUFUc1ZoVXJYOU9Icw?oc=5",
+    "scope": "News-Medical",
+    "date": "2026-10-12T10:29:00.000Z",
+    "published": "2026-10-12T10:29:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.873Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "News-Medical",
+      "topics": [
+        "health"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:847c4600",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Long Covid may impact this in your body, know before its too late",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR0NOb0hVbEZZUHZYUG5TUEpZcWNwMVZvaHU2d3NfLWZzRFRiZTVRa3dXS0ozTVNCZnpvNXMtTHFjdGtGMFhxWEQ0c1ZfdGVtVk9qa3kyaEZCOE93SnFpaFdSOVo3ZUVYdmplaXVuZVIwSUhacmJfUFhpSllkbUFZM0Y1anZTWm0xZEhVaTNmcXNaR01RejhF0gGXAUFVX3lxTE1HQ05vSFVsRllQdlhQblNQSllxY3AxVm9odTZ3c18tZnNEVGJlNVFrd1dLSjNNU0Jmem81cy1McWN0a0YwWHFYRDRzVl90ZW1WT2preTJoRkI4T3dKcWloV1I5WjdlRVh2amVpdW5lUjBJSFpyYl9QWGlKWWRtQVkzRjVqdlNabTFkSFVpM2Zxc1pHTVF6OEU?oc=5",
+    "scope": "OrissaPOST",
+    "date": "2026-10-12T10:22:12.000Z",
+    "published": "2026-10-12T10:22:12.000Z",
+    "retrieved": "2026-10-12T22:52:38.873Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "OrissaPOST",
+      "topics": [
+        "health"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:c2145fda",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Long Covid severity linked to changes in mouth and lung bacteria, study finds",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZm5vazE3ZEhHanAweTJnSnhQOFg4QUMyVWxLTHBFVHphRGkzX3lJVkc0TFR5VzhSVlRGUlh5Z3lLTzVpT28zQ2VkS2FVaGNvX3JXY0ZydEV5Y0hLbUpSNmJWTDRPd0RuSjh4dW9iS1d3MC1hcUtQRlh3Q0lPME5wV002VWdTb2dtTnVJQVBpdTZCQ2dlWjIyOW9nZWRYRllYN3pvc0NZblNld2liQWc3ODRkcGhJWFlsX1lqeDFNZDlFMGprOW8yWTBUV2ZKYTFsa1HSAdIBQVVfeXFMUGZub2sxN2RIR2pwMHkyZ0p4UDhYOEFDMlVsS0xwRVR6YURpM195SVZHNExUeVc4UlZURlJYeWd5S081aU9vM0NlZEthVWhjb19yV2NGcnRFeWNIS21KUjZiVkw0T3dEbko4eHVvYktXdzAtYXFLUEZYd0NJTzBOcFdNNlVnU29nbU51SUFQaXU2QkNnZVoyMjlvZ2VkWEZZWDd6b3NDWW5TZXdpYkFnNzg0ZHBoSVhZbF9ZangxTWQ5RTBqazlvMlkwVFdmSmExbGtR?oc=5",
+    "scope": "National Herald",
+    "date": "2026-10-12T10:21:48.000Z",
+    "published": "2026-10-12T10:21:48.000Z",
+    "retrieved": "2026-10-12T22:52:38.873Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "National Herald",
+      "topics": [
+        "health"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:b666dc3c",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Scott Bessent is bullish on the economy",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UbmNFVDBFTllqdmlJR2U4SGVJWTlockxmNHFBNWEtd3c1eFJPeGQ4MnROSGJDblczUzRCZFBVTXk3WDlLSmN5dlJWRmQ1UDdBSTZNSDh0UV9razF2cTNURFlUTXFkdjN5YkI5b1pFV1prMTQ1Zm9uV1Jn?oc=5",
+    "scope": "North Penn Now",
+    "date": "2026-10-12T09:50:00.000Z",
+    "published": "2026-10-12T09:50:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.936Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "North Penn Now",
+      "topics": [
+        "economy"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:821e871",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Government Backs AI Drug Innovation With Rs 86 Crore Funding for Peptris’ VIGOR Project",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb25HaGhwWTF5Z0pqSmFrRTlPQWVHNl96T01NTlZhUGxod3p1V1VGbmwzUVgxQUs4VUNIaFhBTEdBTS1UNjVPOUV6Y2NodXBOTDhqWFIzVDNMQTdFNmdsV19BamE1ZXpHaEdaM19TY19QU0JVbXlPU1dvMGtpWW9pZFBuaGVwcU90T3FFSkdYM3k3WkFjTVM0MzN0c3dCZXFZVUkzdV8yT0tmaDNEbkZoWk80V1BpTzVKTGZzSnRWSXVwZDNx0gHKAUFVX3lxTFBkU19xZWItd2tUOHBJc2hTT3o1Y2lldHBfWThPdThPNTQtZ295XzJmVDVjenFGc1dxbmttNy1UZ3J0TUVEVWc2bDR3aEtNZkFhSU1SNThfU2RNd2JEVEJSUG05UkM0VlNBeWV1YVRmR1NlbWNWNXJzcC1sSldyMHV2WjlwZzZoZlVFOF9fQVRGLWFST2NHdlQ4QTlkMnNVb01ydUttTFEwaGRMWG5kRmsyVDdCTEFvNDdZQ3FFUEtTMTVfaGpVOFpQRWc?oc=5",
+    "scope": "Dynamite News",
+    "date": "2026-10-12T09:20:45.000Z",
+    "published": "2026-10-12T09:20:45.000Z",
+    "retrieved": "2026-10-12T22:52:38.875Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Dynamite News",
+      "topics": [
+        "pharma"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:6275b858",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Jeff Bezos says he gets why socialism is surging—but politicians blaming ‘greedy landlords’ have housing all wrong",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNkZ0VWdHV2xhdUt0VzkxaW9BZFQ0b1RxYXRLbmJsVkJlajBNOHZGaTlxcmtJTkhRLUlNZzYydWk3VkpOYTh5aHlfRm9MNk9RTjBwUjA2eDA3azNaNW9OM2pRU1czWkVFVlNvc21UaHZFTzBWZ1BRdDBGWWllSURJbm9MdENmSWxIR1loOC1xYWRBSVlsM05RWkxqWDY3cDNCTUlKVjRBM3NlcGpsU3ZCbDZwcl9EalU?oc=5",
+    "scope": "Fortune",
+    "date": "2026-10-12T09:07:00.000Z",
+    "published": "2026-10-12T09:07:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.891Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Fortune",
+      "topics": [
+        "local"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:6c983503",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Chai Discovery and GSK Expand AI Drug Discovery Collaboration Following Successful Laboratory Evaluation",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxON3hYWmR4YnhpNE5VZVFhSmpYYllocjRVVlNrWjdmQmhqd09KM2g2TGhlMUtLS1IyeUE5eEpCQkdxM2g0dkUyei1ZZm8xME4yNWppYU9OeHNsd3FWRzU2S3ZPeDl4bTh2cTJCanpUYWoxUEZWMmdnUEFod3B5ZVIwUjc1aEl4Zzk2LTdxbU5CNFY2VTVESF90d1EzYXRYUlZNT1V6STFCX1ZmUGpUcEZOYjlpdG42aS1qTTJNRk5nSjdQSDBiMFNXYThNVTFyMmJJ?oc=5",
+    "scope": "HLTH",
+    "date": "2026-10-12T09:05:58.000Z",
+    "published": "2026-10-12T09:05:58.000Z",
+    "retrieved": "2026-10-12T22:52:38.875Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "HLTH",
+      "topics": [
+        "pharma"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:8557dd88",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "TDB approves ₹86 crore RDI support for Peptris’ AI-driven drug development",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWnhzVE5uelVPZUJhcHN1U19wcWRWVmpZYUxRNlpoOS13QVZ4VnhTWGswODRsQktfU1Z0RUtrb1pZYko2dmVObzVyQjJDNm1JMGIzT2IxOVhPYllZVjFmdUEzZlBxZjJkSW9ZUnU1ZVMxUnJUQ1dKNE5ETlpIa3IzNGJrOFN1c0pzb3JscVgxa2dFbWJMVFBBTUwxQkxpbzAwcUtjbEo4TTVndHd4THVnOQ?oc=5",
+    "scope": "Express Pharma",
+    "date": "2026-10-12T08:51:56.000Z",
+    "published": "2026-10-12T08:51:56.000Z",
+    "retrieved": "2026-10-12T22:52:38.875Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Express Pharma",
+      "topics": [
+        "pharma"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:7bf1c882",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Covid-19 circulation on the rise in French Riviera ahead of vaccination campaign",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV2NkSElzTWVpVEYtOVdwNUpJcHJkVkI3MHJwaVAyYi1xUUxPMDB1TXBxTVZQbklaVGc3b1F3c1RxcUR2S28xSVp5bUtnbGR6T3pMcjlHcW5PZjY1SVE1Mjd1a2JTbVAzUUNaZXRMcWF5bktlUnBHZVItME9MS2NDNWZTcDZ4di1ZRlhiN2hNZklQTVpPMDh5akdhUGhJRUtFaE92b1U5dw?oc=5",
+    "scope": "Monaco Life",
+    "date": "2026-10-12T08:33:09.000Z",
+    "published": "2026-10-12T08:33:09.000Z",
+    "retrieved": "2026-10-12T22:52:38.738Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Monaco Life",
+      "topics": [
+        "wastewater"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:bb464750",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "TDB-DST Backs Peptris with ₹86 Crore for AI Drugs",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHBHRWR5SmlNODh2YXowNnUzZktJWkhidTFkQ0w1RkhFNjkyQVRzMmxEbWpQeW1nLXRXRU9Qd2JCWHVKcDJ2THllMkMwOURhX0pXa0NGaXRHRF93djhBYjZsZHAwV0czWkdzSE1namNkZjkxZG5xb0M4QWdmV3dVVF9NUHQ5eml5Nm94R1Qyd3VRY3BDMTJManl2cmFOREl6U1lwTkNxbw?oc=5",
+    "scope": "Voice of Healthcare",
+    "date": "2026-10-12T08:15:00.000Z",
+    "published": "2026-10-12T08:15:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.875Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Voice of Healthcare",
+      "topics": [
+        "pharma"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:e7dfd348",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Govt approves Rs 86 crore support for Peptris’ AI-driven drug development programme",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEV1Vm9jZ2lNY0xEQmR0bmpIM1RvNnRXbDJBN19CRGJvd1BEWDY0NGJiTTgxanl5VVFnRnJSUmhSZjl2eDF4VWdRUExRd0laVDdmcGpKMkhrdHUyNUpMUVNyTG1TMnZEeWhjN0pUa1pOQ2ZDT1Q4RF83cGZIUVBocW15OFlFMzk3SkNOU3VTR3EtamUxUXlvMlRWQ1ZJVHlsdTc5LTNEaXBZOTNTWW1CQ041eWQ0X05nSlE?oc=5",
+    "scope": "IANS LIVE",
+    "date": "2026-10-12T08:09:00.000Z",
+    "published": "2026-10-12T08:09:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.875Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "IANS LIVE",
+      "topics": [
+        "pharma"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:eb42532f",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "TDB-DST Signs Agreement With Peptris for AI-Driven Drug Discovery",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQWJVa09jam5ka1lwd3p6WmdodVM2WFpweTZiS0xzMW5DWXNyTERQa0NfVDVheFBTeElsc1h6ZF83d3ZhaTQ0cHVlUDQ1Y3pYaFJmVVJQUmJraVprejV1R3p0Q0FjV25yLWNXT2RUXzd5RVZPdlBRaGY0cGFaaGxBbFU1dE14THBBR0k1bzdPRGVNWVFEaEgtanNMWWc5S2FLd1lZcms5ZGlSTzNFVllvV0hwRWl1TTgtdVE0UGQwU2FENjFlS3VuZDd5MnR4VnRyOEFXNkwwT2wwS3JMbTFSdk9VU3A0dw?oc=5",
+    "scope": "Utkarsh Classes",
+    "date": "2026-10-12T06:55:08.000Z",
+    "published": "2026-10-12T06:55:08.000Z",
+    "retrieved": "2026-10-12T22:52:38.875Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Utkarsh Classes",
+      "topics": [
+        "pharma"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:a6ac74c0",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "TDB Extends Rs.86 Crore RDI Support to Peptris for AI-Based Drug Development",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQk53ZHY2TkNwZnRTSXBJZUdqdDBKZ0tETGxFWVJUbW4ydG12MHNSOHdyY0w0ZTZxVnItU1NwSjRuUlNMQ01lWFhfOU5maTBRd0h2clFZTGxwNUFWazI4Z2c0YVZ4bU8wNndHTTI3ZGc4eU1VZlFIR3Y2dHVoNUdzT1lhLXlWV2hCN3RJY0RaVUxab0dRelVWbFNqN2Z6V09BUkR6NVVIbjJNWW9RTUpNWjcyTWtid9IBtgFBVV95cUxQQk53ZHY2TkNwZnRTSXBJZUdqdDBKZ0tETGxFWVJUbW4ydG12MHNSOHdyY0w0ZTZxVnItU1NwSjRuUlNMQ01lWFhfOU5maTBRd0h2clFZTGxwNUFWazI4Z2c0YVZ4bU8wNndHTTI3ZGc4eU1VZlFIR3Y2dHVoNUdzT1lhLXlWV2hCN3RJY0RaVUxab0dRelVWbFNqN2Z6V09BUkR6NVVIbjJNWW9RTUpNWjcyTWtidw?oc=5",
+    "scope": "Content Media Solution",
+    "date": "2026-10-12T06:36:41.000Z",
+    "published": "2026-10-12T06:36:41.000Z",
+    "retrieved": "2026-10-12T22:52:38.875Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Content Media Solution",
+      "topics": [
+        "pharma"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:adb7cf63",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "TDB-DST Commits ₹86 Crore to Peptris for AI-Powered Drug Discovery and Development",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV0VBSFBlNlJ1dFNLMXpQVXpTYkFpN3dQNTNaZlZ1bVY3ZVdyTFozbzFXQkNyY3FGdTNUb19EeUlRWEoyZ0VjYW9TVTI2NDNiWFU5WXhDdlpHMUdkcUZSSnJjQnJ5R3RLRzdsS0tsbkdxTnJreXcta0JFQjhKVGhQaTNUQk9LQS0wMWllZ3l1VFBhZE9rWGFHNmk1X29JeFotNkt6SHlfbFhXdWFlTjVGRkMyQkJ4ZWRsS0R2SFZ3cw?oc=5",
+    "scope": "IBG News",
+    "date": "2026-10-12T06:31:51.000Z",
+    "published": "2026-10-12T06:31:51.000Z",
+    "retrieved": "2026-10-12T22:52:38.875Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "IBG News",
+      "topics": [
+        "pharma"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:a92a3be4",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "UK study links severe long COVID to microbiome changes — News-Medical",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRXk3dUJoVGlDVk45SmhFQ2RNYnJPQVBuZkR5VzhxalVvWDMxM1NUcHEweFB0dG1ZMEFZNWJNdlFDdjZnajJLVXZnV0tTdnVqWElFcHFiWGdMd1dpWHhEdjc2S1dHeFhER3RnLUFwT0Y1Qk80VGwxZlBEc2JEMGVLRXdndEw4UzZ5ejBxWlRTMXJTUUwwVlExcU5Zdi0xX2RPVDkwX2UxQzFiU194aG5QeFAtMGhFQQ?oc=5",
+    "scope": "UA.NEWS",
+    "date": "2026-10-12T03:27:58.000Z",
+    "published": "2026-10-12T03:27:58.000Z",
+    "retrieved": "2026-10-12T22:52:38.873Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "UA.NEWS",
+      "topics": [
+        "health"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:42f1ba46",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Severe long Covid associated with distinct oral and lung microbiomes",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNjRuYkFMTzNpQmhDbkdEOGpNZ0Q2by1wQmZ1MHNFQk83S1pRQTdET2JLZ1p1YkhGcUx4R1J2TlZ0VTBnSC01RzFEY1M4YXVWcERmeDgwV0FwZnhxd0F1QnRTOWFMWDVHWmhKOFlMbDNmQjdFa0U3MTZoMGZDbU1VZzBFSVVNSVlUMlo0a0RLSzR6cmF1YVY5Z2cyTHlNQ2FWNEI4RlU0SUlMY0xOTXoxd1dZWHAzNGs?oc=5",
+    "scope": "News-Medical",
+    "date": "2026-10-12T03:09:00.000Z",
+    "published": "2026-10-12T03:09:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.873Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "News-Medical",
+      "topics": [
+        "health"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:8420f4ae",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Lung and Mouth Bacteria Linked to Long COVID Severity and Symptoms",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTGlkOThheFg4dVc5UkZrdkM1QVVEbE9wbXQzOURQbE5CVE9nSHBxVEdVRXkyT1ZIZ1ZXM3l2OUdzTHJKaUlseFJsR3hzSWo4a3p6VGtmX1RjOGthRVo5Y2hmV0w2V1BxcnNrS2NqSW1abUJRajNMTl81bnBleHdNcHVEVldzMHQ0R0prdXpneVVVdGxvNFNIUUJMTERVcTRqMnU3UVN4YTYtY0dTRkZEZndDel94MElSWmI0M29aMVluRTNZ?oc=5",
+    "scope": "Inside Precision Medicine",
+    "date": "2026-10-11T23:05:34.000Z",
+    "published": "2026-10-11T23:05:34.000Z",
+    "retrieved": "2026-10-12T22:52:38.873Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Inside Precision Medicine",
+      "topics": [
+        "health"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:931a84db",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Is laryngitis a symptom of COVID-19? Link to sore throat",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc0tPWnZzcHdYVnRiQ2RjYWpKOTQzbUpwRHhBcUp4SHZIUkdQVHdNanYzY1RfekF2SGFKSjVXYnhoQldjSktyRHNIMlNkT2s1SkRkS3laUlFMeDhOcVF3akdmblJ2UFJ4OHFSaFo3ZXM3Sm03UWpSTnY0TnUwc3VzYnZvVzVlOElxTVE?oc=5",
+    "scope": "Medical News Today",
+    "date": "2026-10-11T22:02:38.000Z",
+    "published": "2026-10-11T22:02:38.000Z",
+    "retrieved": "2026-10-12T22:52:38.873Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Medical News Today",
+      "topics": [
+        "health"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:51a234fd",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Why geography is back at the heart of global geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQjk0QmVETWVCaXFvSFdzYU5wS1FOTkNRaUE0ZEVuUU5ocHpHMkFqUGRhNW82QVlqZ3NmSDY0cDN0N3ZtVXpNcktkLTJWZzVxR2N5NWJYWHZTZFh4RF9fWl9QOFhrZmQyN3V6TFQzWmt3RHJuZ1k4RFlTakZ6LWVKZVRvREdfY3NyXzFvN0Vqc01PQnAtanJFZkVzRnYtcWRPMC1xaU83aXVPTnQ2Q2pnWmNkONIBswFBVV95cUxQQjk0QmVETWVCaXFvSFdzYU5wS1FOTkNRaUE0ZEVuUU5ocHpHMkFqUGRhNW82QVlqZ3NmSDY0cDN0N3ZtVXpNcktkLTJWZzVxR2N5NWJYWHZTZFh4RF9fWl9QOFhrZmQyN3V6TFQzWmt3RHJuZ1k4RFlTakZ6LWVKZVRvREdfY3NyXzFvN0Vqc01PQnAtanJFZkVzRnYtcWRPMC1xaU83aXVPTnQ2Q2pnWmNkOA?oc=5",
+    "scope": "Deccan Herald",
+    "date": "2026-10-11T20:19:19.000Z",
+    "published": "2026-10-11T20:19:19.000Z",
+    "retrieved": "2026-10-12T22:52:38.817Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Deccan Herald",
+      "topics": [
+        "world"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:5a2784d0",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Bangladesh sees power of culture as strategic tool amid intensifying global competition",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVU9HaTlUd1Y0dGc3OUFsV2p4d3hBTjVKQXhCNkFUNGtoVnZCMHpNZ1hYZ25rUHdSNzRjUjM0TXB1YUd3MVJQSm1VSjZpZ2c5UDB0eVczWFVLTW03R1JlZVNUV056SlRiSHZnQVhWTGFCaDltNmFqNlpZSmFDYW9lM3prb3kwR1pWSlFFNjFPS3ZoemxxT3gxT3NVT0R6SW5KaFN3ekFjQnNvSkhOZEZfMzRfcHRjTnJGR05WMjVGY0dIOXhnemd2a2Z4Nm9jZw?oc=5",
+    "scope": "United News of Bangladesh",
+    "date": "2026-10-11T19:12:16.000Z",
+    "published": "2026-10-11T19:12:16.000Z",
+    "retrieved": "2026-10-12T22:52:38.817Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "United News of Bangladesh",
+      "topics": [
+        "world"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:82ebdeb4",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Washington, Beijing and Moscow: The Search for a New Global Balance",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNajdsay1RVmJjN2p0VzZuNU5MbFJFODNUcy1idHJiUHJaLW1jSFpJZFBLZWVHRFhiYmRxaUR2RERCX19oRFl0Zkp0cUxETFpRTGxULXVYa1k1WjhvandFRGtMR0NENkVBMUxCX21adzhFQ2pmckpGVnVGUXBLcTViMHpFWGVzdmNCSmwtZGRsNmRNYkdJNHfSAZYBQVVfeXFMTWo3bGstUVZiYzdqdFc2bjVOTGxSRTgzVHMtYnRyYlByWi1tY0haSWRQS2VlR0RYYmJkcWlEdkREQl9faERZdGZKdHFMRExaUUxsVC11WGtZNVo4b2p3RURrTEdDRDZFQTFMQl9tWnc4RUNqZnJKRlZ1RlFwS3E1YjB6RVhlc3ZjQkpsLWRkbDZkTWJHSTR3?oc=5",
+    "scope": "Modern Ghana",
+    "date": "2026-10-11T18:50:45.000Z",
+    "published": "2026-10-11T18:50:45.000Z",
+    "retrieved": "2026-10-12T22:52:38.817Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Modern Ghana",
+      "topics": [
+        "world"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:570602b2",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Renting Is Still Cheaper Than Buying — but JPMorgan Says US Housing Affordability Is Getting Worse: ‘Incomes Have Simply Failed to Keep Up’",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdllUUEV0cHJRam1UUXZSVHI1MEFqejh2LTJlTlJSVHpUNWsycy1zX3ZWU2RsZlhsbDVXY0FJSWhHTWdKSGY1R0ZSb3dvcmdVajFaeUc5MVZkYUtROW5LQkpuZjRoVE8wbWlqZ0RIN3JFMUxOclJLUVo5OUhkdWwyZGFFbl9zbWVoVDdoVGxSNl84M3ZfU2JNVmFHemFwaWJY?oc=5",
+    "scope": "Yahoo Finance",
+    "date": "2026-10-11T18:30:05.000Z",
+    "published": "2026-10-11T18:30:05.000Z",
+    "retrieved": "2026-10-12T22:52:38.884Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Yahoo Finance",
+      "topics": [
+        "housing"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:157bb37c",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Long-COVID Nutrition Products Market",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOclozX1RLSGM1WkktdnlWRmtRTEltemljN2RSMkU4Vk5HU1VDeVNVSjRseE9NZW5mRHBpaXZCMXhYLTFkS0I0RTY0WnFxbXk1ZXdRdkp3Z2pCdnVWRXFWNkFzN3pNVkVJcTlVTlIyZXF5R093X2Y4NGtUM1JKc2QyZG9YS2dLUlBI?oc=5",
+    "scope": "Future Market Insights",
+    "date": "2026-10-11T18:30:00.000Z",
+    "published": "2026-10-11T18:30:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.873Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Future Market Insights",
+      "topics": [
+        "health"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:49bd6ac8",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "‘Saturday Night Live’ takes a swing at ‘Mr. Wonderful’ and his Box Elder County data center project",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XQUZTcGd1VTQ4ak1kdk9XdERfd2dfZm9HVVRXb1pyRHI4SERBMy0wV1FnRjBMNUhQdU41VlVDeTd1QjJIWE1ZcVVjLW9PQ1JhNlVzVmE5VHFfbVUwNmJGT2c4eHpIRWxQUXlQN2M0djgwcTljYlY0eWdST0loSUk?oc=5",
+    "scope": "The Salt Lake Tribune",
+    "date": "2026-10-11T17:34:50.000Z",
+    "published": "2026-10-11T17:34:50.000Z",
+    "retrieved": "2026-10-12T22:52:38.891Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "The Salt Lake Tribune",
+      "topics": [
+        "local"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:de4d4ae2",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Bahrain Joins WTTC Amid Gulf Tourism and Geopolitical Risks",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTV1ppUkJNUnhnZE54bnZXaTRPSFFpSFZhNkhNM3kwMFk5MEt4V2RnWjd5UnNlalpjWFRsNXowLTE2ZHAtbWZ1RTRucFMtQ0xJN2ZXZ0pyUllNUnZrWmY5MXpUbm1pOUVaMXA2VzRXNA?oc=5",
+    "scope": "eTurboNews",
+    "date": "2026-10-11T17:32:11.000Z",
+    "published": "2026-10-11T17:32:11.000Z",
+    "retrieved": "2026-10-12T22:52:38.817Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "eTurboNews",
+      "topics": [
+        "world"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:c33f291e",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Dutch government allowed to halt controversial Long Covid treatment, court rules",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOFBRaGRSQnBRUlNBRW1YTF92QUkzMVlmZFE0cVJLWWthekJlNDZGb2VxeGxVQmtCakRtNW9GaUdmRjVNYUEyWnptT1hyRjI5RFZnV1NRS1ljbEtIa0JMZ1VnRm9HeHFNcmZfWTRpSDhGTFJ4d0ZubEtpbF9RTUlpU1FmSV9zRG1mZUkwUXlEb3hFdUhJU3V3SDc4ckJJMklvOVRXQnhSYU9Udw?oc=5",
+    "scope": "NL Times",
+    "date": "2026-10-11T16:05:00.000Z",
+    "published": "2026-10-11T16:05:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.873Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "NL Times",
+      "topics": [
+        "health"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:20cf8a17",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "America’s Housing Affordability Crisis Spreads to the Midwest",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY0NpUWxWR1VzZ3NHMFdoQnRaNFR2akxhNzdlMlhDa0o4dkduaFo3YjF4Mm9NdFVqQ1A0Mmgyb3RKRmhYMjA5c09Nc240NTZOSDJYd09CRDBfOUNDaTRBRm9MUXF2eENGUUlNcXBmeXFyemVqMHFjeWhxZjRoX2xBRXB5dlFwWjZPTHNsMy10OGs4UGZMWDVValVjYTNEX0VVTVZsNk8tUHluNDdOODdsYlRSMGVwU0g5OVloN0ttWQ?oc=5",
+    "scope": "Bloomberg.com",
+    "date": "2026-10-11T15:00:02.000Z",
+    "published": "2026-10-11T15:00:02.000Z",
+    "retrieved": "2026-10-12T22:52:38.884Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Bloomberg.com",
+      "topics": [
+        "housing"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:21cd3b7",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Americans are souring on the economy as housing gets harder again",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YN0lDQmxRbHFtdzZTVHo3Sko5NU5ON0YyT2w3WFZPc0dBUGFpdjdQblhuZ29qaXRPaU1nMzZLUVdORmpLWlZzd2lHdEd5a1NLeFJoUTlRZkhaU3Z5Z1N0UmV0WUZnSkkzYWh1eEtfRQ?oc=5",
+    "scope": "TheStreet",
+    "date": "2026-10-11T14:33:00.000Z",
+    "published": "2026-10-11T14:33:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.884Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "TheStreet",
+      "topics": [
+        "housing"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:6d784ffa",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Wage growth lags inflation, making the affordability crisis feel even more acute",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQnNMOWpCZnowcXBMQ1RYTkNnSVFHZHctN0IzOGZ2dmlIU1hXdlpjVHVaaFFRUHNHbGpvMmhQYlNSRllhdEx5aWtteFF6T2dlVmlWcE8ydWlmTUpoT056c1NaU0hOc2d3ZmtPQ20yU0VsSkoyVG5MOXl0ODh1OU0ydk00SEt0bi0yTDA4OVBibW94LWNtYWVwNXZkTVl5ZFFWdnlvWF9UTFJUZzd6LVUtWEV3?oc=5",
+    "scope": "Washington Examiner",
+    "date": "2026-10-11T11:15:00.000Z",
+    "published": "2026-10-11T11:15:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.936Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Washington Examiner",
+      "topics": [
+        "economy"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:f9095a1d",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "$173M loan fuels construction of Leland South Congress in Austin",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX2w4MlU0ZmhFREhadHZheFBFdFVRdThwclBuQldBNVNWSzJBRU0wNDZTVjFucGRMeWJfeTgyeWl4WHlraVR3MThLRW90SGNkTW1KdkxrekFyTFZOb3BiNi1RMkVCc0Q2NDE4eVZMdzVwTDQ4c2VhV3ZoWEZyS3BCc1RqQzZhRWZOaU5fbWI1eGowYlhJNTdDN2FmVjF3WFp4SERNS1lkLXRfQkU?oc=5",
+    "scope": "Austin American-Statesman",
+    "date": "2026-10-11T10:38:51.000Z",
+    "published": "2026-10-11T10:38:51.000Z",
+    "retrieved": "2026-10-12T22:52:38.891Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Austin American-Statesman",
+      "topics": [
+        "local"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:b21820d8",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Flu picks up steam in Colorado while COVID lurks, according to latest state data",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xZm1sbjM2cVFyODAwajdqXzQ2bXNTd3ltNmRZNDdURVJoRGR4Xzh1NVdYMGk5UmJmcFFkMDY2QUFpLVprWEotcHN3bmVoallTRmU3bVRmWFI0V0FBTDcycXZseFljczYtVTVETlh0Ql9IZkU?oc=5",
+    "scope": "Colorado Public Radio",
+    "date": "2026-10-11T10:18:30.000Z",
+    "published": "2026-10-11T10:18:30.000Z",
+    "retrieved": "2026-10-12T22:52:38.738Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Colorado Public Radio",
+      "topics": [
+        "wastewater"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:d4765bd",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "BRICS Summit and India: Why the World Is Looking to New Delhi with Hope",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1EeGZOOWlZLW5jMWxIQTZaZG5zOWlUY0Uyd0wxckY4S3RCRThoNjJfQ3FvYW5zcVk5ejIzU2ZMT3ZzSm9tOWV5blN1Um82d3VqdmxV?oc=5",
+    "scope": "ujyaalonepal.com",
+    "date": "2026-10-11T10:13:16.000Z",
+    "published": "2026-10-11T10:13:16.000Z",
+    "retrieved": "2026-10-12T22:52:38.817Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "ujyaalonepal.com",
+      "topics": [
+        "world"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:8c973d4f",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "1118 W 7th St Unit 2B, Austin, TX 78703",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTHl3cWRGT2JJSzBoT2JiSlI5djNldWQ0WVZrRngydVJvRWxHdXdqMWpnLVhaSmtycHlhcHF6dzdSMHpTemMzeHFGbXV4bDI5NE45S2REazZtOW5laW1SWG03bTlKbzR2c1Q0enlGR3dWaVZYd2JLcXJtdzF3ejBRSHFDdkRNdE4wV1VlZmFn?oc=5",
+    "scope": "Realtor.com",
+    "date": "2026-10-11T08:13:40.000Z",
+    "published": "2026-10-11T08:13:40.000Z",
+    "retrieved": "2026-10-12T22:52:38.891Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Realtor.com",
+      "topics": [
+        "local"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:29bef28d",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Mortgage Rates October 2026: Should Americans Buy a Home Now or Wait?",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUVJkeU44dzhLSUJmZm5iY3diVjR5QndQUEVKbGNBOGg0c0VrdjZyT2RNWDc5WmctWEREVXZZWHpBN29OLXVMdkZnWHZEWFh4eTREYVI3dGpJclFURnNzNHB0c2Z4T2Nxc194VVZ0ZktvQVhpemt1MzFyclc1ckRqWFRrNWhpVmRId3F5a2wzMzQ0RTlKeWlUcjlKRjNmNVNZaEE?oc=5",
+    "scope": "Aktualita.co",
+    "date": "2026-10-11T00:55:58.000Z",
+    "published": "2026-10-11T00:55:58.000Z",
+    "retrieved": "2026-10-12T22:52:38.884Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Aktualita.co",
+      "topics": [
+        "housing"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:b87d7996",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "What is the Fed's dual mandate?",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQlVna3BLUnVqWi1YVHl4bkFQNUZFTzN1QXU2QlZVMXNPU0ppMTZFTUhza1lGSWNkM0x6MnU5bUFFQ2ZNck9JeUtrOFN2TGNjV3kyN2ZxZXZIT2tMUF9VMG14MGRZV0I3MzBPc0NmN1ZINFlWd1IyWXdHN21sX2JDenB6UEE?oc=5",
+    "scope": "www.equiti.com",
+    "date": "2026-10-10T18:01:52.000Z",
+    "published": "2026-10-10T18:01:52.000Z",
+    "retrieved": "2026-10-12T22:52:38.936Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "www.equiti.com",
+      "topics": [
+        "economy"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:3c323702",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "UNGA 81: Is the World Rethinking the Meaning of Global Stability?",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcTh2emFIQXpJTnpnRnNmcnZZRFBQcWRhM0t0ekxoOEkyT01lRlhscXVfNl85NEdDQ3BrelRoZGw2c3Q0ZUlEM3pwOEFqTkJ2VFAyUTFTVEhxT2lLYkR5emk3bUF2amNnTFZ4T2pSaTRiSmYtVzNqYTVkbS1jU0MtdHFRdXlUSVY3dWwzekFoOUJxZVM5MldqZ0U5Wm9MNVBoSUpqcl9xM3VidlFKZUMzc0xSQzdzajUwUkhKczdn?oc=5",
+    "scope": "Daily Mirror - Sri Lanka",
+    "date": "2026-10-10T07:41:29.000Z",
+    "published": "2026-10-10T07:41:29.000Z",
+    "retrieved": "2026-10-12T22:52:38.817Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Daily Mirror - Sri Lanka",
+      "topics": [
+        "world"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:7193e80e",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "The Global Cost of Resilience in the Twenty-First Century",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYWJNamVvUThkcXF6b1N1U3RCMzRpNGFBMzRtT3ItQ0pCa053aFE4MjAtcENQOWJjNzl0bk9IOGh2VGI3X1djWnh4S1VYcFZZbzh0bVZwLTVWc0ZSTWlzQWN0Z3ZjZVJNeFUtMmVDd1hPcXpubWowVWdHb3VsSExwbVFjbVlxa0R3MzFNZTJlY0k2MXZaOTh6Y1o0Y2E?oc=5",
+    "scope": "Modern Diplomacy",
+    "date": "2026-10-10T02:00:48.000Z",
+    "published": "2026-10-10T02:00:48.000Z",
+    "retrieved": "2026-10-12T22:52:38.817Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Modern Diplomacy",
+      "topics": [
+        "world"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:bf76e813",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Gold prices and many precious metals surged sharply after a series of US economic data",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPakpCeVZTTTZBY29HWkR6UlhOLTFWZjVxSHM3VE5jOVd3UmZNNW9BZ3daaURLRV8zRzRtMWpnMlRNR0xQZlhtblVCZGRQeFBOSGlXUHlrdENqWm5WdEIteG5OQmYzellkN2U2dGtEWUpQSnJmaGplYzRtTmx3RENMTzIzaGd3WHdyTkpUR3dIMW1UNkY1eF81aDUtOWRWOFZCODU0WXlBYWFfVHZzVTJ0clVFX3Y0Z3RMSjAwXzdjNWZZM2s?oc=5",
+    "scope": "Laodong.vn",
+    "date": "2026-10-10T01:09:55.000Z",
+    "published": "2026-10-10T01:09:55.000Z",
+    "retrieved": "2026-10-12T22:52:38.936Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Laodong.vn",
+      "topics": [
+        "economy"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:596867d1",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Singapore to Include COVID-19 Vaccine in National Immunisation Programme",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNalFuVWlDM0ExMW80eUZkWDhwM2p3alBJbTRNWllkeEp3cTZnYmM5WE53ajBCMHI3Rl9qTGlMMjV5dl9XN0JTd1J6QXpCX3NBTnRqeWxpOVdOUzBobHpIMjBPVW5BSVlLVTNyb3cxclYtbVF6dWVHYlBkZHdQdjdrVkpwcmpoNWFUWmo2dGx5dnZsU3hFdHA0MUM4MjFKa212dFlBSV9SOFU?oc=5",
+    "scope": "Real Broadcasting Network",
+    "date": "2026-10-09T19:44:40.000Z",
+    "published": "2026-10-09T19:44:40.000Z",
+    "retrieved": "2026-10-12T22:52:38.738Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Real Broadcasting Network",
+      "topics": [
+        "wastewater"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:9dcf0a55",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "US Dollar strengthens as Fed rate hike fears grow",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUUQ1TXJ3eUE3RmJfQlBBWVNwU2I0Qmp4T0J2aWFuRXR2bXlnV0tmUkk2RmxpZVV0X09PaHllcER5clAtN0g3M05mSURpZDhOeDZVVE90dkNlTUstVld6YlZ3ekpFcXZsU2p0Tk43RGR3YVNfZGJudlozTFByTWIteU50c0JZaFgtV0hDYngxNU05ZUk1NHRV?oc=5",
+    "scope": "MarketPulse",
+    "date": "2026-10-09T16:39:00.000Z",
+    "published": "2026-10-09T16:39:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.936Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "MarketPulse",
+      "topics": [
+        "economy"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:70c9d599",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Kaliningrad: The Flashpoint in the Baltic",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1tWjJ5emcyRjZkNFVpdExmTFZxaUNMcHh1RUhEOHl2clFjeFJtY3F5TEN6c2JzNzJhNmg2U2JfdVllRmktcnNHMGYtYzQ4Zw?oc=5",
+    "scope": "ClearIAS",
+    "date": "2026-10-09T11:16:13.000Z",
+    "published": "2026-10-09T11:16:13.000Z",
+    "retrieved": "2026-10-12T22:52:38.817Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "ClearIAS",
+      "topics": [
+        "world"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:881001e6",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "This Republican Senator Says Americans Have Less Buying Power Under Trump",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMWdWdDdhMFpGaXZzdlNia1RqSzdDbHlsVk0yRkgzNDFZdXhnV2NKU2hmdDRfcy0xc3F1aFhpUDAzN0ZDTEViS3dFcHgwV1pkNm1RaUl3S2NrLU5jbHp6eWRFazZtRmppZElrYnk2b2pDcHBLUXVzUndTQmJDS1F1MUtvckY5ZEZBX0E?oc=5",
+    "scope": "AOL.com",
+    "date": "2026-10-09T11:05:00.000Z",
+    "published": "2026-10-09T11:05:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.936Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "AOL.com",
+      "topics": [
+        "economy"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:18395ccf",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Egypt’s Sabotage and Plots Against Ethiopia and the Wider Horn of Africa",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Ebl9xV2RXUHNlVEZGQ3I3a0FUUEVobDZaUThBdWVsOEJBQ3Y0TGNTaTJzY3RlLVFqblRsdmx3U0FJZU5rRzl0ZlNnb1BGTUZhcHc?oc=5",
+    "scope": "ENA English",
+    "date": "2026-10-09T08:42:26.000Z",
+    "published": "2026-10-09T08:42:26.000Z",
+    "retrieved": "2026-10-12T22:52:38.817Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "ENA English",
+      "topics": [
+        "world"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:a0d74f4c",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "National Wastewater Data for Respiratory Viruses",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5xQ3UxS3ktUmh3SUVKQzhFNDBDZWI4QVFXWF9CWFNlbUZ5Y2Nhd2Y0Y0NfT0I3QXIyZ2MyVUpIOVhlbXJuTnk0U29MZGp5SEE1WXNnUGxvdmxYWHNmSEVJUDFSVVl6RTVEWmVPLU5OTm5CQQ?oc=5",
+    "scope": "Centers for Disease Control and Prevention | CDC (.gov)",
+    "date": "2026-10-09T07:00:00.000Z",
+    "published": "2026-10-09T07:00:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.738Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Centers for Disease Control and Prevention | CDC (.gov)",
+      "topics": [
+        "wastewater"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:a2a25b3e",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "State/Territory Wastewater Data for Respiratory Viruses",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xTVV6NHVzaXhmZTMtdVZWVVJSdlJQNFdoUGVMeWZBcUUtMF9WTGdSX2hJSWtEb0ZhaHYwcU5tbVNXTlB1Y1AyWXFwdnhsRmdiRzhON05MbDhyVDZ0aDNnVU1pVkRwNFRabWhzLUhB?oc=5",
+    "scope": "Centers for Disease Control and Prevention | CDC (.gov)",
+    "date": "2026-10-09T07:00:00.000Z",
+    "published": "2026-10-09T07:00:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.738Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Centers for Disease Control and Prevention | CDC (.gov)",
+      "topics": [
+        "wastewater"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:ce6beca7",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Illness Levels Over Time | Respiratory Illnesses",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5UYmNkdEpBMExCdmpFaDdPb284ODFud0VZVDJPaHI0YldsdzRpemVIaWpJa2RzVlRMamxPOERramtkbVdmX0lxR0M2bTZiMERjdEVVSjhiNXFsMUR6RDZJTUxzWjZBeGdseE1JckdaaHR4ckE?oc=5",
+    "scope": "Centers for Disease Control and Prevention | CDC (.gov)",
+    "date": "2026-10-09T07:00:00.000Z",
+    "published": "2026-10-09T07:00:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.738Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Centers for Disease Control and Prevention | CDC (.gov)",
+      "topics": [
+        "wastewater"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:34341be1",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Job Market’s Effect on the Economy",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
+    "scope": "U.S. Bank",
+    "date": "2026-10-09T07:00:00.000Z",
+    "published": "2026-10-09T07:00:00.000Z",
+    "retrieved": "2026-10-12T22:52:38.936Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "U.S. Bank",
+      "topics": [
+        "economy"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:b618e5d2",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Purchasing power, not account balance",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMEV4RGxZTEZEYWI2WjlndWtlb1RCMUNnd0d5QWxiSHBQMjZocDRkQnpicDVlS1c5dm5QM1FvOW5qZUJ5VU9EUnQxclpoWjNrbW5DeDV6M3Nmc09ibERCZEVwREV3anFZQWwxVXVQWFlEQWQtRVFnQTVFaFJzRjcwTkQ2RDA3aGhVZ29OcmRR?oc=5",
+    "scope": "UBS",
+    "date": "2026-10-09T05:03:07.000Z",
+    "published": "2026-10-09T05:03:07.000Z",
+    "retrieved": "2026-10-12T22:52:38.936Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "UBS",
+      "topics": [
+        "economy"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:814e3ccd",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "BRICS must prove that its economic ambitions can survive geopolitics | Policy Circle",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WVjVod3I1aGFmSldyT0tQV1RSWkRHZkxPcVFtdmU0eWVkQkJENmhBckZRVUxwUGpUOEY2eFI0ODhfcUJPbGhfdWIwbEc4aVJaRDl0RERIdXB2UFBTYWI4V2VMTXdHLTV6RDBrU0JtTXlJRHQ1a1NIdHdUYTRZRUXSAYQBQVVfeXFMTUUybG5rQVhyOUZBMnoyTG53S0VsLVM1R0k5R0ttaDR4WFRrTk1XbUx2SW1ES0RQVzgxVk95emxyTjZLN3JmbjlGWGVHU0ppVGxZLUtoRW82U0VtSXlDTklfQklPUFdJNGpScEo0WFB3REV6ZThNS2p0R20xcjVwbW1FdkVf?oc=5",
+    "scope": "Policy Circle",
+    "date": "2026-10-09T01:30:47.000Z",
+    "published": "2026-10-09T01:30:47.000Z",
+    "retrieved": "2026-10-12T22:52:38.817Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Policy Circle",
+      "topics": [
+        "world"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:9d81451b",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Respiratory Illnesses On The Rise: See What's Circulating On Long Island",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU3h0N3RCNnh2dTdBV0g5UjRKUXNRMVNteGhyLTdRRXhJMjlSNzFtS19YcC1wS0RLN3c1aWJjalA4cDVXcnBRd2NWUUhuT1M0bm1BNUJvbEZMcnREVUdsNmM0NF9JcHBNekZXeXpQQVdIREg3eHhESzhfRzR5WnAwX1BKSzcxb3JpNFVFMXNwSXkzNDlZMjFPa0ZqYnc0RkHSAb4BQVVfeXFMUERSOHJYbWJ2cG9IZlE2d3RNS2MwVHJzVE8xVVVUTG1ZUFU1Z2hSN1pqSGlxZVhfZmJ4X2FkOVgtTXZJTWdrMVJGcDBiaUFZQ19XYm1ESzhBVFFDckRpeEtzRkVpaW9tdmQ0cWNFdlNLUjVpOElGbVVUSnNSTy1qQWFMZ3R2ZDZCRVNqMjRaOHpSRGEwSWFXckdjUkp2ZVNkcS1mRXpjQWhNVm1QNXJyODVJN0ozZGhnQk9oSlk3QQ?oc=5",
+    "scope": "Patch",
+    "date": "2026-10-08T20:40:44.000Z",
+    "published": "2026-10-08T20:40:44.000Z",
+    "retrieved": "2026-10-12T22:52:38.738Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Patch",
+      "topics": [
+        "wastewater"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:677b48ed",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Respiratory Illnesses On The Rise: See What's Circulating In Illinois",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQanlLNW45bTdnVFVHdGt1MWp5MWRKVnVSbWZhWFFQRXNxWTEySEhzajhqMHA3NmRGeHVjQ0R5U3UzbVZLblRWVlNpRGdhNUdPc0U5MnEtaUpOTmxUYVQzSGxRdWJYZmIwQWtMUjNhTEEyYlZqakNhZWg3S01TODREeHdaSHJ2NkpaN2JMR1lmamRwV2Z4N1HSAbQBQVVfeXFMT0JFNDJxMFVfZUJyeHNQbEpxTy1PZVV3VXhHNXUyMFlmNG5STlBUeHNyVk9HbWZNVk9DY2VMdUFJZnhwdk1nS1Zib004cWo5RHJ5b1IteXVkblphLURpT3lVYWtvRlVscGNsdEtkZ0gyNlBWenIxVlIzOXBjb1RpQjlqNVRyOXdqcTlESnBDX3VISUVubEJBWXRSQlhEUThEZ29Ca2ZfVGdoTHBGXzRjWEJJV195?oc=5",
+    "scope": "Patch",
+    "date": "2026-10-08T16:39:20.000Z",
+    "published": "2026-10-08T16:39:20.000Z",
+    "retrieved": "2026-10-12T22:52:38.738Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Patch",
+      "topics": [
+        "wastewater"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:132a04ef",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Respiratory Illnesses On The Rise: See What's Circulating In PA",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPclFMTlc3VXJ6T25qaU9NdXBXRk4ySVNZTHM3Ui1zZGp3OVdTRkg3b0tBVFY1RUFSTUw0NmNsejY1UkQyWFY4THhuV216aTZ0bGVtMmx6czlPUzZUTGNSNTI1MWlnemw1X1FoOE05R3BqRi03WG9iaGowZmhWNldJVTRtYWpXWnpzaHc4dF9VNVROcGZkempN0gG2AUFVX3lxTFBnQ3dMV2NHS2F1dEx2WFI2WUI1dkl0SmRoX3U4RXJOeEhLUF80Q3cycVFQM1FMcU9jV0hKNDJFakw2bUMyZlN4TS02RVg1YUZvc0cyYXZQMlhxVGJVbGlaRjhxazlZRnl5dF9QTjNmOXd5VkFqLWNOU0N2XzFMQTU3cjNxeHB3T210Vm5jSzVRd1lDcE1WcGxRc1hOQ3F5bFlsZkg3Ti1RODlLM1pkSUR2d2JmX0JB?oc=5",
+    "scope": "Patch",
+    "date": "2026-10-08T15:58:12.000Z",
+    "published": "2026-10-08T15:58:12.000Z",
+    "retrieved": "2026-10-12T22:52:38.738Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Patch",
+      "topics": [
+        "wastewater"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:69b88c0d",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Boston Wastewater Monitoring",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWVIxcEJPUF94THpzYWV0M0I4cElhNGdYMldxQk5kZlh1T2JjcDlqOFpaQ091X3FwbXd3U1dCMllvdzdTaHB0SV9fMXZIeHhHNE1MNVVmZzJHMEhLSTltaEZkaFlQUXNySGdYQjBiVnZLMEtNYXE1WFVmLWwxd1ZwcWI1aGdBV3o4Z3hRUl9fMEdxT21GMkI2Wk12Vk5tUGduZXcwTFl3?oc=5",
+    "scope": "Boston.gov",
+    "date": "2026-10-08T15:03:47.000Z",
+    "published": "2026-10-08T15:03:47.000Z",
+    "retrieved": "2026-10-12T22:52:38.738Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Boston.gov",
+      "topics": [
+        "wastewater"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  },
+  {
+    "id": "news:371b9d09",
+    "domain": "news",
+    "provider": "news",
+    "kind": "News article",
+    "title": "Airlines Could Become Early-Warning System for Russian Plague Threat",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVHY4QVVSalhJbjJpRmV1YTYxZ2tya2xBRlVVbFVQQlFzNFdJT3BHa1p1OFJNV0I4WnJNZDViUTdIVG1WTzZxUFphVEJNQkN5WHdNOVpUX2xtM0I2SWd4UEM1a2ZWLVF2anNDX1UwNGREcjVNUWJ0dFZhemFONGQ3WW5RanRCVHdBbzFwUzVreXBvWkhsbzh3?oc=5",
+    "scope": "Sri Lanka Guardian",
+    "date": "2026-10-08T04:45:45.000Z",
+    "published": "2026-10-08T04:45:45.000Z",
+    "retrieved": "2026-10-12T22:52:38.738Z",
+    "status": "PUBLISHER REPORT",
+    "summary": "Publisher headline discovered through Google News RSS. Open the article for its reporting and context.",
+    "details": {
+      "publisher": "Sri Lanka Guardian",
+      "topics": [
+        "wastewater"
+      ],
+      "discovery": "Google News RSS",
+      "limitations": "Feed metadata only; reporting has not been independently verified."
+    }
+  }
+]
