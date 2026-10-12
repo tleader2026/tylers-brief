@@ -5,6 +5,12 @@ import {RecordData,seriesConfig} from './catalog';
 import fredSnapshot from './fred-snapshot.json';
 import {sourceChanges} from './changes';
 import {newsAdapter} from './news';
+import {activityRecords} from './wastewater-activity';
+import activitySnapshot from './wastewater-activity-snapshot.json';
+export async function activityAdapter():Promise<RecordData[]>{
+ try{const cutoff=new Date(Date.now()-26*7*86400000).toISOString().slice(0,10);const where=encodeURIComponent("pathogen_target='SARS-CoV-2' AND week_end>='"+cutoff+"'");const rows=await retrieve('https://data.cdc.gov/resource/atcp-73re.json?$where='+where+'&$order=week_end%20DESC&$limit=50000');if(!Array.isArray(rows)||rows.length>=50000)throw new Error('Unexpected or truncated CDC activity response');const records=activityRecords(rows,timestamp());if(!records.length)throw new Error('No valid activity rows');return records;}
+ catch{return (activitySnapshot as RecordData[]).map(r=>({...r,status:'VERIFIED SNAPSHOT',summary:'Dated CDC snapshot; runtime refresh unavailable. '+r.summary}));}
+}
 async function retrieve(url:string,json=true):Promise<any>{
  let failure:any;
  for(let attempt=0;attempt<2;attempt++){
@@ -51,11 +57,11 @@ export async function cdcAdapter():Promise<RecordData[]>{
  return [...groups.entries()].map(([id,group])=>{const latest=group[0];const points=new Map<string,number|null>();for(const r of group.slice().reverse()){const raw=r.pcr_target_avg_conc;points.set(r.sample_collect_date,raw!==undefined&&Number.isFinite(Number(raw))?Number(raw):null);}const series=[...points].map(([date,value])=>({date,value})).sort((a,b)=>a.date.localeCompare(b.date));
   return {id:`cdc:${id}`,domain:'wastewater',kind:'raw concentration',title:`${latest.counties_served||'Texas'} · site ${latest.site}`,provider:'cdc',url:'https://data.cdc.gov/Public-Health-Surveillance/CDC-Wastewater-Data-for-SARS-CoV-2/j9g8-acpt',scope:`Texas site ${latest.site}; counties served: ${latest.counties_served||'not provided'}; source-listed service area, not county-wide`,date:latest.sample_collect_date,retrieved:timestamp(),status:'OBSERVED · LIMITED WINDOW',units:latest.pcr_target_units,value:series.at(-1)?.value,series,summary:'Raw SARS-CoV-2 concentration; not an activity category or individual infection probability. Only the latest 1,000 Texas source rows are retrieved. Sampling matrices and laboratory methods are grouped separately; duplicate same-day values use the last returned row. No cross-site aggregation or normalization is performed.',details:{latestSourceRow:latest,returnedObservations:group.length,transformation:'Grouped by site, PCR target, units, matrix and major lab method; missing concentration remains null.',limitations:'Partial source window; source revisions and reporting lag; geographic representativeness must be verified.'}} as RecordData;});
 }
-export async function refreshSources(only?:'news'){
- const db=getDb(); const adapters=[['trials',trialsAdapter],['pubmed',pubmedAdapter],['fred',fredAdapter],['cdc',cdcAdapter],['news',newsAdapter]] as const;
+export async function refreshSources(only?:'news'|'cdc-wval'){
+ const db=getDb(); const adapters=[['trials',trialsAdapter],['pubmed',pubmedAdapter],['fred',fredAdapter],['cdc',cdcAdapter],['cdc-wval',activityAdapter],['news',newsAdapter]] as const;
  return Promise.all(adapters.filter(([provider])=>!only||provider===only).map(async([provider,adapter])=>{
   const previous=await db.select().from(runs).where(eq(runs.provider,provider));const oldRun=previous[0]?JSON.parse(previous[0].value):{};
-  const hours=provider==='news'?1:provider==='cdc'?168:24;
+  const hours=provider==='news'?1:(provider==='cdc'||provider==='cdc-wval')?168:24;
   if(oldRun.success&&Date.now()-Date.parse(oldRun.success)<hours*3600000)return {provider,...oldRun,cached:true};
   try{
    const rows=await adapter();const old=await db.select().from(records).where(eq(records.provider,provider));const byId=new Map(old.map(r=>[r.id,JSON.parse(r.value)]));
