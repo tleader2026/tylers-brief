@@ -1,0 +1,8 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {ownership,alertPreview,distanceKm,inflationChange} from '../lib/calculations.ts';
+test('zero interest amortization and annual cost conversions',()=>{const r=ownership(120000,0,0,10,2,1200,50,1);assert.equal(r.principal,1000);assert.equal(r.total,1450);});
+test('fixed mortgage calculation includes property expenses',()=>{const r=ownership(300000,20,6,30,2,2400,0,1);assert.ok(Math.abs(r.principal-1438.9212603666172)<.01);assert.ok(Math.abs(r.total-2388.9212603666172)<.01);});
+test('alert requires sustained observations, freshness and cooldown',()=>{const now=Date.parse('2026-10-12T12:00:00Z');const record={id:'x',date:'2026-10-11',units:'Percent',series:[{value:6},{value:null},{value:7}]};const rule={record:'x',direction:'above',threshold:5,duration:2,freshness:10,cooldown:24};assert.equal(alertPreview(rule,[record],now).fire,true);assert.equal(alertPreview({...rule,duration:3},[record],now).fire,false);assert.equal(alertPreview(rule,[{...record,date:'2026-09-01'}],now).fire,false);assert.equal(alertPreview({...rule,lastFired:'2026-10-12T00:00:00Z'},[record],now).fire,false);assert.equal(alertPreview(rule,[],now).fire,false);});
+test('geographic distance uses kilometers and is symmetric',()=>{const a={lat:30,lon:-97},b={lat:31,lon:-97};assert.equal(distanceKm(a,a),0);assert.ok(Math.abs(distanceKm(a,b)-111.195)<.1);assert.equal(distanceKm(a,b),distanceKm(b,a));});
+test('year over year calculation requires matching month',()=>{assert.equal(inflationChange([{date:'2025-09-01',value:100},{date:'2026-09-01',value:104}]),4.0000000000000036);assert.equal(inflationChange([{date:'2026-09-01',value:104}]),null);});
