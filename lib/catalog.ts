@@ -6,11 +6,13 @@ export const pages = [
 ] as const;
 export const tabs: Record<string,string[]> = {
  research:['Treatment landscape','Mechanisms','Biomarkers','Publications','Drug development'], trials:['Top 10','Registry','Map','Calendar','Changes'], wastewater:['Local trends','Texas','National','Coverage map','Methods'],
- 'local-housing':['Market trends','Comparable sales','Listings','Affordability','Property opportunities'], 'national-housing':['Market trends','Regional comparison','Affordability'], companies:['Company landscape','Public markets','Products & adoption','Infrastructure','Bubble indicators'],
+ 'local-housing':['Market trends','Reventure','Comparable sales','Listings','Affordability','Property opportunities'], 'national-housing':['Market trends','Reventure','Regional comparison','Affordability'], companies:['Company landscape','Public markets','Products & adoption','Infrastructure','Bubble indicators'],
  governance:['Policy tracker','Capability releases','Evaluations','Agent safety','Incidents'], geopolitics:['Active conflicts','Strategic competition','Adversarial signals','Economic exposure','Timeline'], economy:['Macro health','Purchasing power','Labor','Inflation','Credit stress','AI investment exposure'], infrastructure:['Projects','Map','Timeline','Civic notebook'], alerts:['Alert rules','Daily brief','Weekly synthesis','Ensitrelvir review'],
  };
 export type RecordData = {id:string;domain:string;title:string;provider:string;url:string;scope:string;units?:string;date:string;published?:string;retrieved:string;status:string;summary:string;details?:any;series?:{date:string;value:number|null}[];value?:number|null;change?:any;kind:string};
 export const sources = [
+ {id:'reventure-local',name:'Reventure App',domain:'local-housing',url:'https://www.reventure.app/map',mode:'manual',cadence:'Monthly source updates; account observations',coverage:'Home values, inventory and rents; county / metro / ZIP. Manual observation entry; automated sync not connected'},
+ {id:'reventure-national',name:'Reventure App',domain:'national-housing',url:'https://www.reventure.app/graph',mode:'manual',cadence:'Monthly source updates; account observations',coverage:'Housing trends and forecasts. Manual observation entry; automated sync not connected'},
  {id:'trials',name:'ClinicalTrials.gov',domain:'trials',url:'https://clinicaltrials.gov/data-api/api',mode:'adapter',cadence:'Daily',coverage:'Registry metadata; global; sites as listed'},
  {id:'pubmed',name:'PubMed / NCBI',domain:'research',url:'https://www.ncbi.nlm.nih.gov/books/NBK25501/',mode:'adapter',cadence:'Daily',coverage:'Published Long COVID literature; abstracts when provided'},
  {id:'fred',name:'FRED / Federal Reserve Bank of St. Louis',domain:'economy',url:'https://fred.stlouisfed.org/',mode:'adapter',cadence:'Daily cache; observation cadence varies',coverage:'U.S. macro and housing series; no Bastrop sale prices'},
@@ -27,4 +29,5 @@ export const sources = [
 export const seriesConfig = [
  ['CPIAUCSL','Consumer price index','economy','Index, 1982–84 = 100','U.S.; seasonally adjusted'], ['PCEPI','Personal consumption expenditure prices','economy','Index, 2017 = 100','U.S.; seasonally adjusted'], ['UNRATE','Unemployment rate','economy','Percent','U.S.; seasonally adjusted'], ['FEDFUNDS','Effective federal funds rate','economy','Percent','U.S.; monthly'], ['MORTGAGE30US','30-year fixed mortgage rate','local-housing','Percent','U.S.; weekly mortgage survey'], ['USSTHPI','U.S. house price index','national-housing','Index, 1980 Q1 = 100','U.S.; quarterly; all-transactions'], ['TXSTHPI','Texas house price index','national-housing','Index, 1980 Q1 = 100','Texas; quarterly; all-transactions'], ['DSPIC96','Real disposable personal income','economy','Billions of chained 2017 dollars','U.S.; seasonally adjusted annual rate'],
  ] as const;
+
 
