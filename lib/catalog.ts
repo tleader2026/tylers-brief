@@ -5,7 +5,7 @@ export const pages = [
  ['connections','Cross-Domain Signals','Workspace','Connections'], ['library','Research Library & Notebook','Workspace','Library & notebook'], ['alerts','Alerts & Briefings','Workspace','Alerts & briefings'], ['settings','Sources, Data Health & Settings','Workspace','Sources & settings'],
 ] as const;
 export const tabs: Record<string,string[]> = {
- research:['Treatment landscape','Mechanisms','Biomarkers','Publications','Drug development'], trials:['Registry','Map','Calendar','Changes'], wastewater:['Local trends','Texas','National','Coverage map','Methods'],
+ research:['Treatment landscape','Mechanisms','Biomarkers','Publications','Drug development'], trials:['Top 10','Registry','Map','Calendar','Changes'], wastewater:['Local trends','Texas','National','Coverage map','Methods'],
  'local-housing':['Market trends','Comparable sales','Listings','Affordability','Property opportunities'], 'national-housing':['Market trends','Regional comparison','Affordability'], companies:['Company landscape','Public markets','Products & adoption','Infrastructure','Bubble indicators'],
  governance:['Policy tracker','Capability releases','Evaluations','Agent safety','Incidents'], geopolitics:['Active conflicts','Strategic competition','Adversarial signals','Economic exposure','Timeline'], economy:['Macro health','Purchasing power','Labor','Inflation','Credit stress','AI investment exposure'], infrastructure:['Projects','Map','Timeline','Civic notebook'], alerts:['Alert rules','Daily brief','Weekly synthesis','Ensitrelvir review'],
  };
@@ -27,3 +27,4 @@ export const sources = [
 export const seriesConfig = [
  ['CPIAUCSL','Consumer price index','economy','Index, 1982–84 = 100','U.S.; seasonally adjusted'], ['PCEPI','Personal consumption expenditure prices','economy','Index, 2017 = 100','U.S.; seasonally adjusted'], ['UNRATE','Unemployment rate','economy','Percent','U.S.; seasonally adjusted'], ['FEDFUNDS','Effective federal funds rate','economy','Percent','U.S.; monthly'], ['MORTGAGE30US','30-year fixed mortgage rate','local-housing','Percent','U.S.; weekly mortgage survey'], ['USSTHPI','U.S. house price index','national-housing','Index, 1980 Q1 = 100','U.S.; quarterly; all-transactions'], ['TXSTHPI','Texas house price index','national-housing','Index, 1980 Q1 = 100','Texas; quarterly; all-transactions'], ['DSPIC96','Real disposable personal income','economy','Billions of chained 2017 dollars','U.S.; seasonally adjusted annual rate'],
  ] as const;
+
