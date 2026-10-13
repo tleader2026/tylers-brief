@@ -3,8 +3,9 @@
 This Site is owner-private. Preserve that audience, user notes, saved items,
 Watchlist priorities and personal assessments, profile photo, theme and layout.
 The owner authorizes updating every data source and tile, including future additions,
-EXCEPT the Long COVID Research Watchlist. That tab is explicitly exempt from
-automatic updates and refresh warnings. Leave all of its content unchanged.
+EXCEPT the Long COVID Research Watchlist and the Internet Vint Cerf tab. Both
+are explicitly exempt from automatic updates and refresh warnings. Leave their
+content unchanged during scheduled maintenance.
 Never fabricate values or silently replace a failed feed with a healthy snapshot.
 
 ## Access and persisted health
@@ -97,7 +98,8 @@ automatically show a red tile icon. A red icon's tooltip/click explains the faul
 - space: app/space-infrastructure.tsx. Starlink/OneWeb coverage and Starcloud
   progress using official statements; distinguish launches, plans and milestones.
 - internet: lib/internet-research.ts, lib/internet-news-snapshot.json and Internet
-  Society RSS. Refresh news snapshot, Cerf projects, provenance and space papers;
+  Society RSS. Refresh news snapshot, provenance and space papers; exclude the
+  Vint Cerf tab and its project/role directory from scheduled updates;
   retain uncertainty about unverified papers and the non-exhaustive project list.
 - ipv6: lib/ipv6-snapshot.json. Official Google adoption data, real daily dates;
   percent adoption is not address-space consumption. Preserve capacity definitions.
