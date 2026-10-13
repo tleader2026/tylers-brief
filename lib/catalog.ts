@@ -6,7 +6,7 @@ export const pages = [
 ] as const;
 export const tabs: Record<string,string[]> = {
  research:['Treatment landscape','Mechanisms','Biomarkers','Publications','Drug development'], trials:['Top 10','Registry','Map','Calendar','Changes'], wastewater:['Texas','Focus states','Coverage map'],
- 'local-housing':['Market trends','Reventure','Comparable sales','Listings','Affordability','Property opportunities'], 'national-housing':['Market trends','Reventure','Regional comparison','Affordability'], companies:['Company landscape','Company health','AI growth','AI revenue'],
+ 'local-housing':['Market trends','Reventure','Comparable sales','Listings','Affordability','Property opportunities'], 'national-housing':['Market trends','Reventure','Regional comparison','Affordability'], companies:['Company landscape','Company health','AI growth','AI revenue','Bubble risk'],
  governance:['Policy tracker','Capability releases','Evaluations','Agent safety','Incidents'], geopolitics:['Event watch','Supply-chain disruptions','Aggressive rhetoric','Military buildup & weapons','Active conflicts','Strategic competition','Adversarial signals','Economic exposure','Timeline'], economy:['Macro health','Purchasing power','Labor','Inflation','Credit stress','AI investment exposure'], infrastructure:['Projects','Map','Timeline','Civic notebook'], alerts:['Alert rules','Daily brief','Weekly synthesis','Ensitrelvir review'],
  };
 export type RecordData = {id:string;domain:string;title:string;provider:string;url:string;scope:string;units?:string;date:string;published?:string;retrieved:string;status:string;summary:string;details?:any;series?:{date:string;value:number|null}[];value?:number|null;change?:any;kind:string};
