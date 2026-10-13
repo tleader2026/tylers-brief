@@ -1,12 +1,68 @@
 'use client';
 import {ArrowUpRight} from 'lucide-react';
 const theories=[
-{title:'Intranasal anti-CD3',route:'Intranasal',stage:'Post-COVID mouse model',assessment:'Strongest direct preclinical fit: nasal anti-CD3 reduced neuroinflammation and improved cognition in a post-COVID mouse model.',caveat:'Human Long COVID efficacy remains unproven. The mouse antibody and the human candidate foralumab should be distinguished.',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC13082027/',source:'Post-COVID anti-CD3 study'},
-{title:'Bezisterim / NE3107',route:'Oral',stage:'Human Long COVID trial protocol',assessment:'Strong clinical research candidate because a placebo-controlled trial specifically targets Long COVID cognitive impairment and fatigue.',caveat:'The studied formulation is oral, not intranasal, and is described as BBB-permeable. A trial protocol does not establish efficacy.',url:'https://pubmed.ncbi.nlm.nih.gov/42498469/',source:'ADDRESS-LC phase 2 protocol'},
-{title:'Intranasal hiPSC-NSC-EVs',route:'Intranasal',stage:'Aged-mouse study Â· proposed extension',assessment:'Compelling approach to inflammatory signaling and mitochondrial dysfunction.',caveat:'Its supporting study concerns aged mice. Applying it to Long COVID is Tylerâ€™s proposed extension rather than an established result.',url:'https://isevjournals.onlinelibrary.wiley.com/doi/10.1002/jev2.70232',source:'Human NSC-derived EV study'},
-{title:'IV RSLV-132',route:'Intravenous',stage:'Randomized human Long COVID trial',assessment:'Has randomized human Long COVID evidence, making it worth discussing.',caveat:'The study did not significantly improve fatigue at its primary Day 71 assessment; earlier assessments showed signals. Extracellular RNA degradation is the rationale, not proof that it removes the cause of neurological disease.',url:'https://pubmed.ncbi.nlm.nih.gov/38728385/',source:'RSLV-132 randomized phase 2 trial'},
-{title:'BC007 / rovunaptabin',route:'Intravenous',stage:'Human Long COVID studies Â· mixed evidence',assessment:'Worth including as an autoantibody hypothesis with mixed evidence.',caveat:'A small exploratory randomized trial reported benefits, while a separate larger trial reportedly failed to demonstrate superiority over placebo. Published treatment was IV, not intranasal.',url:'https://pmc.ncbi.nlm.nih.gov/articles/pmid/40735347/',source:'reCOVer exploratory phase IIa trial'},
-{title:'IV EBV-specific T cells',route:'Intravenous',stage:'EBV cancer platform Â· subgroup hypothesis',assessment:'An interesting hypothesis for a subgroup in which EBV is demonstrably contributing to illness.',caveat:'The linked EBVST trial concerns EBV-associated cancers, not evidence establishing benefit in Long COVID. It demonstrates a therapeutic platform, not applicability to this condition.',url:'https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2022-08324',source:'NCI CILESTE trial'},
-{title:'H3 receptor agonism',route:'Route unspecified',stage:'Mechanistic hypothesis · compound unspecified',assessment:'Proposed mechanism: activate the H3 autoreceptor brake to reduce neuronal histamine release.',caveat:'H3 autoreceptor activation inhibits histamine synthesis and release. This mechanism does not establish benefit in Long COVID or treatment of mast-cell activation. A named compound, delivery route and direct clinical evidence are still needed.',url:'https://pubmed.ncbi.nlm.nih.gov/6188956/',source:'H3-mediated inhibition of histamine release'}
+ {
+  "title": "Intranasal anti-CD3",
+  "route": "Intranasal",
+  "stage": "Post-COVID mouse study",
+  "assessment": "Prioritize intranasal anti-CD3 as my leading research direction and advance a human foralumab program focused on Long COVID neuroinflammation and cognition.",
+  "evidence": "Nasal anti-CD3 reduced neuroinflammation and improved cognition in a post-COVID mouse model, providing the preclinical basis for my call to study the distinct human candidate foralumab in Long COVID.",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13082027/",
+  "source": "Post-COVID anti-CD3 study"
+ },
+ {
+  "title": "Bezisterim / NE3107",
+  "route": "Oral study · intranasal proposal",
+  "stage": "ADDRESS-LC phase 2 protocol",
+  "assessment": "Prioritize bezisterim for Long COVID cognitive impairment and fatigue, and develop an intranasal research arm that compares CNS exposure and administration with the oral formulation.",
+  "evidence": "ADDRESS-LC studies oral, BBB-permeable bezisterim; I call for intranasal formulation testing to evaluate potential nose-to-brain access, compare CNS exposure, and assess administration alongside other intranasal research candidates.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42498469/",
+  "source": "ADDRESS-LC phase 2 protocol"
+ },
+ {
+  "title": "Intranasal hiPSC-NSC-EVs",
+  "route": "Intranasal",
+  "stage": "Aged-mouse study",
+  "assessment": "Advance intranasal neural stem-cell extracellular vesicles as a research strategy targeting Long COVID neuroinflammation and mitochondrial dysfunction.",
+  "evidence": "Intranasal human NSC-derived EVs restrained inflammatory microglial programs and NLRP3 and cGAS-STING signaling in aged mice, supporting my priority to test this approach against Long COVID neuroinflammation and mitochondrial dysfunction.",
+  "url": "https://isevjournals.onlinelibrary.wiley.com/doi/10.1002/jev2.70232",
+  "source": "Human NSC-derived EV study"
+ },
+ {
+  "title": "IV RSLV-132",
+  "route": "Intravenous",
+  "stage": "Randomized human Long COVID trial",
+  "assessment": "Pursue extracellular RNA degradation as a Long COVID research direction, with response timing, biological markers and fatigue outcomes built into the trial design.",
+  "evidence": "The randomized RSLV-132 trial reported earlier fatigue improvements and no significant difference at the primary Day 71 assessment, directing my priority toward time-resolved testing of extracellular RNA clearance and responder biology.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38728385/",
+  "source": "RSLV-132 randomized phase 2 trial"
+ },
+ {
+  "title": "BC007 / rovunaptabin",
+  "route": "Intravenous",
+  "stage": "Human Long COVID studies",
+  "assessment": "Prioritize a biomarker-selected BC007 research program focused on functional autoantibodies, defined responder groups and measurable clinical outcomes.",
+  "evidence": "The exploratory IV reCOVer trial reported benefits while a separate larger program reportedly did not outperform placebo, supporting my call for replication with autoantibody-defined subgroups and prespecified endpoints.",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40735347/",
+  "source": "reCOVer exploratory phase IIa trial"
+ },
+ {
+  "title": "IV EBV-specific T cells",
+  "route": "Intravenous",
+  "stage": "EBV-targeted cellular therapy platform",
+  "assessment": "Develop an EBV-specific T-cell research pathway for Long COVID subgroups with documented EBV involvement, using virological and clinical endpoints to define the target population.",
+  "evidence": "CILESTE studies engineered EBV-specific T cells in EBV-associated cancers, providing the cellular-therapy platform I want assessed in Long COVID subgroups with documented EBV involvement.",
+  "url": "https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2022-08324",
+  "source": "NCI CILESTE trial"
+ },
+ {
+  "title": "H3 receptor agonism",
+  "route": "Formulation and route to be selected",
+  "stage": "H3 autoreceptor mechanism",
+  "assessment": "Prioritize selective H3 receptor agonism as a research strategy to reduce neuronal histamine release, beginning with compound selection and delivery design.",
+  "evidence": "H3 autoreceptor activation inhibits neuronal histamine synthesis and release, providing the mechanistic basis for my call to develop and test a selective H3 agonist program for Long COVID histamine signaling.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/6188956/",
+  "source": "H3-mediated inhibition of histamine release"
+ }
 ];
-export default function ResearchTheories(){return <div className="research-theories"><section className="panel theories-intro"><span className="eyebrow">TYLERâ€™S RESEARCH PRIORITIES</span><h2>Watchlist</h2><p>My ranked candidates for investigating Long COVID treatment. Priority reflects my assessment, not proven effectiveness.</p><small>Personal hypothesis list Â· assessment and source links supplied by Tyler</small></section><ol className="theories-list">{theories.map((t,i)=><li key={t.title}><article className="panel theory-card"><header><span className="theory-priority" aria-label={`Priority ${i+1}`}>{String(i+1).padStart(2,'0')}</span><div><h2>{t.title}</h2><div className="theory-tags"><span>{t.route}</span><span>{t.stage}</span></div></div></header><div className="theory-assessment"><h3>My assessment</h3><p>{t.assessment}</p></div><div className="theory-caveat"><h3>Evidence & open questions</h3><p>{t.caveat}</p></div><a href={t.url} target="_blank" rel="noreferrer">{t.source} <ArrowUpRight size={16}/></a></article></li>)}</ol></div>}
+export default function ResearchTheories(){return <div className="research-theories"><section className="panel theories-intro"><span className="eyebrow">TYLER’S RESEARCH DECLARATIONS</span><h2>Watchlist</h2><p>My declarations for Long COVID research and treatment development, ranked in the order I want pursued.</p><small>Research agenda and priorities declared by Tyler</small></section><ol className="theories-list">{theories.map((t,i)=><li key={t.title}><article className="panel theory-card"><header><span className="theory-priority" aria-label={`Priority ${i+1}`}>{String(i+1).padStart(2,'0')}</span><div><h2>{t.title}</h2><div className="theory-tags"><span>{t.route}</span><span>{t.stage}</span></div></div></header><div className="theory-assessment"><h3>My declaration</h3><p>{t.assessment}</p></div><div className="theory-evidence"><h3>Evidence</h3><p>{t.evidence}</p></div><a href={t.url} target="_blank" rel="noreferrer">{t.source} <ArrowUpRight size={16}/></a></article></li>)}</ol></div>}
