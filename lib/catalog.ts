@@ -5,7 +5,7 @@ export const pages = [
  ['connections','Cross-Domain Signals','Workspace','Connections'], ['library','Research Library & Notebook','Workspace','Library & notebook'], ['alerts','Alerts & Briefings','Workspace','Alerts & briefings'], ['settings','Sources, Data Health & Settings','Workspace','Sources & settings'],
 ] as const;
 export const tabs: Record<string,string[]> = {
- research:['My top 7 theories','Mechanisms','Biomarkers','Publications','Drug development'], trials:['Top 10','Registry','Map','Calendar','Changes'], wastewater:['Texas','Focus states','Coverage map'],
+ research:['Watchlist','Mechanisms','Biomarkers','Publications','Drug development'], trials:['Top 10','Registry','Map','Calendar','Changes'], wastewater:['Texas','Focus states','Coverage map'],
  'local-housing':['Market trends','Reventure','Comparable sales','Listings','Affordability','Property opportunities'], 'national-housing':['Market trends','Reventure','Regional comparison','Affordability'], companies:['Company landscape','AI growth','Bubble risk'],
  governance:['Policy tracker','Capability releases','Evaluations','Agent safety','Incidents'], geopolitics:['Event watch','Supply-chain disruptions','Aggressive rhetoric','Military buildup & weapons','Active conflicts','Strategic competition','Adversarial signals','Economic exposure','Timeline'], economy:['Macro health','Purchasing power','Labor','Inflation','Credit stress','AI investment exposure'], infrastructure:['Projects','Map','Timeline','Civic notebook'], alerts:['Alert rules','Daily brief','Weekly synthesis','Ensitrelvir review'],
  };
