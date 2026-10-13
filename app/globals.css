@@ -2,7 +2,9 @@
 :is(.panel,.metric,.filters,.global-search,.event-category-counts>div,.history-comparison>div,.evidence-drawer,.search-modal,.add-modal,.toast,.focus-states button){--surface:#183345;--surface2:#233f52;--surface3:#2e4c60;--border:#496171;--text:#fff6de;--muted:#e4d9be;--accent:#fff6de;--accent-dim:#2e4c60;--amber:#f2cf8b;color:var(--text)}
 :is(.panel,.metric,.filters,.global-search,.event-category-counts>div,.history-comparison>div,.evidence-drawer,.search-modal,.add-modal,.toast,.focus-states button){background:var(--surface)}
 :is(.panel,.filters,.evidence-drawer,.search-modal,.add-modal) :is(input,select,textarea){color:#183345;background:#fff6de}
-.metric strong[style]{color:#fff6de!important}
+.metric:not(.cpi-metric) strong[style]{color:#fff6de!important}
+.cpi-chart{--market-cool:#72d49e;--market-growing:#ff8590}
+.cpi-chart .market-legend i{background:#72d49e}.cpi-chart .market-legend>span:last-of-type i{background:#ff8590}
 .panel .market-legend i{background:#6db9eb}.panel .market-legend>span:last-of-type i{background:#72d49e}
 :root,:root[data-theme=light]{--bg:#fff6de;--surface:#7f949b;--surface2:#8b9ea4;--surface3:#a8b6ba;--border:#657c88;--text:#183345;--muted:#213c4d;--accent:#183345;--accent-dim:#b7c4c4;--sidebar:#576c7b;--amber:#623b08;color-scheme:light}
 :root[data-theme=dark]{--bg:#152632;--surface:#1c3240;--surface2:#243d4b;--surface3:#2d4858;--border:#3b5360;--text:#fff6de;--muted:#b9c3c6;--accent:#f2dfad;--accent-dim:#314853;--sidebar:#182b38;--amber:#e9bc71;color-scheme:dark}
