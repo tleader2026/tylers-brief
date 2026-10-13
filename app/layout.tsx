@@ -5,7 +5,7 @@ import {requireChatGPTUser} from './chatgpt-auth';
 export const dynamic='force-dynamic';
 
 export const metadata: Metadata = {
-  title: "Tyler's View",
+  title: "Tyler's Brief",
   description: "A private, evidence-centered intelligence workspace.",
   icons: {
     icon: "/favicon.svg",
