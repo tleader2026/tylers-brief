@@ -2,7 +2,7 @@
 import {useEffect} from 'react';
 import {refreshGroups,refreshProblem,type RefreshRun} from '../lib/refresh-health';
 function keysFor(tile:HTMLElement,page:string,tab:string):string[]{
- if(tile.matches('.unpopulated-section'))return [];
+ if(tile.matches('.unpopulated-section')||tile.dataset.refreshStatic==='true')return [];
  const explicit=tile.dataset.refreshSources;if(explicit)return explicit.split(',');
  const text=((tile.querySelector('h2,h3,h4')||tile.querySelector('.eyebrow'))?.textContent||'').toLowerCase();
  if(tile.matches('.news-tile'))return ['news'];

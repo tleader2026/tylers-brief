@@ -138,3 +138,5 @@ Only begin/refresh scope news and read back news health and persisted records.
 The existing news adapter covers the owner's interests; do not regenerate fake
 headlines, remove sourcing, or republish the dashboard for an ordinary feed refresh.
 Partial feed/topic failure must remain red with available articles retained.
+
+Company page descriptive summary cards (Company health, Company momentum, AI revenue) are static explanations, marked data-refresh-static. Exempt these three cards from scheduled data updates and refresh warnings. Continue updating the actual company reports and metrics below them.
