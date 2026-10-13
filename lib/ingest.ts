@@ -64,11 +64,12 @@ export async function refreshSources(only?:'news'|'cdc-wval'|'worldmonitor',forc
   const previous=await db.select().from(runs).where(eq(runs.provider,provider));const oldRun=previous[0]?JSON.parse(previous[0].value):{};
   const hours=provider==='news'||provider==='worldmonitor'?1:(provider==='cdc'||provider==='cdc-wval')?168:24;
   if(!force&&oldRun.success&&Date.now()-Date.parse(oldRun.success)<hours*3600000)return {provider,...oldRun,cached:true};
+  const started=timestamp();
   try{
    const rows=await adapter();const old=await db.select().from(records).where(eq(records.provider,provider));const byId=new Map(old.map(r=>[r.id,JSON.parse(r.value)]));
    for(const record of rows){
     const prior=byId.get(record.id);const diff=sourceChanges(prior,record);
-    if(prior&&record.status==='VERIFIED SNAPSHOT'&&prior.retrieved>record.retrieved)continue;
+    if(prior&&(record.status==='VERIFIED SNAPSHOT'||prior.retrieved>record.retrieved))continue;
     if(provider==='news'){delete record.change;}
     else if(!prior&&oldRun.success){record.change={at:timestamp(),fields:['new source record'],before:null,after:{title:record.title,date:record.date,status:record.status}};}
     else if(prior&&diff){
@@ -79,7 +80,8 @@ export async function refreshSources(only?:'news'|'cdc-wval'|'worldmonitor',forc
    }
    const snapshotOnly=rows.length>0&&rows.every(r=>r.status==='VERIFIED SNAPSHOT');
    const run={status:snapshotOnly?'snapshot':(rows as any).warnings?.length?'partial':'connected',success:snapshotOnly?rows[0].retrieved:timestamp(),attempt:timestamp(),count:rows.length,warnings:(rows as any).warnings||[],apiConnected:(rows as any).apiConnected,message:(rows as any).message||(snapshotOnly?'Runtime refresh unavailable. Dated verified source snapshots retained.':rows.length?'Source records persisted.':'Source returned no matching records.')};
+   const current=await db.select().from(runs).where(eq(runs.provider,provider));if(current[0]&&JSON.parse(current[0].value).attempt>started)return {provider,...JSON.parse(current[0].value),superseded:true};
    await db.insert(runs).values({provider,value:JSON.stringify(run)}).onConflictDoUpdate({target:runs.provider,set:{value:JSON.stringify(run)}});return {provider,...run};
-  }catch(e:any){const run={...oldRun,status:'error',attempt:timestamp(),message:String(e.message||e)};await db.insert(runs).values({provider,value:JSON.stringify(run)}).onConflictDoUpdate({target:runs.provider,set:{value:JSON.stringify(run)}});return {provider,...run};}
+  }catch(e:any){const current=await db.select().from(runs).where(eq(runs.provider,provider));if(current[0]&&JSON.parse(current[0].value).attempt>started)return {provider,...JSON.parse(current[0].value),superseded:true};const run={...oldRun,status:'error',attempt:timestamp(),message:String(e.message||e)};await db.insert(runs).values({provider,value:JSON.stringify(run)}).onConflictDoUpdate({target:runs.provider,set:{value:JSON.stringify(run)}});return {provider,...run};}
  }));
 }

@@ -3,13 +3,13 @@ import {useEffect} from 'react';
 import {refreshGroups,refreshProblem,type RefreshRun} from '../lib/refresh-health';
 function keysFor(tile:HTMLElement,page:string,tab:string):string[]{
  const explicit=tile.dataset.refreshSources;if(explicit)return explicit.split(',');
- const text=(tile.querySelector('h2,h3,h4,.eyebrow')?.textContent||tile.textContent||'').toLowerCase();
+ const text=((tile.querySelector('h2,h3,h4')||tile.querySelector('.eyebrow'))?.textContent||'').toLowerCase();
  if(tile.matches('.news-tile'))return ['news'];
  if(/consumer price|unemployment|mortgage|house price index|home price index|thirty years|30 years/.test(text)||tile.matches('.metric'))return ['fred'];
  if(/assessed value|assessment/.test(text))return ['property'];
  if(/low.*mid.*high|home values by state/.test(text))return ['zillow'];
  if(/housing market heat|growing.*cooling/.test(text))return ['housing'];
- if(page==='today')return /news/.test(text)?['news']:['fred','trials','pubmed'];
+ if(page==='today')return /on your radar|coverage gaps/.test(text)?[]:/news/.test(text)?['news']:/thirty years/.test(text)?['fred']:['trials'];
  if(page==='wastewater')return ['cdc-wval'];
  if(page==='trials')return ['trials'];
  if(page==='research')return /watchlist/.test(text)?['research']:['pubmed'];
