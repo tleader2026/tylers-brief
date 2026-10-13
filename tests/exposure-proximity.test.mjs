@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {nearBastrop,approximateDistance,siteProximity} from '../lib/exposure-proximity.ts';
+const r=(id,county)=>({id,title:id,provider:'cdc',details:{latestSourceRow:{counties_served:county}},scope:'Texas'});
+test('Bastrop service areas rank first, nearby counties follow, unknown locations last',()=>{const rows=[r('unknown','not provided'),r('Houston','Harris'),r('Austin','Travis'),r('Bastrop','Bastrop')];assert.deepEqual(nearBastrop(rows).map(x=>x.id),['Bastrop','Austin','Houston','unknown']);assert.equal(approximateDistance(rows[3]),0);assert.match(siteProximity(rows[1]),/county-level estimate/);});
+test('Multi-county service areas use nearest reference point without confusing other states',()=>{assert.equal(approximateDistance(r('multi','Travis; Bastrop')),0);assert.equal(approximateDistance({...r('other','Travis'),provider:'cdc-wval',scope:'California'}),Infinity);});

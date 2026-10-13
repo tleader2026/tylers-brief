@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';const d=JSON.parse(fs.readFileSync(new URL('../lib/state-home-values.json',import.meta.url),'utf8'));
+test('State home-value snapshot uses one period, complete jurisdictions, and coherent tiers',()=>{assert.equal(d.states.length,51);assert.equal(new Set(d.states.map(r=>r.name)).size,51);assert.match(d.period,/^2026-08-31$/);for(const r of d.states){assert.ok(r.low>0&&r.mid>0&&r.high>0,r.name);assert.ok(r.low<=r.mid&&r.mid<=r.high,r.name);}});
