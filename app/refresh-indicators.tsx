@@ -14,6 +14,7 @@ function keysFor(tile:HTMLElement,page:string,tab:string):string[]{
  if(page==='wastewater')return ['cdc-wval'];
  if(page==='trials')return ['trials'];
  if(page==='research')return tab==='Watchlist'?[]:['pubmed'];
+ if(page==='logistics')return ['logistics-bts'];
  if(page==='governance')return ['governance'];
  if(page==='companies')return [tab==='AI growth'?'ai-growth':tab==='Bubble risk'?'bubble':'companies'];
  if(page==='internet')return tab==='Vint Cerf'?[]:[tab==='Protocols & addressing'?'ipv6':'internet'];

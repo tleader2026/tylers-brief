@@ -73,6 +73,23 @@ automatically show a red tile icon. A red icon's tooltip/click explains the faul
   including manual records. Missing live coverage must remain red.
 - reventure: verify authorized public housing data access; a working source link
   alone is not a connected data feed. Retain an error if it cannot supply data.
+- Logistics: tracked scripts/collect-logistics.mjs collects BTS freight/modal
+  history, government-origin BLS/EIA series through FRED, latest-vintage NY Fed
+  GSCPI, Los Angeles port histories, and three tracked MARAD active advisories.
+  Run its --persist mode with supported Site service access on hidden stdin to
+  update D1 without deploying; read back health. The hosted weekly adapters also
+  run these sources. Preserve null observations, units and periods; never mistake
+  a monthly-data publication lag for a current streaming measurement.
+  Review lib/logistics-reports.ts against the newest public AAR release, including
+  its selected commodity figures and source dates, and latest EIA structural
+  exposure publications. Write updated records/metadata with matching source
+  links or update the bundled report source and publish. Never attach a newer
+  report date to old commodity values. Update records' details.commodities too.
+  Keep logistics-unavailable in error while paid spot rates, reliability,
+  congestion, actual trucking utilization, domestic incident feeds and corridor
+  input shares lack authorized verified integrations; explain the missing feeds.
+  AAR full datasets need licensing; do not claim paid access. Use government
+  public-domain datasets with citations, and retain source-specific reuse terms.
 - companies: lib/company-reports.ts and app/company-dashboard.tsx. Review all
   seven companies' latest earnings, financial disclosures and attributed public
   revenue claims. Distinguish annual revenue, run rate, estimates and forecasts.

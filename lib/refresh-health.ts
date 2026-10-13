@@ -1,5 +1,5 @@
 export const refreshGroups = {
- news:'News',trials:'Clinical trials',pubmed:'Research publications',fred:'Economic and housing series',cdc:'Raw wastewater', 'cdc-wval':'Wastewater activity',worldmonitor:'Geopolitics',
+ 'logistics-bts':'Freight / modal activity','logistics-fred':'Freight fuel and service costs','logistics-gscpi':'Global supply pressure','logistics-port':'Port throughput','logistics-marad':'Maritime advisories','logistics-reports':'Public rail reports','logistics-exposure':'Structural logistics exposure','logistics-unavailable':'Unconnected logistics feeds',news:'News',trials:'Clinical trials',pubmed:'Research publications',fred:'Economic and housing series',cdc:'Raw wastewater', 'cdc-wval':'Wastewater activity',worldmonitor:'Geopolitics',
  governance:'AI governance sources',reventure:'Reventure housing data',companies:'Company reports', 'ai-growth':'AI adoption',bubble:'Bubble risk',property:'Home assessments',housing:'Housing heat map',zillow:'State home prices',water:'Water and reservoirs',electricity:'Electricity and power construction',centers:'Data center construction',av:'Autonomous vehicles',space:'Space infrastructure',internet:'Internet research and news',ipv6:'Internet protocol adoption',research:'Watchlist evidence',assets:'Dashboard assets'
 } as const;
 export type RefreshKey=keyof typeof refreshGroups;
