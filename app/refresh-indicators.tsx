@@ -16,7 +16,7 @@ function keysFor(tile:HTMLElement,page:string,tab:string):string[]{
  if(page==='governance')return ['governance'];
  if(page==='companies')return [tab==='AI growth'?'ai-growth':tab==='Bubble risk'?'bubble':'companies'];
  if(page==='internet')return [tab==='Protocols & addressing'?'ipv6':'internet'];
- if(page==='infrastructure')return [tab==='Water'?'water':tab==='Electricity'?'electricity':tab==='Data centers'?'centers':tab==='Space infrastructure'?'space':'av'];
+ if(page==='infrastructure')return [tab==='Water'?'water':tab==='Electricity'?'electricity':tab==='Data centers'?'centers':tab==='Orbital'?'space':'av'];
  if(page==='national-housing'||page==='local-housing')return [tab==='Regional comparison'?'zillow':tab==='Reventure'?'reventure':'housing'];
  if(page==='economy')return ['fred'];
  if(page==='geopolitics')return ['worldmonitor'];
