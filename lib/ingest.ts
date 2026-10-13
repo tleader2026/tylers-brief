@@ -7,6 +7,7 @@ import {sourceChanges} from './changes';
 import {newsAdapter} from './news';
 import {activityRecords} from './wastewater-activity';
 import activitySnapshot from './wastewater-activity-snapshot.json';
+import {geopoliticsAdapter} from './geopolitics-adapter';
 export async function activityAdapter():Promise<RecordData[]>{
  try{const cutoff=new Date(Date.now()-26*7*86400000).toISOString().slice(0,10);const where=encodeURIComponent("pathogen_target='SARS-CoV-2' AND week_end>='"+cutoff+"'");const rows=await retrieve('https://data.cdc.gov/resource/atcp-73re.json?$where='+where+'&$order=week_end%20DESC&$limit=50000');if(!Array.isArray(rows)||rows.length>=50000)throw new Error('Unexpected or truncated CDC activity response');const records=activityRecords(rows,timestamp());if(!records.length)throw new Error('No valid activity rows');return records;}
  catch{return (activitySnapshot as RecordData[]).map(r=>({...r,status:'VERIFIED SNAPSHOT',summary:'Dated CDC snapshot; runtime refresh unavailable. '+r.summary}));}
@@ -38,11 +39,11 @@ export async function pubmedAdapter():Promise<RecordData[]>{
 }
 export async function fredAdapter():Promise<RecordData[]>{
  const data=await Promise.allSettled(seriesConfig.map(async([id,title,domain,units,scope])=>{
-  const raw=await retrieve(`https://fred.stlouisfed.org/graph/fredgraph.csv?id=${id}&cosd=2010-01-01`,false) as string;
+  const raw=await retrieve(`https://fred.stlouisfed.org/graph/fredgraph.csv?id=${id}&cosd=1996-01-01`,false) as string;
   if(!raw.startsWith('observation_date,')&&!raw.startsWith('DATE,'))throw new Error('Unexpected FRED CSV schema');
   const points=raw.trim().split('\n').slice(1).map(row=>{const [date,text]=row.trim().split(',');return {date,value:text&&text!=='.'&&Number.isFinite(Number(text))?Number(text):null};}).filter(x=>/^\d{4}-\d{2}-\d{2}$/.test(x.date));
   const latest=points.filter(x=>x.value!==null).at(-1);if(!latest)throw new Error('No valid observations');
-  return {id:`fred:${id}`,title,domain,kind:'observed series',provider:'fred',url:`https://fred.stlouisfed.org/series/${id}`,scope,units,date:latest.date,retrieved:timestamp(),status:'OBSERVED',value:latest.value,series:points.filter(x=>x.date>='2010-01-01'),summary:'Published source series. Latest observation date differs from refresh time. Revisions are possible; use source definitions before comparison.',details:{seriesId:id,transformation:'CSV parsed; missing observations preserved as null; series displayed from 2010.',definition:scope,license:'Source attribution retained; review source-specific redistribution terms.'}} as RecordData;
+  return {id:`fred:${id}`,title,domain,kind:'observed series',provider:'fred',url:`https://fred.stlouisfed.org/series/${id}`,scope,units,date:latest.date,retrieved:timestamp(),status:'OBSERVED',value:latest.value,series:points.filter(x=>x.date>='1996-01-01'),summary:'Published source series. Latest observation date differs from refresh time. Revisions are possible; use source definitions before comparison.',details:{seriesId:id,transformation:'CSV parsed; missing observations preserved as null; series displayed from 1996.',definition:scope,license:'Source attribution retained; review source-specific redistribution terms.'}} as RecordData;
  }));
  const successful=data.flatMap((x,i)=>x.status==='fulfilled'?[x.value]:[(fredSnapshot as RecordData[]).find(r=>r.id==='fred:'+seriesConfig[i][0])!]).filter(Boolean);
  // Preserve per-series failures in the provider run without deleting last valid data.
@@ -57,11 +58,11 @@ export async function cdcAdapter():Promise<RecordData[]>{
  return [...groups.entries()].map(([id,group])=>{const latest=group[0];const points=new Map<string,number|null>();for(const r of group.slice().reverse()){const raw=r.pcr_target_avg_conc;points.set(r.sample_collect_date,raw!==undefined&&Number.isFinite(Number(raw))?Number(raw):null);}const series=[...points].map(([date,value])=>({date,value})).sort((a,b)=>a.date.localeCompare(b.date));
   return {id:`cdc:${id}`,domain:'wastewater',kind:'raw concentration',title:`${latest.counties_served||'Texas'} · site ${latest.site}`,provider:'cdc',url:'https://data.cdc.gov/Public-Health-Surveillance/CDC-Wastewater-Data-for-SARS-CoV-2/j9g8-acpt',scope:`Texas site ${latest.site}; counties served: ${latest.counties_served||'not provided'}; source-listed service area, not county-wide`,date:latest.sample_collect_date,retrieved:timestamp(),status:'OBSERVED · LIMITED WINDOW',units:latest.pcr_target_units,value:series.at(-1)?.value,series,summary:'Raw SARS-CoV-2 concentration; not an activity category or individual infection probability. Only the latest 1,000 Texas source rows are retrieved. Sampling matrices and laboratory methods are grouped separately; duplicate same-day values use the last returned row. No cross-site aggregation or normalization is performed.',details:{latestSourceRow:latest,returnedObservations:group.length,transformation:'Grouped by site, PCR target, units, matrix and major lab method; missing concentration remains null.',limitations:'Partial source window; source revisions and reporting lag; geographic representativeness must be verified.'}} as RecordData;});
 }
-export async function refreshSources(only?:'news'|'cdc-wval'){
- const db=getDb(); const adapters=[['trials',trialsAdapter],['pubmed',pubmedAdapter],['fred',fredAdapter],['cdc',cdcAdapter],['cdc-wval',activityAdapter],['news',newsAdapter]] as const;
+export async function refreshSources(only?:'news'|'cdc-wval'|'worldmonitor'){
+ const db=getDb(); const adapters=[['trials',trialsAdapter],['pubmed',pubmedAdapter],['fred',fredAdapter],['cdc',cdcAdapter],['cdc-wval',activityAdapter],['news',newsAdapter],['worldmonitor',geopoliticsAdapter]] as const;
  return Promise.all(adapters.filter(([provider])=>!only||provider===only).map(async([provider,adapter])=>{
   const previous=await db.select().from(runs).where(eq(runs.provider,provider));const oldRun=previous[0]?JSON.parse(previous[0].value):{};
-  const hours=provider==='news'?1:(provider==='cdc'||provider==='cdc-wval')?168:24;
+  const hours=provider==='news'||provider==='worldmonitor'?1:(provider==='cdc'||provider==='cdc-wval')?168:24;
   if(oldRun.success&&Date.now()-Date.parse(oldRun.success)<hours*3600000)return {provider,...oldRun,cached:true};
   try{
    const rows=await adapter();const old=await db.select().from(records).where(eq(records.provider,provider));const byId=new Map(old.map(r=>[r.id,JSON.parse(r.value)]));
@@ -77,7 +78,7 @@ export async function refreshSources(only?:'news'|'cdc-wval'){
     await db.insert(records).values({id:record.id,domain:record.domain,provider,value:JSON.stringify(record),retrieved:record.retrieved}).onConflictDoUpdate({target:records.id,set:{value:JSON.stringify(record),retrieved:record.retrieved}});
    }
    const snapshotOnly=rows.length>0&&rows.every(r=>r.status==='VERIFIED SNAPSHOT');
-   const run={status:snapshotOnly?'snapshot':(rows as any).warnings?.length?'partial':'connected',success:snapshotOnly?rows[0].retrieved:timestamp(),attempt:timestamp(),count:rows.length,warnings:(rows as any).warnings||[],message:snapshotOnly?'Runtime refresh unavailable. Dated verified source snapshots retained.':rows.length?'Source records persisted.':'Source returned no matching records.'};
+   const run={status:snapshotOnly?'snapshot':(rows as any).warnings?.length?'partial':'connected',success:snapshotOnly?rows[0].retrieved:timestamp(),attempt:timestamp(),count:rows.length,warnings:(rows as any).warnings||[],apiConnected:(rows as any).apiConnected,message:(rows as any).message||(snapshotOnly?'Runtime refresh unavailable. Dated verified source snapshots retained.':rows.length?'Source records persisted.':'Source returned no matching records.')};
    await db.insert(runs).values({provider,value:JSON.stringify(run)}).onConflictDoUpdate({target:runs.provider,set:{value:JSON.stringify(run)}});return {provider,...run};
   }catch(e:any){const run={...oldRun,status:'error',attempt:timestamp(),message:String(e.message||e)};await db.insert(runs).values({provider,value:JSON.stringify(run)}).onConflictDoUpdate({target:runs.provider,set:{value:JSON.stringify(run)}});return {provider,...run};}
  }));
