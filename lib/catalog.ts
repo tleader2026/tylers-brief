@@ -1,8 +1,13 @@
+export const sidebarGroups=['Executive Summary','U.S. LongCovid','U.S. Infrastructure','U.S. AI Progress & AI Markets','U.S. Global'] as const;
+export const unpopulatedPages=['measurements','population-health','logistics','agriculture','space-systems','capabilities','market-signals','supply-chains'] as const;
 export const pages = [
- ['today','Overview / Today','Executive Summary','Today'], ['research','Long COVID Research','Health','Research'], ['trials','Clinical Trials','Health','Trials'], ['wastewater','Exposure','Health','Exposure'],
- ['local-housing','Bastrop & Central Texas Housing','Housing & Local','Local housing'], ['national-housing','Housing','Housing & Local','Housing'], ['infrastructure','Utility Resilience','Housing & Local','Utility Resilience'],
- ['companies','AI Companies & Markets','AI & Markets','Companies & markets'], ['governance','AI Governance & Capabilities','AI & Markets','Governance & capabilities'], ['geopolitics','Geopolitics','World & Economy','Geopolitics'], ['economy','U.S. Economy & Purchasing Power','World & Economy','Economy'], ['internet','Internet','World & Economy','Internet'],
- ['connections','Cross-Domain Signals','Workspace','Connections'], ['library','Research Library & Notebook','Workspace','Library & notebook'], ['alerts','Alerts & Briefings','Workspace','Alerts & briefings'], ['settings','Sources, Data Health & Settings','Workspace','Sources & settings'],
+ ['today','Overview / Today','Executive Summary','Today'],['measurements','Measurements','Executive Summary','Measurements'],
+ ['research','Long COVID Research','U.S. LongCovid','Theories'],['trials','Clinical Trials','U.S. LongCovid','Active Trials'],['wastewater','Exposure Risk','U.S. LongCovid','Exposure Risk'],['population-health','Population Health','U.S. LongCovid','Population Health'],
+ ['national-housing','Housing','U.S. Infrastructure','Housing'],['infrastructure','Utilities','U.S. Infrastructure','Utilities'],['logistics','Logistics','U.S. Infrastructure','Logistics'],['agriculture','Agriculture','U.S. Infrastructure','Agriculture'],['space-systems','Space Systems','U.S. Infrastructure','Space Systems'],
+ ['companies','AI Companies & Markets','U.S. AI Progress & AI Markets','Companies'],['capabilities','Capabilities','U.S. AI Progress & AI Markets','Capabilities'],['governance','AI Governance','U.S. AI Progress & AI Markets','Governance'],['market-signals','Market Signals','U.S. AI Progress & AI Markets','Market Signals'],['supply-chains','Supply Chains','U.S. AI Progress & AI Markets','Supply Chains'],
+ ['geopolitics','Geopolitics','U.S. Global','Geopolitics'],['economy','U.S. Economy & Purchasing Power','U.S. Global','Economy'],['internet','Internet','U.S. Global','Internet'],
+ ['local-housing','Bastrop & Central Texas Housing','Legacy','Local housing'],
+ ['connections','Cross-Domain Signals','Workspace','Connections'],['library','Research Library & Notebook','Workspace','Library & notebook'],['alerts','Alerts & Briefings','Workspace','Alerts & briefings'],['settings','Sources, Data Health & Settings','Workspace','Sources & settings'],
 ] as const;
 export const tabs: Record<string,string[]> = {
  research:['Watchlist','Mechanisms','Biomarkers','Publications','Drug development'], trials:['Top 10','Registry','Map','Calendar','Changes'], wastewater:['Texas','Focus states','Coverage map'],

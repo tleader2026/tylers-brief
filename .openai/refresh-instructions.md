@@ -52,6 +52,11 @@ If access is unavailable, report the failure; do not change the audience.
    validate it, build, push and publish privately through Sites; do not merely
    change retrieval timestamps. Normal adapter updates need no deployment.
 
+New navigation-only sections listed in lib/catalog.ts unpopulatedPages are empty
+by the owner’s instruction. Do not populate them during maintenance or flag their
+intentional empty state as a refresh failure. Once separately populated, include
+their data sources in subsequent refreshes.
+
 ## Weekly source checklist
 
 The endpoint returns the complete known health group registry. Record a result
