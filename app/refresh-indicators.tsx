@@ -12,7 +12,7 @@ function keysFor(tile:HTMLElement,page:string,tab:string):string[]{
  if(page==='today')return /on your radar|coverage gaps/.test(text)?[]:/news/.test(text)?['news']:/thirty years/.test(text)?['fred']:['trials'];
  if(page==='wastewater')return ['cdc-wval'];
  if(page==='trials')return ['trials'];
- if(page==='research')return /watchlist/.test(text)?['research']:['pubmed'];
+ if(page==='research')return tab==='Watchlist'?[]:['pubmed'];
  if(page==='governance')return ['governance'];
  if(page==='companies')return [tab==='AI growth'?'ai-growth':tab==='Bubble risk'?'bubble':'companies'];
  if(page==='internet')return [tab==='Protocols & addressing'?'ipv6':'internet'];

@@ -2,7 +2,9 @@
 
 This Site is owner-private. Preserve that audience, user notes, saved items,
 Watchlist priorities and personal assessments, profile photo, theme and layout.
-The owner authorizes updating every data source and tile, including future additions.
+The owner authorizes updating every data source and tile, including future additions,
+EXCEPT the Long COVID Research Watchlist. That tab is explicitly exempt from
+automatic updates and refresh warnings. Leave all of its content unchanged.
 Never fabricate values or silently replace a failed feed with a healthy snapshot.
 
 ## Access and persisted health
@@ -94,9 +96,8 @@ automatically show a red tile icon. A red icon's tooltip/click explains the faul
   retain uncertainty about unverified papers and the non-exhaustive project list.
 - ipv6: lib/ipv6-snapshot.json. Official Google adoption data, real daily dates;
   percent adoption is not address-space consumption. Preserve capacity definitions.
-- research: app/research-theories.tsx. Review linked evidence for seven Watchlist
-  hypotheses; update evidence dates/limitations without changing the owner's
-  ranking or converting proposed mechanisms into demonstrated treatments.
+- research: the Long COVID Research Watchlist is EXEMPT. Do not update or
+  verify its contents as part of scheduled maintenance; do not report it as stale.
 - assets: verify public/us-states.json, county centroids, profile image and all
   locally referenced files plus externally loaded map assets. Repair broken
   assets; preserve unchanged static assets. Report unavailable map/data coverage.
