@@ -1,6 +1,6 @@
 export const pages = [
  ['today','Overview / Today','Workspace','Today'], ['research','Long COVID Research','Health','Research'], ['trials','Clinical Trials','Health','Trials'], ['wastewater','COVID & Wastewater','Health','Wastewater'],
- ['local-housing','Bastrop & Central Texas Housing','Housing & Local','Local housing'], ['national-housing','National Housing','Housing & Local','National housing'], ['infrastructure','Texas Infrastructure & Community','Housing & Local','Infrastructure'],
+ ['local-housing','Bastrop & Central Texas Housing','Housing & Local','Local housing'], ['national-housing','Housing','Housing & Local','Housing'], ['infrastructure','Texas Infrastructure & Community','Housing & Local','Infrastructure'],
  ['companies','AI Companies & Markets','AI & Markets','Companies & markets'], ['governance','AI Governance & Capabilities','AI & Markets','Governance & capabilities'], ['geopolitics','Geopolitics','World & Economy','Geopolitics'], ['economy','U.S. Economy & Purchasing Power','World & Economy','Economy'],
  ['connections','Cross-Domain Signals','Workspace','Connections'], ['library','Research Library & Notebook','Workspace','Library & notebook'], ['alerts','Alerts & Briefings','Workspace','Alerts & briefings'], ['settings','Sources, Data Health & Settings','Workspace','Sources & settings'],
 ] as const;
