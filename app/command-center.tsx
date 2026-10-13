@@ -7,7 +7,7 @@ import WastewaterChart from './wastewater-chart';
 import MetricHistory from './metric-history';
 import HousingMap from './housing-map';
 import {metricColor} from '../lib/metric-history';
-function HomeHistory({record,chart}:{record:RecordData;chart:(r:RecordData)=>React.ReactNode}){return <div className="home-history">{chart(record)}<p>{record.scope} · Public tax assessments, not a current market estimate. Last verified year: 2025.</p></div>;}
+function HomeHistory({record,chart}:{record:RecordData;chart:(r:RecordData)=>React.ReactNode}){return chart(record);}
 import WastewaterMap from './wastewater-map';
 import GeopoliticsEvents from './geopolitics-events';
 import ActivityBars from './wastewater-activity';
