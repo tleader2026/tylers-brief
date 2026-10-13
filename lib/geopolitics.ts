@@ -6,8 +6,8 @@ export function classifyEvent(title:string){
  const categories:string[]=[],matched:string[]=[];
  const match=(id:string,a:RegExp,b:RegExp)=>{const first=title.match(a),second=title.match(b);if(first&&second){categories.push(id);matched.push(first[0],second[0]);}};
  match('supply',/\b(supply.chain|shipping|ships?|ports?|strait|canal|exports?|imports?|trade|oil|gas|semiconductors?|factory|factories|Red Sea|Hormuz)\b/i,/\b(disrupt\w*|blockad\w*|clos\w*|strike\w*|restrict\w*|ban\w*|halt\w*|sanction\w*|shortage\w*|attack\w*|delay\w*|suspend\w*)\b/i);
- match('rhetoric',/\b(president|prime minister|leader|Putin|Trump|Xi|Netanyahu|Kim|Khamenei|Erdogan|Medvedev|minister)\b/i,/\b(threat\w*|ultimatum\w*|annihilat\w*|destroy\w*|wipe out|nuclear|military action|retaliat\w*|war warning)\b/i);
- match('military',/\b(military|missile\w*|weapon\w*|troops?|navy|naval|army|defen[cs]e|fighter\w*|warship\w*|submarine\w*|drone\w*|nuclear|artillery)\b/i,/\b(deploy\w*|buildup|build.up|mobiliz\w*|mobilis\w*|unveil\w*|announc\w*|procure\w*|acquir\w*|acquisition|order\w*|purchase\w*|test\w*|reinforc\w*|expan\w*|new|boost\w*|ramp\w*|launch\w*)\b/i);
+ if(/\b(war|military|nuclear|missiles?|weapons?|invasion|attack|retaliat\w*|annihilat\w*|wipe out|ultimatum|Ukraine|Russia|China|Taiwan|Iran|Israel|NATO)\b/i.test(title))match('rhetoric',/\b(president|prime minister|leader|Putin|Trump|Xi|Netanyahu|Kim|Khamenei|Erdogan|Medvedev|minister)\b/i,/\b(threat\w*|ultimatum\w*|annihilat\w*|destroy\w*|wipe out|nuclear|military action|retaliat\w*|war warning)\b/i);
+ if(!/\bTROOPS,?\s+Inc\b/i.test(title))match('military',/\b(military|missile\w*|weapon\w*|troops?|navy|naval|army|defen[cs]e|fighter\w*|warship\w*|submarine\w*|drone\w*|nuclear|artillery)\b/i,/\b(deploy\w*|buildup|build.up|mobiliz\w*|mobilis\w*|unveil\w*|announc\w*|procure\w*|acquir\w*|acquisition|order\w*|purchase\w*|test\w*|reinforc\w*|expan\w*|new|boost\w*|ramp\w*|launch\w*)\b/i);
  return {categories,matched:[...new Set(matched)]};
 }
 export function eventRecords(items:any[],discovery:string,now=new Date()):RecordData[]{

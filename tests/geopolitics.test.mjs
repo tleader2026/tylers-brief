@@ -7,6 +7,8 @@ test('Event screening requires both relevant subject and action',()=>{
  assert.deepEqual(classifyEvent('Navy unveils new missile').categories,['military']);
  assert.deepEqual(classifyEvent('President warns of heavy rain').categories,[]);
  assert.deepEqual(classifyEvent('Company announces new phone').categories,[]);
+ assert.deepEqual(classifyEvent('TROOPS, Inc. Announces Crypto Merger').categories,[]);
+ assert.deepEqual(classifyEvent('Trump threatens survival of dairy initiative').categories,[]);
 });
 test('Dated reports retain publisher, screening terms and discovery; reject unsafe or stale entries',()=>{
  const now=new Date('2026-10-12T12:00:00Z'),item={title:'Navy unveils new missile',source:'Publisher',link:'https://example.com/report',publishedAt:Date.parse('2026-10-10')};
