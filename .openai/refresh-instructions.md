@@ -20,6 +20,19 @@ If access is unavailable, report the failure; do not change the audience.
    This bypasses caches and persists adapter records and source health to D1.
 3. GET `/api/maintenance` and inspect every result. A 200 response is not proof
    that every adapter succeeded. Retry failed adapters once; retain last good data.
+   If the hosted adapter is blocked upstream, run the same source adapter/parser
+   from the cloud task environment. Fetch its documented public URLs directly
+   (a failed browser session is not proof the source is unavailable). Use the
+   tracked scripts/refresh-live.mjs fallback for news and fred first (one hidden
+   stdin JSON line with origin, supported token and scope; no credentials on disk),
+   then the source parsers in lib/news.ts, lib/geopolitics.ts, lib/internet-feed.ts or the
+   FRED CSV mapping in lib/ingest.ts. Preserve provenance and missing values.
+   Persist validated live records with POST JSON {"action":"ingest",
+   "provider":"news","records":[...],"warnings":[...]}. Supported providers:
+   news, fred, trials, pubmed, cdc, cdc-wval, worldmonitor. Never ingest dated
+   fallback snapshots as healthy live records. Include warnings for every failed
+   topic/series so partial coverage remains red. Read back the persisted health.
+   If external retrieval also fails, persist an error report and retain old data.
 4. For weekly work, open the linked source repository using the Sites skill's
    source workflow. Read all data components, source URLs and snapshots anew,
    including additions since this checklist. Review every source below.

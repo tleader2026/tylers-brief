@@ -28,10 +28,10 @@ export default function RefreshIndicators({health,page,tab}:{health:RefreshRun[]
   const root=document.querySelector('main');if(!root)return;
   const paint=()=>{
    root.querySelectorAll<HTMLElement>('.panel,.metric,.infra-stat,.infra-av-card,.company-card').forEach(tile=>{
-    const keys=keysFor(tile,page,tab);const errors=keys.flatMap(key=>{const problem=refreshProblem(health.find(r=>(r.id||r.provider)===key),key);return problem?[`${refreshGroups[key as keyof typeof refreshGroups]||key}: ${problem}`]:[]});
-    const message=errors.join('\n');let badge=tile.querySelector<HTMLButtonElement>(':scope > .refresh-error');
+    const ownKeys=keysFor(tile,page,tab);const keys=ownKeys.length?[...ownKeys,'assets']:[];const errors=keys.flatMap(key=>{const problem=refreshProblem(health.find(r=>(r.id||r.provider)===key),key);return problem?[`${refreshGroups[key as keyof typeof refreshGroups]||key}: ${problem}`]:[]});
+    const message=errors.join('\n');let badge=tile.querySelector<HTMLElement>(':scope > .refresh-error');
     if(!message){badge?.remove();tile.classList.remove('refresh-tracked-error');return;}
-    if(!badge){badge=document.createElement('button');badge.type='button';badge.className='refresh-error';badge.textContent='!';badge.addEventListener('click',()=>window.alert(badge!.title));tile.appendChild(badge);tile.classList.add('refresh-tracked-error');}
+    if(!badge){badge=document.createElement(tile.tagName==='BUTTON'?'span':'button');if(badge instanceof HTMLButtonElement)badge.type='button';else{badge.setAttribute('role','button');badge.tabIndex=0;}badge.className='refresh-error';badge.textContent='!';badge.addEventListener('click',e=>{e.stopPropagation();window.alert(badge!.title);});badge.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();e.stopPropagation();window.alert(badge!.title);}});tile.appendChild(badge);tile.classList.add('refresh-tracked-error');}
     badge.title=message;badge.setAttribute('aria-label','Refresh error. '+message);
    });
   };

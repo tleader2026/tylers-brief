@@ -1,6 +1,6 @@
 import {NextRequest,NextResponse} from 'next/server';
 import {getDb} from '../../../db';
-import {runs} from '../../../db/schema';
+import {runs,records} from '../../../db/schema';
 import {refreshSources} from '../../../lib/ingest';
 import {refreshGroups} from '../../../lib/refresh-health';
 // Shared source maintenance only. Sites dispatch enforces the owner-private
@@ -10,7 +10,18 @@ export async function GET(){try{return NextResponse.json({health:(await getDb().
 export async function POST(request:NextRequest){
  const origin=request.headers.get('origin');if(origin&&origin!==new URL(request.url).origin)return NextResponse.json({error:'Origin rejected'},{status:403});
  try{
-  const raw=await request.text();if(raw.length>30000)return NextResponse.json({error:'Report too large'},{status:413});const body=JSON.parse(raw||'{}');
+  const raw=await request.text();if(raw.length>3000000)return NextResponse.json({error:'Report too large'},{status:413});const body=JSON.parse(raw||'{}');
+  if(body.action==='ingest'){
+   const allowed=['news','fred','trials','pubmed','cdc','cdc-wval','worldmonitor'];
+   if(!allowed.includes(body.provider)||!Array.isArray(body.records)||!body.records.length||body.records.length>5000||body.records.some((r:any)=>r.provider!==body.provider||typeof r.id!=='string'||r.id.length>500||typeof r.title!=='string'||!r.title||typeof r.domain!=='string'||typeof r.date!=='string'||typeof r.url!=='string'||!r.url.startsWith('https://')||typeof r.retrieved!=='string'||!Number.isFinite(Date.parse(r.retrieved))||Date.parse(r.retrieved)>Date.now()+300000||typeof r.status!=='string'||/SNAPSHOT/i.test(r.status)))return NextResponse.json({error:'Invalid source records; dated fallback snapshots cannot become healthy live data'},{status:400});
+   const db=getDb(),prior=await db.select().from(records),owners=new Map(prior.map(r=>[r.id,r.provider]));
+   if(body.records.some((r:any)=>owners.has(r.id)&&owners.get(r.id)!==body.provider))return NextResponse.json({error:'Source record ownership mismatch'},{status:400});
+   for(const r of body.records)await db.insert(records).values({id:r.id,domain:r.domain,provider:r.provider,value:JSON.stringify(r),retrieved:r.retrieved}).onConflictDoUpdate({target:records.id,set:{value:JSON.stringify(r),retrieved:r.retrieved}});
+   const at=new Date().toISOString(),warnings=Array.isArray(body.warnings)?body.warnings.filter((w:any)=>typeof w==='string').slice(0,30):[];
+   const run={status:warnings.length?'partial':'connected',success:at,attempt:at,count:body.records.length,warnings,message:'Source data retrieved and validated by the cloud updater; persisted to the dashboard.'};
+   await db.insert(runs).values({provider:body.provider,value:JSON.stringify(run)}).onConflictDoUpdate({target:runs.provider,set:{value:JSON.stringify(run)}});
+   return NextResponse.json({saved:true,health:{id:body.provider,...run}});
+  }
   if(body.action==='begin'){
    const db=getDb(),old=await db.select().from(runs),at=new Date().toISOString();
    for(const key of body.scope==='news'?['news']:Object.keys(refreshGroups)){
