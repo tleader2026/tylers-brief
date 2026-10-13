@@ -61,6 +61,10 @@ automatically show a red tile icon. A red icon's tooltip/click explains the faul
 - trials, pubmed, fred, cdc, cdc-wval, news, worldmonitor: existing live adapters
   in lib/ingest.ts. Inspect partial warnings per series/topic and snapshots.
   Verify newest available releases; preserve units, missing values and evidence.
+- governance: review all source-linked policy, capability and incident records,
+  including manual records. Missing live coverage must remain red.
+- reventure: verify authorized public housing data access; a working source link
+  alone is not a connected data feed. Retain an error if it cannot supply data.
 - companies: lib/company-reports.ts and app/company-dashboard.tsx. Review all
   seven companies' latest earnings, financial disclosures and attributed public
   revenue claims. Distinguish annual revenue, run rate, estimates and forecasts.

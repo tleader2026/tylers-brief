@@ -1,6 +1,6 @@
 export const refreshGroups = {
  news:'News',trials:'Clinical trials',pubmed:'Research publications',fred:'Economic and housing series',cdc:'Raw wastewater', 'cdc-wval':'Wastewater activity',worldmonitor:'Geopolitics',
- companies:'Company reports', 'ai-growth':'AI adoption',bubble:'Bubble risk',property:'Home assessments',housing:'Housing heat map',zillow:'State home prices',water:'Water and reservoirs',electricity:'Electricity and power construction',centers:'Data center construction',av:'Autonomous vehicles',space:'Space infrastructure',internet:'Internet research and news',ipv6:'Internet protocol adoption',research:'Watchlist evidence',assets:'Dashboard assets'
+ governance:'AI governance sources',reventure:'Reventure housing data',companies:'Company reports', 'ai-growth':'AI adoption',bubble:'Bubble risk',property:'Home assessments',housing:'Housing heat map',zillow:'State home prices',water:'Water and reservoirs',electricity:'Electricity and power construction',centers:'Data center construction',av:'Autonomous vehicles',space:'Space infrastructure',internet:'Internet research and news',ipv6:'Internet protocol adoption',research:'Watchlist evidence',assets:'Dashboard assets'
 } as const;
 export type RefreshKey=keyof typeof refreshGroups;
 export type RefreshRun={id?:string;provider?:string;status:string;success?:string;attempt?:string;message?:string;warnings?:string[]};

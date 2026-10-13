@@ -13,13 +13,14 @@ function keysFor(tile:HTMLElement,page:string,tab:string):string[]{
  if(page==='wastewater')return ['cdc-wval'];
  if(page==='trials')return ['trials'];
  if(page==='research')return /watchlist/.test(text)?['research']:['pubmed'];
+ if(page==='governance')return ['governance'];
  if(page==='companies')return [tab==='AI growth'?'ai-growth':tab==='Bubble risk'?'bubble':'companies'];
  if(page==='internet')return [tab==='Protocols & addressing'?'ipv6':'internet'];
  if(page==='infrastructure')return [tab==='Water'?'water':tab==='Electricity'?'electricity':tab==='Data centers'?'centers':tab==='Space infrastructure'?'space':'av'];
- if(page==='national-housing'||page==='local-housing')return [tab==='Regional comparison'?'zillow':tab==='Reventure'?'zillow':'housing'];
+ if(page==='national-housing'||page==='local-housing')return [tab==='Regional comparison'?'zillow':tab==='Reventure'?'reventure':'housing'];
  if(page==='economy')return ['fred'];
  if(page==='geopolitics')return ['worldmonitor'];
- return [];
+ return ['library','alerts','connections','settings'].includes(page)?[]:['unregistered'];
 }
 // One decorator covers existing and newly added data tiles. A tile can declare
 // data-refresh-sources for narrower dependencies; otherwise its page supplies them.
