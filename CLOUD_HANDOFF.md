@@ -40,3 +40,5 @@ Trust & Safety is a placeholder page under U.S. ASI Progress, ready for a later 
 Trust & Safety is implemented locally with eight subtabs and a separate typed calculation module (`lib/trust-safety.ts`). It remains unpublished by explicit task instruction; do not mistake local implementation for the current live placeholder. See README local-build notes. Google estimate status is retained in the evidence ledger but omitted from the benchmark card. No operational telemetry is bundled or uploaded.
 
 Publication correction: use a fresh archive filename for each source version and verify the live Trust & Safety route after deployment. Reusing a prior package path can upload a cached archive; the completed page must show its eight subtabs, not the placeholder.
+
+Live verification remains required: the combined publisher reported successful versions 145–147 while the browser still loaded the placeholder. The local source and build were verified independently. Diagnose archive ingestion and deployed asset routing before treating publication metadata as proof of the page.
