@@ -10,7 +10,7 @@ export const pages = [
  ['connections','Cross-Domain Signals','Workspace','Connections'],['library','Research Library & Notebook','Workspace','Library & notebook'],['alerts','Alerts & Briefings','Workspace','Alerts & briefings'],['settings','Sources, Data Health & Settings','Workspace','Sources & settings'],
 ] as const;
 export const tabs: Record<string,string[]> = {
- labor:['Employment Overview','Beyond U-3','Stable Work & Income','Tech Hiring','Economic Consequences','Methods & Sources'],
+ labor:['Employment Overview','Beyond U-3','Stable Work & Income','Tech Hiring','Methods & Sources'],
  'population-health':['Overview','Acute Illness','Chronic Illness','Functional Capacity','Disability & Work','Leading Conditions & Drivers','Long COVID & Post-Infectious Disease','Historical Trends','Economic & National Resilience','Sources & Methods'],
  research:['Watchlist','Mechanisms','Biomarkers','Publications','Drug development'], trials:['Top 10','Registry','Map','Calendar','Changes'], wastewater:['U.S. Map','Texas','Other States'],
  'local-housing':['Market trends','Reventure','Affordability'], 'national-housing':['Market trends','Reventure','Regional comparison','Affordability'], companies:['Company landscape','AI growth','Bubble risk'],
