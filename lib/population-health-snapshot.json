@@ -14816,7 +14816,7 @@
           "period": "2025",
           "releaseDate": "Not stated on FastStats",
           "source": "NCHS adolescent health",
-          "method": "https://www.cdc.gov/nchs/nhis/child-summary-health-statistics.html",
+          "method": "https://wwwn.cdc.gov/NHISDataQueryTool/SHS_child/index.html",
           "uncertainty": "Confidence intervals not published in FastStats extract; see original NHIS tables.",
           "limits": "Source-specific child ages. No adult extrapolation; annual retrospective survey, not live school attendance.",
           "refresh": "Weekly Friday 11 p.m. America/Chicago source verification; source publication cadence remains independent.",
@@ -14825,7 +14825,7 @@
           "share": 2.3
         },
         "source": "NCHS adolescent health",
-        "methodology": "https://www.cdc.gov/nchs/nhis/child-summary-health-statistics.html",
+        "methodology": "https://wwwn.cdc.gov/NHISDataQueryTool/SHS_child/index.html",
         "limitations": "Source-specific child ages. No adult extrapolation; annual retrospective survey, not live school attendance.",
         "frequency": "Annual / dated report",
         "maxAgeDays": 450
@@ -14864,7 +14864,7 @@
           "period": "2025",
           "releaseDate": "Not stated on FastStats",
           "source": "NCHS adolescent health",
-          "method": "https://www.cdc.gov/nchs/nhis/child-summary-health-statistics.html",
+          "method": "https://wwwn.cdc.gov/NHISDataQueryTool/SHS_child/index.html",
           "uncertainty": "Confidence intervals not published in FastStats extract; see original NHIS tables.",
           "limits": "Source-specific child ages. No adult extrapolation; annual retrospective survey, not live school attendance.",
           "refresh": "Weekly Friday 11 p.m. America/Chicago source verification; source publication cadence remains independent.",
@@ -14873,7 +14873,7 @@
           "share": 6.7
         },
         "source": "NCHS adolescent health",
-        "methodology": "https://www.cdc.gov/nchs/nhis/child-summary-health-statistics.html",
+        "methodology": "https://wwwn.cdc.gov/NHISDataQueryTool/SHS_child/index.html",
         "limitations": "Source-specific child ages. No adult extrapolation; annual retrospective survey, not live school attendance.",
         "frequency": "Annual / dated report",
         "maxAgeDays": 450
