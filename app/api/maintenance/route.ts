@@ -12,7 +12,7 @@ export async function POST(request:NextRequest){
  try{
   const raw=await request.text();if(raw.length>3000000)return NextResponse.json({error:'Report too large'},{status:413});const body=JSON.parse(raw||'{}');
   if(body.action==='ingest'){
-   const allowed=['market-volatility','market-etfs','market-options','news','fred','trials','pubmed','cdc','cdc-wval','worldmonitor','logistics-bts','logistics-fred','logistics-gscpi','logistics-port','logistics-marad','logistics-reports','logistics-exposure'];
+   const allowed=['agriculture-prices','agriculture-drought','agriculture-progress','agriculture-wasde','agriculture-water','agriculture-income','agriculture-biosecurity','market-volatility','market-etfs','market-options','news','fred','trials','pubmed','cdc','cdc-wval','worldmonitor','logistics-bts','logistics-fred','logistics-gscpi','logistics-port','logistics-marad','logistics-reports','logistics-exposure'];
    if(!allowed.includes(body.provider)||!Array.isArray(body.records)||!body.records.length||body.records.length>5000||body.records.some((r:any)=>r.provider!==body.provider||typeof r.id!=='string'||r.id.length>500||typeof r.title!=='string'||!r.title||typeof r.domain!=='string'||typeof r.date!=='string'||typeof r.url!=='string'||!r.url.startsWith('https://')||typeof r.retrieved!=='string'||!Number.isFinite(Date.parse(r.retrieved))||Date.parse(r.retrieved)>Date.now()+300000||typeof r.status!=='string'||/SNAPSHOT/i.test(r.status)))return NextResponse.json({error:'Invalid source records; dated fallback snapshots cannot become healthy live data'},{status:400});
    const db=getDb(),prior=await db.select().from(records),owners=new Map(prior.map(r=>[r.id,r.provider]));
    if(body.records.some((r:any)=>owners.has(r.id)&&owners.get(r.id)!==body.provider))return NextResponse.json({error:'Source record ownership mismatch'},{status:400});
@@ -30,7 +30,7 @@ export async function POST(request:NextRequest){
    }
    return NextResponse.json({started:at});
   }
-  if(body.action==='refresh')return NextResponse.json({health:await refreshSources(body.scope==='news'?'news':body.scope==='market'?'market':undefined,true)});
+  if(body.action==='refresh')return NextResponse.json({health:await refreshSources(body.scope==='news'?'news':body.scope==='market'?'market':body.scope==='agriculture'?'agriculture':undefined,true)});
   if(body.action!=='report'||!Array.isArray(body.reports)||body.reports.length>30)return NextResponse.json({error:'Invalid maintenance report'},{status:400});
   const reports=body.reports;
   if(reports.some((r:any)=>!Object.hasOwn(refreshGroups,r.key)||!['connected','error','partial'].includes(r.status)||typeof r.message!=='string'||r.message.length>2000||r.status==='connected'&&(!Array.isArray(r.evidence)||!r.evidence.length||r.evidence.some((u:any)=>typeof u!=='string'||!u.startsWith('https://')))))return NextResponse.json({error:'Successful checks require source evidence URLs'},{status:400});
