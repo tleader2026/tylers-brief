@@ -1,5 +1,5 @@
 export const sidebarGroups=['Executive Summary','U.S. LongCovid','U.S. Infrastructure','U.S. ASI Progress','U.S. ASI Markets','U.S. Global'] as const;
-export const unpopulatedPages=['measurements','capabilities','robotics','market-signals','supply-chains'] as const;
+export const unpopulatedPages=['measurements','robotics','market-signals','supply-chains'] as const;
 export const pages = [
  ['today','Overview / Today','Executive Summary','Today'],['measurements','Measurements','Executive Summary','Measurements'],
  ['research','Long COVID Research','U.S. LongCovid','Theories'],['trials','Clinical Trials','U.S. LongCovid','Active Trials'],['wastewater','Exposure Risk','U.S. LongCovid','Exposure Risk'],['population-health','U.S. Population Health & Human Capacity','U.S. LongCovid','Population Health'],
@@ -10,6 +10,7 @@ export const pages = [
  ['connections','Cross-Domain Signals','Workspace','Connections'],['library','Research Library & Notebook','Workspace','Library & notebook'],['alerts','Alerts & Briefings','Workspace','Alerts & briefings'],['settings','Sources, Data Health & Settings','Workspace','Sources & settings'],
 ] as const;
 export const tabs: Record<string,string[]> = {
+ capabilities:['Executive Overview','Capability Frontier','Memory, Agents & Product Utility','Compute, Energy & Internet','U.S. Continuity & Dependencies','Autonomous Science & Human Pathome','Robotics & Industrial Execution','Governance, Security & Human Agency','Economics & Human Outcomes','Thesis Lab & Scenarios','Evidence & Measurement Registry'],
  'trust-safety':['Executive scorecard','Internet-scale benchmarks','Threat surfaces','Investigation funnel','AI & agentic abuse','Defense economics','Distributed immunity','Evidence & methodology'],
  labor:['Employment Overview','Beyond U-3','Stable Work & Income','Tech Hiring','Methods & Sources'],
  'population-health':['Overview','Acute Illness','Chronic Illness','Functional Capacity','Disability & Work','Leading Conditions & Drivers','Long COVID & Post-Infectious Disease','Historical Trends','Economic & National Resilience','Sources & Methods'],

@@ -1,0 +1,566 @@
+{
+  "source": "https://metr.org/assets/benchmark_results_1_1.yaml",
+  "retrieved": "2026-10-14",
+  "pageUpdated": "2026-09-08",
+  "benchmark": "METR-Horizon-v1.1",
+  "taskVersion": "799cc9c4b4483a93fc3445623a49ea1bd74fdeb2",
+  "sourceSHA256": "aae31902b0519a4da73e16643915e5e8aca13cd3315c3aac893ce3d6dfe92ad9",
+  "records": [
+    {
+      "id": "claude_3_5_sonnet_20240620_inspect",
+      "releaseDate": "2024-06-20",
+      "p50": {
+        "estimate": 11.395377,
+        "low": 5.489734,
+        "high": 22.384214
+      },
+      "p80": {
+        "estimate": 1.671757,
+        "low": 0.57927,
+        "high": 4.573519
+      },
+      "score": 0.401502,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "claude_3_5_sonnet_20241022_inspect",
+      "releaseDate": "2024-10-22",
+      "p50": {
+        "estimate": 20.522872,
+        "low": 10.144026,
+        "high": 40.82028
+      },
+      "p80": {
+        "estimate": 2.595677,
+        "low": 0.89379,
+        "high": 7.363864
+      },
+      "score": 0.452356,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "claude_3_7_sonnet_inspect",
+      "releaseDate": "2025-02-24",
+      "p50": {
+        "estimate": 60.388937,
+        "low": 33.006168,
+        "high": 104.226017
+      },
+      "p80": {
+        "estimate": 12.09179,
+        "low": 4.575608,
+        "high": 28.889879
+      },
+      "score": 0.558217,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "claude_3_opus_inspect",
+      "releaseDate": "2024-03-04",
+      "p50": {
+        "estimate": 3.952262,
+        "low": 1.706313,
+        "high": 8.76484
+      },
+      "p80": {
+        "estimate": 0.638973,
+        "low": 0.190491,
+        "high": 2.118276
+      },
+      "score": 0.294753,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "claude_4_1_opus_inspect",
+      "releaseDate": "2025-08-05",
+      "p50": {
+        "estimate": 100.472004,
+        "low": 59.272391,
+        "high": 159.451918
+      },
+      "p80": {
+        "estimate": 23.455761,
+        "low": 10.538456,
+        "high": 47.785951
+      },
+      "score": 0.615713,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "claude_4_opus_inspect",
+      "releaseDate": "2025-05-22",
+      "p50": {
+        "estimate": 100.366123,
+        "low": 59.994073,
+        "high": 163.454074
+      },
+      "p80": {
+        "estimate": 20.429752,
+        "low": 8.483125,
+        "high": 41.937268
+      },
+      "score": 0.615452,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "claude_opus_4_5_inspect",
+      "releaseDate": "2025-11-24",
+      "p50": {
+        "estimate": 292.994594,
+        "low": 161.717714,
+        "high": 623.704698
+      },
+      "p80": {
+        "estimate": 49.430584,
+        "low": 20.660485,
+        "high": 104.641318
+      },
+      "score": 0.73007,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "claude_opus_4_6_inspect",
+      "releaseDate": "2026-02-05",
+      "p50": {
+        "estimate": 718.80683,
+        "low": 316.685725,
+        "high": 3633.786163
+      },
+      "p80": {
+        "estimate": 69.874587,
+        "low": 27.026521,
+        "high": 170.437873
+      },
+      "score": 0.788644,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "davinci_002",
+      "releaseDate": "2020-05-28",
+      "p50": {
+        "estimate": 0.144057,
+        "low": 0.093319,
+        "high": 0.221209
+      },
+      "p80": {
+        "estimate": 0.056238,
+        "low": 0.034813,
+        "high": 0.105813
+      },
+      "score": 0.161869,
+      "scaffolds": [
+        "modular-public",
+        "null"
+      ]
+    },
+    {
+      "id": "gpt_5_3_codex",
+      "releaseDate": "2026-02-05",
+      "p50": {
+        "estimate": 349.530732,
+        "low": 194.913134,
+        "high": 816.351994
+      },
+      "p80": {
+        "estimate": 54.739407,
+        "low": 22.361504,
+        "high": 122.058963
+      },
+      "score": 0.745439,
+      "scaffolds": [
+        "mtb/start_metr_task,triframe_inspect/triframe_agent",
+        "ai_rd_fix_embedding/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "re_bench_common/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "metr_tasks_swaa/init_solver,generate",
+        "triframe_inspect/triframe_agent"
+      ]
+    },
+    {
+      "id": "gemini_3_pro",
+      "releaseDate": "2025-11-18",
+      "p50": {
+        "estimate": 224.325884,
+        "low": 139.565157,
+        "high": 379.235434
+      },
+      "p80": {
+        "estimate": 54.142849,
+        "low": 25.650451,
+        "high": 103.295501
+      },
+      "score": 0.709822,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "gemini_3_1_pro",
+      "releaseDate": "2026-02-19",
+      "p50": {
+        "estimate": 384.147435,
+        "low": 233.50073,
+        "high": 694.750898
+      },
+      "p80": {
+        "estimate": 89.801503,
+        "low": 52.025934,
+        "high": 158.618017
+      },
+      "score": 0.77035,
+      "scaffolds": [
+        "mtb/start_metr_task,triframe_inspect/triframe_agent",
+        "ai_rd_fix_embedding/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "re_bench_common/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "metr_tasks_swaa/init_solver,generate",
+        "triframe_inspect/triframe_agent"
+      ]
+    },
+    {
+      "id": "gpt2",
+      "releaseDate": "2019-02-14",
+      "p50": {
+        "estimate": 0.053778,
+        "low": 0.009994,
+        "high": 0.141825
+      },
+      "p80": {
+        "estimate": 0.0128,
+        "low": 0.001589,
+        "high": 0.068612
+      },
+      "score": 0.101046,
+      "scaffolds": [
+        "null"
+      ]
+    },
+    {
+      "id": "gpt_3_5_turbo_instruct",
+      "releaseDate": "2022-03-15",
+      "p50": {
+        "estimate": 0.599247,
+        "low": 0.255148,
+        "high": 1.115905
+      },
+      "p80": {
+        "estimate": 0.25538,
+        "low": 0.141649,
+        "high": 0.492933
+      },
+      "score": 0.214611,
+      "scaffolds": [
+        "modular-public",
+        "null"
+      ]
+    },
+    {
+      "id": "gpt_4",
+      "releaseDate": "2023-03-14",
+      "p50": {
+        "estimate": 3.987428,
+        "low": 1.93292,
+        "high": 7.995283
+      },
+      "p80": {
+        "estimate": 0.889561,
+        "low": 0.342984,
+        "high": 2.523746
+      },
+      "score": 0.293044,
+      "scaffolds": [
+        "modular-public",
+        "null"
+      ]
+    },
+    {
+      "id": "gpt_4_1106_inspect",
+      "releaseDate": "2023-11-06",
+      "p50": {
+        "estimate": 4.044959,
+        "low": 1.866859,
+        "high": 8.443226
+      },
+      "p80": {
+        "estimate": 0.783032,
+        "low": 0.276599,
+        "high": 2.358414
+      },
+      "score": 0.28905,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "gpt_4_turbo_inspect",
+      "releaseDate": "2024-04-09",
+      "p50": {
+        "estimate": 3.732787,
+        "low": 1.980046,
+        "high": 6.736613
+      },
+      "p80": {
+        "estimate": 0.927933,
+        "low": 0.428277,
+        "high": 2.196806
+      },
+      "score": 0.271786,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "gpt_4o_inspect",
+      "releaseDate": "2024-05-13",
+      "p50": {
+        "estimate": 6.991195,
+        "low": 4.001482,
+        "high": 12.905741
+      },
+      "p80": {
+        "estimate": 1.267009,
+        "low": 0.562997,
+        "high": 3.01517
+      },
+      "score": 0.338424,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "gpt_5_1_codex_max_inspect",
+      "releaseDate": "2025-11-19",
+      "p50": {
+        "estimate": 223.714694,
+        "low": 134.31077,
+        "high": 396.206723
+      },
+      "p80": {
+        "estimate": 50.632499,
+        "low": 27.30204,
+        "high": 88.365435
+      },
+      "score": 0.708301,
+      "scaffolds": [
+        "mtb/start_metr_task,triframe_inspect/triframe_agent",
+        "ai_rd_fix_embedding/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "re_bench_common/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "metr_tasks_swaa/init_solver,generate",
+        "triframe_inspect/triframe_agent"
+      ]
+    },
+    {
+      "id": "gpt_5_2",
+      "releaseDate": "2025-12-11",
+      "p50": {
+        "estimate": 352.249302,
+        "low": 198.067494,
+        "high": 815.177445
+      },
+      "p80": {
+        "estimate": 66.002649,
+        "low": 31.665111,
+        "high": 131.730719
+      },
+      "score": 0.752875,
+      "scaffolds": [
+        "mtb/start_metr_task,triframe_inspect/triframe_agent",
+        "ai_rd_fix_embedding/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "re_bench_common/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "metr_tasks_swaa/init_solver,generate",
+        "triframe_inspect/triframe_agent"
+      ]
+    },
+    {
+      "id": "gpt_5_2025_08_07_inspect",
+      "releaseDate": "2025-08-07",
+      "p50": {
+        "estimate": 203.012577,
+        "low": 112.641357,
+        "high": 405.551565
+      },
+      "p80": {
+        "estimate": 38.312431,
+        "low": 19.184874,
+        "high": 70.093125
+      },
+      "score": 0.693697,
+      "scaffolds": [
+        "mtb/start_metr_task,triframe_inspect/triframe_agent",
+        "ai_rd_fix_embedding/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "re_bench_common/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "metr_tasks_swaa/init_solver,generate",
+        "triframe_inspect/triframe_agent"
+      ]
+    },
+    {
+      "id": "gpt_5_4",
+      "releaseDate": "2026-03-05",
+      "p50": {
+        "estimate": 341.735276,
+        "low": 186.581591,
+        "high": 768.779526
+      },
+      "p80": {
+        "estimate": 53.877851,
+        "low": 23.957027,
+        "high": 108.679232
+      },
+      "score": 0.743443,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    },
+    {
+      "id": "o1_inspect",
+      "releaseDate": "2024-12-05",
+      "p50": {
+        "estimate": 38.831588,
+        "low": 21.164512,
+        "high": 64.95249
+      },
+      "p80": {
+        "estimate": 7.090121,
+        "low": 3.036033,
+        "high": 16.640636
+      },
+      "score": 0.510512,
+      "scaffolds": [
+        "mtb/start_metr_task,triframe_inspect/triframe_agent",
+        "ai_rd_fix_embedding/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "re_bench_common/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "metr_tasks_swaa/init_solver,generate",
+        "triframe_inspect/triframe_agent"
+      ]
+    },
+    {
+      "id": "o1_preview",
+      "releaseDate": "2024-09-12",
+      "p50": {
+        "estimate": 20.326586,
+        "low": 11.716193,
+        "high": 33.379877
+      },
+      "p80": {
+        "estimate": 4.420545,
+        "low": 2.012646,
+        "high": 8.912444
+      },
+      "score": 0.451441,
+      "scaffolds": [
+        "duet",
+        "null"
+      ]
+    },
+    {
+      "id": "o3_inspect",
+      "releaseDate": "2025-04-16",
+      "p50": {
+        "estimate": 119.732634,
+        "low": 74.615398,
+        "high": 190.943818
+      },
+      "p80": {
+        "estimate": 29.981603,
+        "low": 15.127348,
+        "high": 57.823511
+      },
+      "score": 0.636235,
+      "scaffolds": [
+        "mtb/start_metr_task,triframe_inspect/triframe_agent",
+        "ai_rd_fix_embedding/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "re_bench_common/init_solver,use_tools,triframe_inspect/triframe_agent",
+        "metr_tasks_swaa/init_solver,generate",
+        "triframe_inspect/triframe_agent"
+      ]
+    },
+    {
+      "id": "claude_mythos_preview_early_inspect",
+      "releaseDate": "2026-04-07",
+      "p50": {
+        "estimate": 1044.780145,
+        "low": 508.876789,
+        "high": 3304.261235
+      },
+      "p80": {
+        "estimate": 185.911829,
+        "low": 97.30292,
+        "high": 398.514614
+      },
+      "score": 0.85205,
+      "scaffolds": [
+        "mtb/start_metr_task,metr_agents/react",
+        "ai_rd_fix_embedding/init_solver,use_tools,metr_agents/react",
+        "re_bench_common/init_solver,use_tools,metr_agents/react",
+        "metr_tasks_swaa/init_solver,generate",
+        "metr_agents/react"
+      ]
+    }
+  ]
+}
