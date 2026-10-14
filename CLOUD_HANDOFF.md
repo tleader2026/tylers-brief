@@ -18,7 +18,7 @@ Executive Summary: Today, Measurements.
 U.S. LongCovid: Theories, Active Trials, Exposure Risk, Population Health.
 U.S. Infrastructure: Housing, Utilities, Logistics, Agriculture, Space Systems.
 U.S. ASI Progress: Capabilities, Governance, Robotics.
-U.S. ASI Markets: Companies, Market Signals, Supply Chains.
+U.S. ASI Markets: Labor, Companies, Market Signals, Supply Chains.
 U.S. Global: Geopolitics, Economy, Internet.
 
 Robotics is a new placeholder below Governance, ready for a later build-out. Population Health is nationally focused, with 10 subtabs after removal of Recovery & Research. It has source-backed metrics and honest placeholders. Repeated explanatory cards removed at the user's request must not be restored. Chronic Illness titles start with "Americans with". Health figures use red for adverse burden and green for health/participation/support; administrative changes do not imply recovery.
@@ -30,3 +30,7 @@ Companies are grouped into AI Pillars and AI Startups, ordered by positive opera
 Use the Sites plugin workflow to synchronize, build, save, and deploy to the retained project when it is available. A GitHub push alone does not deploy this Sites app or transfer its database/scheduler credentials. Preserve owner-private access. The existing deployment continues operating independently of this repository.
 
 Bundled snapshots and static assets are included. Hosted user notes, saved views, record revision history and cloud schedules must be exported/reconnected separately for a migration to another host. Do not make private user data public. No authentication token is included in this repository.
+
+## Labor module
+
+Labor has six national subtabs: Employment Overview, Beyond U-3, Stable Work & Income, Tech Hiring, Economic Consequences, Methods & Sources. My Career is intentionally omitted. Public BLS/FRED series begin in 2022; annual CPS occupation/desire tables are dated 2025 extracts with the missing-October caveat. Refresh uses labor-fred through the existing maintenance flow. `scripts/collect-labor.mjs` refreshes the bundled baseline. The historical broader-unemployment assertion is an owner-scoped runtime secret (`LABOR_ASSERTION_JSON`), excluded from source and public exports. No career history, compensation or application log is included. Missing person-level adequacy, ad histories and causal consequence datasets stay explicitly unavailable.
