@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {sourceChanges} from '../lib/changes.ts';
+test('retrieval timestamp alone does not create a development',()=>{assert.equal(sourceChanges({title:'trial',retrieved:'a'},{title:'trial',retrieved:'b'}),null);});
+test('trial status and endpoints retain field-level before and after values',()=>{const old={title:'test fixture',status:'RECRUITING',details:{endpoint:'fatigue'}},current={...old,status:'COMPLETED',details:{endpoint:'cognition'}};const diff=sourceChanges(old,current);assert.deepEqual(diff.fields,['status','details']);assert.equal(diff.before.status,'RECRUITING');assert.equal(diff.after.details.endpoint,'cognition');});
+test('source revision records changed observations including missing values',()=>{const a={series:[{date:'2026-01-01',value:5}]},b={series:[{date:'2026-01-01',value:null}]};assert.deepEqual(sourceChanges(a,b).fields,['series']);});
