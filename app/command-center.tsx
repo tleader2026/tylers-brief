@@ -1,6 +1,7 @@
 'use client';
 
 import MarketPulse from './market-pulse';
+import EnergyPrices from './energy-prices';
 
 import BubbleRisk from './bubble-risk';
 
@@ -258,7 +259,7 @@ export default function CommandCenter(){
 
   <div className="welcome"><div><span className="eyebrow">YOUR PERSONAL INTELLIGENCE WORKSPACE</span><h1>Weekly Snapshot</h1><p>Health, home, technology and the wider world. Connected by evidence.</p></div><div className="date-block"><span>{new Date().toLocaleDateString('en-US',{timeZone:'America/Chicago',weekday:'long'})}</span><strong>{new Date().toLocaleDateString('en-US',{timeZone:'America/Chicago',month:'long',day:'numeric'})}</strong><span>Central time</span></div></div>
 
-  <MarketPulse records={records} open={open}/>
+  <EnergyPrices records={records} open={open}/><MarketPulse records={records} open={open}/>
 
   <div className="metrics">{['fred:CPIAUCSL','fred:UNRATE','fred:MORTGAGE30US','fred:USSTHPI'].map((id,i)=>{const r=select(id);return <button className="metric cpi-metric" key={id} onClick={()=>r?open(r):router.push('/settings')}><div className="eyebrow">{['CONSUMER PRICES','U.S. UNEMPLOYMENT','30-YEAR MORTGAGE','U.S. HOME PRICE INDEX'][i]}<ArrowUpRight size={14}/></div><strong style={{color:metricColor(r,true)}}>{number(r?.value)}{r?.units==='Percent'?<small>%</small>:null}</strong><p>{r?.status==='VERIFIED SNAPSHOT'?'Snapshot · ':''}{r?`${r.date} · ${r.units}`:'Awaiting source · no observation'}</p><span className="metric-line"/></button>;})}</div>
 

@@ -130,3 +130,5 @@ details{padding:12px 0;border-bottom:1px solid var(--border);font-size:12px}summ
 
 
 .metric-good{color:#8ce0bd!important}.metric-danger{color:#ff969e!important}.metric-neutral{color:#fff6de!important}
+
+.energy-price{min-height:190px}.energy-price>small{display:block;font-size:11px;line-height:1.5;color:var(--muted)}.energy-price .energy-change{font-size:11px;line-height:1.5}.energy-price strong small{font-size:13px;letter-spacing:0}
