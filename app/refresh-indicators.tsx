@@ -4,7 +4,7 @@ import {refreshGroups,refreshProblem,type RefreshRun} from '../lib/refresh-healt
 function keysFor(tile:HTMLElement,page:string,tab:string):string[]{
  if(tile.matches('.unpopulated-section')||tile.dataset.refreshStatic==='true')return [];
  const explicit=tile.dataset.refreshSources;if(explicit)return explicit.split(',');
- if(page==='labor')return ['labor-fred'];
+ if(page==='labor'||page==='tech-jobs')return ['labor-fred'];
  if(page==='national-housing'&&tab==='Smart Upgrades')return ['housing-smart'];
  const text=((tile.querySelector('h2,h3,h4')||tile.querySelector('.eyebrow'))?.textContent||'').toLowerCase();
  if(tile.matches('.news-tile'))return ['news'];

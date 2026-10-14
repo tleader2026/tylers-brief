@@ -1,7 +1,9 @@
+import {techSeries} from './tech-jobs.ts';
 export type LaborPoint={date:string;value:number|null};
 export function laborDisplay(value:number|null|undefined,unit:string){return {value:value==null?null:unit.startsWith('Thousands of ')?value*1000:value,unit:unit.startsWith('Thousands of ')?unit.replace('Thousands of ',''):unit};}
 export type LaborMetric={id:string;title:string;unit:string;sa:string;frequency:string;group:string;population:string;limit:string;direction:'bad'|'good'|'neutral';series:LaborPoint[];retrieved:string;release:string|null;error?:string};
 export const laborDefinitions=[
+ ...techSeries,
  ['UNRATE','Official unemployment · U-3','%','SA','Monthly','overview','Civilian labor force, age 16+','Active search in last four weeks and available; temporary layoff exception','bad'],
  ['U4RATE','Unemployment plus discouraged · U-4','%','SA','Monthly','beyond','Labor force plus discouraged workers','D is a subset of M; outside-labor-force additions enter denominator','bad'],
  ['U5RATE','Unemployment plus marginal attachment · U-5','%','SA','Monthly','beyond','Labor force plus marginally attached','M includes D; do not add both','bad'],
