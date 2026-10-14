@@ -264,10 +264,6 @@ export default function CommandCenter(){
 
   <NewsTile records={records} health={health.find(h=>h.id=="news")} busy={newsBusy||busy} onRefresh={refreshNews} saved={state.saved} onSave={save}/>
 
-  <div className="summary-support">
-
-  <div className="right-stack"><section className="panel"><div className="panel-head"><h3>On your radar</h3><span className="eyebrow">Focus areas</span></div>{[['research','Long COVID evidence','Treatments, mechanisms, responder groups'],['trials','Clinical trial opportunities','Recruitment and registry changes'],['local-housing','Bastrop & Smithville','Housing costs and property questions'],['companies','AI’s economic footprint','Capital, adoption and durability']].map(([id,title,text])=>{const Icon=icons[id];return <Link prefetch={false} className="radar" href={'/'+id} key={id}><span className={'radar-icon '+id}><Icon size={19}/></span><div><strong>{title}</strong><p>{text}</p></div><ChevronRight size={16}/></Link>;})}</section><section className="panel coverage"><div className="panel-head"><h3>Coverage gaps</h3><span className="badge amber">{gapSources.length} to review</span></div><p>Local sale prices, private-company financials and verified event feeds need curated sources. Texas wastewater records retain their source-listed service areas.</p><Link prefetch={false} href="/settings">Review source health <ArrowUpRight size={14}/></Link></section></div></div>
-
   <div className="section-label"><h2>Upcoming milestones</h2><Link prefetch={false} href="/trials?tab=Calendar">Trial calendar <ArrowUpRight size={14}/></Link></div>{calendar(all.filter(r=>r.domain==='trials'))}
 
  
