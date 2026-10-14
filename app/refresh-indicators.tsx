@@ -5,6 +5,7 @@ function keysFor(tile:HTMLElement,page:string,tab:string):string[]{
  if(tile.matches('.unpopulated-section')||tile.dataset.refreshStatic==='true')return [];
  const explicit=tile.dataset.refreshSources;if(explicit)return explicit.split(',');
  if(page==='labor')return ['labor-fred'];
+ if(page==='national-housing'&&tab==='Smart Upgrades')return ['housing-smart'];
  const text=((tile.querySelector('h2,h3,h4')||tile.querySelector('.eyebrow'))?.textContent||'').toLowerCase();
  if(tile.matches('.news-tile'))return ['news'];
  if(/consumer price|unemployment|mortgage|house price index|home price index|thirty years|30 years/.test(text)||tile.matches('.metric'))return ['fred'];
@@ -33,7 +34,7 @@ export default function RefreshIndicators({health,page,tab}:{health:RefreshRun[]
  useEffect(()=>{
   const root=document.querySelector('main');if(!root)return;
   const paint=()=>{
-   root.querySelectorAll<HTMLElement>('.panel,.metric,.infra-stat,.infra-av-card,.company-card').forEach(tile=>{
+   root.querySelectorAll<HTMLElement>('.panel,.metric,.infra-stat,.infra-av-card,.company-card,.su-panel,.su-card').forEach(tile=>{
     const ownKeys=keysFor(tile,page,tab);const keys=ownKeys.length?[...ownKeys,'assets']:[];const errors=keys.flatMap(key=>{const problem=refreshProblem(health.find(r=>(r.id||r.provider)===key),key);return problem?[`${refreshGroups[key as keyof typeof refreshGroups]||key}: ${problem}`]:[]});
     const message=errors.join('\n');let badge=tile.querySelector<HTMLElement>(':scope > .refresh-error');
     if(!message){badge?.remove();tile.classList.remove('refresh-tracked-error');return;}
