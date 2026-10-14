@@ -10,7 +10,6 @@ export const pages = [
  ['connections','Cross-Domain Signals','Workspace','Connections'],['library','Research Library & Notebook','Workspace','Library & notebook'],['alerts','Alerts & Briefings','Workspace','Alerts & briefings'],['settings','Sources, Data Health & Settings','Workspace','Sources & settings'],
 ] as const;
 export const tabs: Record<string,string[]> = {
- timeline:['What I think now','How my thinking evolved'],
  'healthcare-capacity':['Overview','Hospitals & Care Capacity','Research Funding','Scientists & Training','Workforce Health & Disability','Insurance & Claims','Epidemic Preparedness','Cure Pipeline & Bottlenecks','Evidence & Data Gaps'],
  capabilities:['Executive Overview','Capability Frontier','Memory, Agents & Product Utility','Compute, Energy & Internet','U.S. Continuity & Dependencies','Autonomous Science & Human Pathome','Robotics & Industrial Execution','Governance, Security & Human Agency','Evidence & Measurement Registry'],
  'trust-safety':['Executive scorecard','Internet-scale benchmarks','Threat surfaces','Investigation funnel','AI & agentic abuse','Defense economics','Distributed immunity','Evidence & methodology'],
