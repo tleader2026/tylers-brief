@@ -81,3 +81,13 @@ node --test tests/workspace.test.mjs
 Eight unit tests cover financial calculations, missing/freshness/cooldown alert behavior, geographic distances and source changes/revisions. Four integration tests cover unauthenticated access, cross-origin writes, persisted notes/preferences/watchlists, all 15 routes and provenance/null-safe series. The persistence test restores the original local workspace.
 
 Browser inspection covers desktop/mobile overview, recruitment/intervention filtering, evidence provenance and deep links, chart table alternative, ownership calculator, responsive navigation and light theme. Type checking and production build are required before packaging. Hosted source availability may differ from local results; source-health states remain authoritative.
+
+## Trust & Safety — local build (October 14, 2026)
+
+The Trust & Safety route now has eight logical subtabs, five distinct source-registry benchmarks, an 18-metric operational dictionary, exact cadence normalization, scope filters, source reconciliation, a defensive economics scenario explorer, and browser-local CSV/JSON import/export. No status badge appears under the Google cross-product benchmark. Its estimate provenance remains in the methodology ledger. Public sources were rechecked October 14; publication and observation dates remain separate.
+
+This change is local only. It was not synchronized to Sites, deployed, or pushed to GitHub. Run `npm run dev` from this directory and open `http://127.0.0.1:5173/trust-safety`. Existing dependencies are installed. Production verification: `node node_modules/typescript/bin/tsc --noEmit`, `node --experimental-strip-types --test tests/trust-safety.test.mjs`, `npm run build`.
+
+Operational metrics require imported observations with matching entity, scope, period and denominators. The supplied public benchmarks do not establish harm, protection coverage, AI attribution, unique campaigns, realized fraud loss, detection recall or actual defense spending. Browser-local storage and downloaded configuration files are independent of hosted D1. Scenario assumptions never enter observed provider benchmarks. Imports replace the local operational observation array; export before replacing it.
+
+Observation CSV uses metadata columns plus a JSON `fields` cell. Scenario CSV uses `field,value`; configuration JSON combines scenario, editable Google baseline and observations. Evidence exports retain unknown values as null. To populate a metric, use its dictionary ID as observation `id`, its exact entity, observation start/end, a supported evidence status and the named numeric fields. A template is available in Evidence & methodology.

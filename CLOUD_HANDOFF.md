@@ -17,7 +17,7 @@ This repository is the complete source for the existing owner-private dashboard 
 Executive Summary: Today, Measurements.
 U.S. LongCovid: Theories, Active Trials, Exposure Risk, Population Health.
 U.S. Infrastructure: Housing, Utilities, Logistics, Agriculture, Space Systems.
-U.S. ASI Progress: Capabilities, Governance, Robotics, Trust & Safety.
+U.S. ASI Progress: Trust & Safety, Capabilities, Governance, Robotics.
 U.S. ASI Markets: Labor, Companies, Market Signals, Supply Chains.
 U.S. Global: Geopolitics, Economy, Internet.
 
@@ -36,3 +36,5 @@ Bundled snapshots and static assets are included. Hosted user notes, saved views
 Labor has five national subtabs: Employment Overview, Beyond U-3, Stable Work & Income, Tech Hiring, Methods & Sources. My Career is intentionally omitted. Public BLS/FRED series begin in 2022; annual CPS occupation/desire tables are dated 2025 extracts with the missing-October caveat. Refresh uses labor-fred through the existing maintenance flow. `scripts/collect-labor.mjs` refreshes the bundled baseline. The historical broader-unemployment assertion is an owner-scoped runtime secret (`LABOR_ASSERTION_JSON`), excluded from source and public exports. No career history, compensation or application log is included. Missing person-level adequacy, ad histories and causal consequence datasets stay explicitly unavailable.
 
 Trust & Safety is a placeholder page under U.S. ASI Progress, ready for a later build-out.
+
+Trust & Safety is implemented locally with eight subtabs and a separate typed calculation module (`lib/trust-safety.ts`). It remains unpublished by explicit task instruction; do not mistake local implementation for the current live placeholder. See README local-build notes. Google estimate status is retained in the evidence ledger but omitted from the benchmark card. No operational telemetry is bundled or uploaded.
