@@ -1,0 +1,12 @@
+{
+  "note": "Original numeric public source tables, extracted from HTML; attribution retained in the data dictionary. No full report prose or logos.",
+  "retrieved": "2026-10-14",
+  "sources": {
+    "chronic": "https://www.cdc.gov/pcd/issues/2025/24_0539.htm",
+    "work": "https://www.bls.gov/news.release/disabl.htm",
+    "pain": "https://www.cdc.gov/nchs/products/databriefs/db518.htm",
+    "mortality": "https://www.cdc.gov/nchs/products/databriefs/db548.htm",
+    "longcovid": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7350a2.htm",
+    "ssa": "https://www.ssa.gov/oact/STATS/dibStat.html"
+  }
+}
