@@ -1,0 +1,2691 @@
+{
+  "records": [
+    {
+      "id": "space:noaa:G",
+      "title": "Geomagnetic storm scale",
+      "domain": "space-systems",
+      "provider": "space-weather",
+      "kind": "observed NOAA scale",
+      "date": "2026-10-14T01:15:00Z",
+      "url": "https://services.swpc.noaa.gov/products/noaa-scales.json",
+      "details": {
+        "scale": "G",
+        "source": "NOAA SWPC",
+        "maxHours": 6,
+        "text": "none",
+        "methodology": "Published NOAA current scale, 0–5; 0 denotes no scale-level event in this product. It does not prove all systems are unaffected."
+      },
+      "summary": "Geomagnetic conditions can affect drag, navigation and power systems; local impacts depend on field variation and infrastructure.",
+      "value": 0,
+      "units": "G scale · 0–5",
+      "scope": "Global",
+      "retrieved": "2026-10-14T01:16:50.121Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:noaa:R",
+      "title": "Radio blackout scale",
+      "domain": "space-systems",
+      "provider": "space-weather",
+      "kind": "observed NOAA scale",
+      "date": "2026-10-14T01:15:00Z",
+      "url": "https://services.swpc.noaa.gov/products/noaa-scales.json",
+      "details": {
+        "scale": "R",
+        "source": "NOAA SWPC",
+        "maxHours": 6,
+        "text": "none",
+        "methodology": "Published NOAA current scale, 0–5; 0 denotes no scale-level event in this product. It does not prove all systems are unaffected."
+      },
+      "summary": "Solar X-ray driven radio blackouts primarily affect the sunlit side; link frequency and location matter.",
+      "value": 0,
+      "units": "R scale · 0–5",
+      "scope": "Global",
+      "retrieved": "2026-10-14T01:16:50.122Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:noaa:S",
+      "title": "Solar radiation storm scale",
+      "domain": "space-systems",
+      "provider": "space-weather",
+      "kind": "observed NOAA scale",
+      "date": "2026-10-14T01:15:00Z",
+      "url": "https://services.swpc.noaa.gov/products/noaa-scales.json",
+      "details": {
+        "scale": "S",
+        "source": "NOAA SWPC",
+        "maxHours": 6,
+        "text": "none",
+        "methodology": "Published NOAA current scale, 0–5; 0 denotes no scale-level event in this product. It does not prove all systems are unaffected."
+      },
+      "summary": "Energetic particles can affect spacecraft electronics and operations; a scale reading is not a measured satellite outage.",
+      "value": 0,
+      "units": "S scale · 0–5",
+      "scope": "Global",
+      "retrieved": "2026-10-14T01:16:50.122Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:noaa:kp",
+      "title": "Estimated planetary Kp",
+      "domain": "space-systems",
+      "provider": "space-weather",
+      "kind": "observed geomagnetic estimate",
+      "date": "2026-10-13T21:00:00Z",
+      "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json",
+      "details": {
+        "source": "NOAA SWPC",
+        "maxHours": 8,
+        "frequency": "3-hour intervals",
+        "forecast": [
+          {
+            "at": "2026-10-14T00:00:00Z",
+            "kp": 3.67,
+            "type": "estimated",
+            "scale": null
+          },
+          {
+            "at": "2026-10-14T03:00:00Z",
+            "kp": 3.33,
+            "type": "estimated",
+            "scale": null
+          },
+          {
+            "at": "2026-10-14T06:00:00Z",
+            "kp": 3.67,
+            "type": "estimated",
+            "scale": null
+          },
+          {
+            "at": "2026-10-14T09:00:00Z",
+            "kp": 2.67,
+            "type": "estimated",
+            "scale": null
+          },
+          {
+            "at": "2026-10-14T12:00:00Z",
+            "kp": 2.67,
+            "type": "estimated",
+            "scale": null
+          },
+          {
+            "at": "2026-10-14T15:00:00Z",
+            "kp": 3.33,
+            "type": "estimated",
+            "scale": null
+          },
+          {
+            "at": "2026-10-14T18:00:00Z",
+            "kp": 3.33,
+            "type": "estimated",
+            "scale": null
+          },
+          {
+            "at": "2026-10-14T21:00:00Z",
+            "kp": 3.33,
+            "type": "estimated",
+            "scale": null
+          },
+          {
+            "at": "2026-10-15T00:00:00Z",
+            "kp": 2.67,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-15T03:00:00Z",
+            "kp": 3.33,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-15T06:00:00Z",
+            "kp": 3,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-15T09:00:00Z",
+            "kp": 2.33,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-15T12:00:00Z",
+            "kp": 1.67,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-15T15:00:00Z",
+            "kp": 1,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-15T18:00:00Z",
+            "kp": 1.33,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-15T21:00:00Z",
+            "kp": 2.33,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-16T00:00:00Z",
+            "kp": 1.67,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-16T03:00:00Z",
+            "kp": 1.67,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-16T06:00:00Z",
+            "kp": 1.33,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-16T09:00:00Z",
+            "kp": 1.33,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-16T12:00:00Z",
+            "kp": 1.33,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-16T15:00:00Z",
+            "kp": 1.33,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-16T18:00:00Z",
+            "kp": 1.67,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-16T21:00:00Z",
+            "kp": 1.33,
+            "type": "predicted",
+            "scale": null
+          },
+          {
+            "at": "2026-10-17T00:00:00Z",
+            "kp": 1.67,
+            "type": "predicted",
+            "scale": null
+          }
+        ],
+        "scaleForecast": [
+          {
+            "horizon": "1",
+            "date": "2026-10-14",
+            "g": "0",
+            "rMinor": "10",
+            "rMajor": "1",
+            "sProb": "5"
+          },
+          {
+            "horizon": "2",
+            "date": "2026-10-15",
+            "g": "0",
+            "rMinor": "10",
+            "rMajor": "1",
+            "sProb": "1"
+          },
+          {
+            "horizon": "3",
+            "date": "2026-10-16",
+            "g": "0",
+            "rMinor": "10",
+            "rMajor": "1",
+            "sProb": "1"
+          }
+        ],
+        "methodology": "NOAA estimated Kp uses magnetometer observations; it is not the final GFZ index. Observed, estimated and predicted entries are separated."
+      },
+      "summary": "Higher Kp indicates stronger geomagnetic disturbance, not a deterministic GPS outage or power failure.",
+      "value": 1.33,
+      "units": "Kp · 0–9",
+      "scope": "Global",
+      "retrieved": "2026-10-14T01:16:50.130Z",
+      "status": "OBSERVED",
+      "series": [
+        {
+          "date": "2026-10-07T00:00:00Z",
+          "value": 1
+        },
+        {
+          "date": "2026-10-07T03:00:00Z",
+          "value": 1.33
+        },
+        {
+          "date": "2026-10-07T06:00:00Z",
+          "value": 1
+        },
+        {
+          "date": "2026-10-07T09:00:00Z",
+          "value": 0.67
+        },
+        {
+          "date": "2026-10-07T12:00:00Z",
+          "value": 1
+        },
+        {
+          "date": "2026-10-07T15:00:00Z",
+          "value": 2.67
+        },
+        {
+          "date": "2026-10-07T18:00:00Z",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-07T21:00:00Z",
+          "value": 1
+        },
+        {
+          "date": "2026-10-08T00:00:00Z",
+          "value": 1
+        },
+        {
+          "date": "2026-10-08T03:00:00Z",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-08T06:00:00Z",
+          "value": 1
+        },
+        {
+          "date": "2026-10-08T09:00:00Z",
+          "value": 2
+        },
+        {
+          "date": "2026-10-08T12:00:00Z",
+          "value": 2
+        },
+        {
+          "date": "2026-10-08T15:00:00Z",
+          "value": 1.33
+        },
+        {
+          "date": "2026-10-08T18:00:00Z",
+          "value": 2
+        },
+        {
+          "date": "2026-10-08T21:00:00Z",
+          "value": 1.33
+        },
+        {
+          "date": "2026-10-09T00:00:00Z",
+          "value": 3.33
+        },
+        {
+          "date": "2026-10-09T03:00:00Z",
+          "value": 2.67
+        },
+        {
+          "date": "2026-10-09T06:00:00Z",
+          "value": 2
+        },
+        {
+          "date": "2026-10-09T09:00:00Z",
+          "value": 4
+        },
+        {
+          "date": "2026-10-09T12:00:00Z",
+          "value": 2
+        },
+        {
+          "date": "2026-10-09T15:00:00Z",
+          "value": 1
+        },
+        {
+          "date": "2026-10-09T18:00:00Z",
+          "value": 1.33
+        },
+        {
+          "date": "2026-10-09T21:00:00Z",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-10T00:00:00Z",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-10T03:00:00Z",
+          "value": 3
+        },
+        {
+          "date": "2026-10-10T06:00:00Z",
+          "value": 3
+        },
+        {
+          "date": "2026-10-10T09:00:00Z",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-10T12:00:00Z",
+          "value": 3.33
+        },
+        {
+          "date": "2026-10-10T15:00:00Z",
+          "value": 7
+        },
+        {
+          "date": "2026-10-10T18:00:00Z",
+          "value": 6.67
+        },
+        {
+          "date": "2026-10-10T21:00:00Z",
+          "value": 5.33
+        },
+        {
+          "date": "2026-10-11T00:00:00Z",
+          "value": 4
+        },
+        {
+          "date": "2026-10-11T03:00:00Z",
+          "value": 3.67
+        },
+        {
+          "date": "2026-10-11T06:00:00Z",
+          "value": 2.67
+        },
+        {
+          "date": "2026-10-11T09:00:00Z",
+          "value": 3
+        },
+        {
+          "date": "2026-10-11T12:00:00Z",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-11T15:00:00Z",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-11T18:00:00Z",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-11T21:00:00Z",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-12T00:00:00Z",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-12T03:00:00Z",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-12T06:00:00Z",
+          "value": 3.33
+        },
+        {
+          "date": "2026-10-12T09:00:00Z",
+          "value": 1.33
+        },
+        {
+          "date": "2026-10-12T12:00:00Z",
+          "value": 0.67
+        },
+        {
+          "date": "2026-10-12T15:00:00Z",
+          "value": 1.33
+        },
+        {
+          "date": "2026-10-12T18:00:00Z",
+          "value": 2
+        },
+        {
+          "date": "2026-10-12T21:00:00Z",
+          "value": 1.33
+        },
+        {
+          "date": "2026-10-13T00:00:00Z",
+          "value": 3.33
+        },
+        {
+          "date": "2026-10-13T03:00:00Z",
+          "value": 3.33
+        },
+        {
+          "date": "2026-10-13T06:00:00Z",
+          "value": 2
+        },
+        {
+          "date": "2026-10-13T09:00:00Z",
+          "value": 3
+        },
+        {
+          "date": "2026-10-13T12:00:00Z",
+          "value": 3
+        },
+        {
+          "date": "2026-10-13T15:00:00Z",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-13T18:00:00Z",
+          "value": 3
+        },
+        {
+          "date": "2026-10-13T21:00:00Z",
+          "value": 1.33
+        }
+      ]
+    },
+    {
+      "id": "space:launch:bf2c3027-a314-403e-a416-2bfd5d165ad1",
+      "title": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-10-13T10:33:44Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/bf2c3027-a314-403e-a416-2bfd5d165ad1/",
+      "details": {
+        "country": "USA",
+        "providerCountries": [
+          "USA"
+        ],
+        "provider": "SpaceX",
+        "vehicle": "Falcon 9 Block 5",
+        "site": "Cape Canaveral SFS, FL, USA",
+        "mission": "Dragon CRS-2 SpX-35",
+        "category": "Resupply",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Second",
+        "windowStart": "2026-10-13T10:33:44Z",
+        "windowEnd": "2026-10-13T10:33:44Z",
+        "sourceUpdated": "2026-10-13T22:55:01Z",
+        "primary": [
+          {
+            "title": "SpaceX",
+            "url": "https://www.spacex.com/launches/crs35"
+          }
+        ],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "35th commercial resupply services mission to the International Space Station operated by SpaceX. The flight will be conducted under the second Commercial Resupply Services contract with NASA.\r\n\r\nCargo Dragon 2 brings supplies and payloads, including critical materials to directly support science and research investigations that occur onboard the orbiting laboratory.",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:97c6f5e1-299e-4652-b72d-9618ac047076",
+      "title": "Falcon 9 Block 5 | Starlink Group 15-25",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-10-13T00:28:11Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/97c6f5e1-299e-4652-b72d-9618ac047076/",
+      "details": {
+        "country": "USA",
+        "providerCountries": [
+          "USA"
+        ],
+        "provider": "SpaceX",
+        "vehicle": "Falcon 9 Block 5",
+        "site": "Vandenberg SFB, CA, USA",
+        "mission": "Starlink Group 15-25",
+        "category": "Communications",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Second",
+        "windowStart": "2026-10-12T23:00:00Z",
+        "windowEnd": "2026-10-13T03:00:00Z",
+        "sourceUpdated": "2026-10-13T10:10:50Z",
+        "primary": [
+          {
+            "title": "SpaceX",
+            "url": "https://www.spacex.com/launches/sl-15-25"
+          }
+        ],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+      "title": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-10-10T07:39:44Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5/",
+      "details": {
+        "country": "USA",
+        "providerCountries": [
+          "USA"
+        ],
+        "provider": "SpaceX",
+        "vehicle": "Falcon 9 Block 5",
+        "site": "Vandenberg SFB, CA, USA",
+        "mission": "SDA Tranche 1 Transport Layer A",
+        "category": "Government/Top Secret",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Second",
+        "windowStart": "2026-10-10T07:39:44Z",
+        "windowEnd": "2026-10-10T07:39:44Z",
+        "sourceUpdated": "2026-10-11T14:37:18Z",
+        "primary": [
+          {
+            "title": "SpaceX",
+            "url": "https://www.spacex.com/launches/sda-t1tl-a"
+          }
+        ],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellation will be interconnected with Optical Inter-Satellite Links (OISLs) which have significantly increased performance over existing radio frequency crosslinks. It is expected to operate over Ka band, have stereo coverage and be dynamically networked for simpler hand-offs, greater bandwidth and fault tolerance.\r\n\r\nThis launch carries 21 satellites manufactured by Northrop Grumman.",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:a1bb0984-19d4-4b47-9bba-706d225573e2",
+      "title": "Long March 12 | SatNet LEO Group 27",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-10-09T19:27:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/a1bb0984-19d4-4b47-9bba-706d225573e2/",
+      "details": {
+        "country": "CHN",
+        "providerCountries": [
+          "CHN"
+        ],
+        "provider": "China Aerospace Science and Technology Corporation",
+        "vehicle": "Long March 12",
+        "site": "Wenchang Space Launch Site, People's Republic of China",
+        "mission": "SatNet LEO Group 27",
+        "category": "Communications",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Minute",
+        "windowStart": "2026-10-09T19:20:00Z",
+        "windowEnd": "2026-10-09T19:49:00Z",
+        "sourceUpdated": "2026-10-11T14:27:48Z",
+        "primary": [],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
+      "scope": "CHN",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:e0741415-6c63-4236-9736-24a6c04485bc",
+      "title": "Nuri | NeonSat-2 to 6",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-10-07T03:25:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/e0741415-6c63-4236-9736-24a6c04485bc/",
+      "details": {
+        "country": "KOR",
+        "providerCountries": [
+          "KOR"
+        ],
+        "provider": "Korea Aerospace Research Institute",
+        "vehicle": "KSLV-2 Nuri",
+        "site": "Naro Space Center, South Korea",
+        "mission": "NeonSat-2 to 6",
+        "category": "Earth Science",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Second",
+        "windowStart": "2026-10-07T03:23:00Z",
+        "windowEnd": "2026-10-07T04:23:00Z",
+        "sourceUpdated": "2026-10-09T01:02:13Z",
+        "primary": [],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "NeonSat-2 to 6 are part of the South Korean government's Earth observation micro-satellite constellation NeonSat (New-space Earth Observation Satellite). The NeonSat constellation is the first satellite system developed by the government using a mass-production approach for precise monitoring of the Korean Peninsula.\r\n\r\n10 ride-sharing small satellites from various Korean institutes and organizations will also fly on this launch:\r\n* SLEDGE\r\n* GBSAT\r\n* PERSAT02\r\n* UEL-Y-Sys\r\n* SD-1 SAT\r\n* E3_TESTER-KARI-2\r\n* DaejonSat-1\r\n* BEE-1012\r\n* JACK-007\r\n* CPSat",
+      "scope": "KOR",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
+      "title": "Falcon Heavy | NROL-97",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-10-02T03:54:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/4651fd8a-43de-4166-bf8f-c168b3bd1d2c/",
+      "details": {
+        "country": "USA",
+        "providerCountries": [
+          "USA"
+        ],
+        "provider": "SpaceX",
+        "vehicle": "Falcon Heavy",
+        "site": "Kennedy Space Center, FL, USA",
+        "mission": "NROL-97",
+        "category": "Government/Top Secret",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Minute",
+        "windowStart": "2026-10-02T03:53:00Z",
+        "windowEnd": "2026-10-02T04:42:00Z",
+        "sourceUpdated": "2026-10-02T14:51:48Z",
+        "primary": [
+          {
+            "title": "SpaceX",
+            "url": "https://www.spacex.com/launches/nrol97"
+          }
+        ],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "Classified payload for the US National Reconnaissance Office.",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:67213393-7983-4c06-8b44-b8c785a5ed79",
+      "title": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-10-01T18:32:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/67213393-7983-4c06-8b44-b8c785a5ed79/",
+      "details": {
+        "country": "USA",
+        "providerCountries": [
+          "USA"
+        ],
+        "provider": "SpaceX",
+        "vehicle": "Falcon 9 Block 5",
+        "site": "Vandenberg SFB, CA, USA",
+        "mission": "Transporter 18 (Dedicated SSO Rideshare)",
+        "category": "Dedicated Rideshare",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Second",
+        "windowStart": "2026-10-01T18:18:00Z",
+        "windowEnd": "2026-10-01T19:16:00Z",
+        "sourceUpdated": "2026-10-01T23:19:46Z",
+        "primary": [
+          {
+            "title": "SpaceX",
+            "url": "https://www.spacex.com/launches/transporter18"
+          }
+        ],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:18441371-8b2e-457c-afb5-1ec1b11ab630",
+      "title": "Falcon 9 Block 5 | Crew-13",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-10-01T15:10:06Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/18441371-8b2e-457c-afb5-1ec1b11ab630/",
+      "details": {
+        "country": "USA",
+        "providerCountries": [
+          "USA"
+        ],
+        "provider": "SpaceX",
+        "vehicle": "Falcon 9 Block 5",
+        "site": "Cape Canaveral SFS, FL, USA",
+        "mission": "Crew-13",
+        "category": "Human Exploration",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Second",
+        "windowStart": "2026-10-01T15:10:06Z",
+        "windowEnd": "2026-10-01T15:10:06Z",
+        "sourceUpdated": "2026-10-13T01:40:37Z",
+        "primary": [
+          {
+            "title": "SpaceX",
+            "url": "https://www.spacex.com/launches/crew13"
+          }
+        ],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+      "title": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-28T12:48:59Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/7d1afb26-6f9c-429b-9ccf-29012fd1e519/",
+      "details": {
+        "country": "USA",
+        "providerCountries": [
+          "USA"
+        ],
+        "provider": "SpaceX",
+        "vehicle": "Starship V3",
+        "site": "SpaceX Starbase, TX, USA",
+        "mission": "Starlink Group 31-1 (Starship Flight 14)",
+        "category": "Communications",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Second",
+        "windowStart": "2026-09-28T12:15:00Z",
+        "windowEnd": "2026-09-28T13:30:00Z",
+        "sourceUpdated": "2026-09-29T15:33:32Z",
+        "primary": [
+          {
+            "title": "SpaceX",
+            "url": "https://www.spacex.com/launches/starship-flight-14"
+          }
+        ],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 6 orbits around the planet for nearly 10 hours, with splashdown targeted in the Pacific Ocean west of Chile.\r\n\r\nThe booster’s primary test objective on Flight 14 will be executing a successful launch, ascent, stage separation, boostback burn, and landing burn at an offshore landing point in the Gulf.\r\n\r\nStarship will deliver 26 Starlink V3 satellites to orbit for the first time, which aim to greatly expand the network's capacity and user speeds. Each Starlink V3 satellite will add 1 Tbps of capacity to the constellation.",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:7330d83b-c478-426c-8859-f9e3a335876d",
+      "title": "Falcon 9 Block 5 | USSF-385",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-26T14:00:54Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/7330d83b-c478-426c-8859-f9e3a335876d/",
+      "details": {
+        "country": "USA",
+        "providerCountries": [
+          "USA"
+        ],
+        "provider": "SpaceX",
+        "vehicle": "Falcon 9 Block 5",
+        "site": "Vandenberg SFB, CA, USA",
+        "mission": "USSF-385",
+        "category": "Government/Top Secret",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Second",
+        "windowStart": "2026-09-26T11:56:00Z",
+        "windowEnd": "2026-09-26T14:56:00Z",
+        "sourceUpdated": "2026-09-28T23:50:09Z",
+        "primary": [
+          {
+            "title": "SpaceX",
+            "url": "https://www.spacex.com/launches/ussf385"
+          }
+        ],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX’s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:9e24bef7-c44b-4fdc-ba52-68545ce9457e",
+      "title": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-26T00:39:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/9e24bef7-c44b-4fdc-ba52-68545ce9457e/",
+      "details": {
+        "country": "NZL",
+        "providerCountries": [
+          "USA"
+        ],
+        "provider": "Rocket Lab",
+        "vehicle": "Electron",
+        "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+        "mission": "Owlright, Owlright, Owlright (StriX Launch 13)",
+        "category": "Earth Science",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Minute",
+        "windowStart": "2026-09-26T00:39:00Z",
+        "windowEnd": "2026-09-26T00:39:00Z",
+        "sourceUpdated": "2026-09-28T23:36:52Z",
+        "primary": [
+          {
+            "title": "Owlright, Owlright, Owlright",
+            "url": "https://rocketlabcorp.com/missions/launches/owlright-owlright-owlright/"
+          }
+        ],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
+      "scope": "NZL",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:aed67837-b567-43e0-8071-c3ccc24aa496",
+      "title": "Long March 6A | Yaogan 40 Group 04",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-24T08:46:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/aed67837-b567-43e0-8071-c3ccc24aa496/",
+      "details": {
+        "country": "CHN",
+        "providerCountries": [
+          "CHN"
+        ],
+        "provider": "China Aerospace Science and Technology Corporation",
+        "vehicle": "Long March 6A",
+        "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+        "mission": "Yaogan 40 Group 04",
+        "category": "Government/Top Secret",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Minute",
+        "windowStart": "2026-09-24T08:38:00Z",
+        "windowEnd": "2026-09-24T09:04:00Z",
+        "sourceUpdated": "2026-09-24T22:43:36Z",
+        "primary": [],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "3 Chinese reconnaissance satellites of unknown purposes, officially reported as for \"Electromagnetic environment probing\".",
+      "scope": "CHN",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:63063b9d-ade9-4448-8717-6f910aa81188",
+      "title": "Long March 8A | SatNet LEO Group 26",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-23T13:32:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/63063b9d-ade9-4448-8717-6f910aa81188/",
+      "details": {
+        "country": "CHN",
+        "providerCountries": [
+          "CHN"
+        ],
+        "provider": "China Aerospace Science and Technology Corporation",
+        "vehicle": "Long March 8A",
+        "site": "Wenchang Space Launch Site, People's Republic of China",
+        "mission": "SatNet LEO Group 26",
+        "category": "Communications",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Minute",
+        "windowStart": "2026-09-23T13:24:00Z",
+        "windowEnd": "2026-09-23T13:49:00Z",
+        "sourceUpdated": "2026-09-27T17:31:55Z",
+        "primary": [],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
+      "scope": "CHN",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:5af31461-bce5-4cfb-a0ee-b527cf285d90",
+      "title": "Kinetica 1 | 9 satellites",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-20T04:03:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/5af31461-bce5-4cfb-a0ee-b527cf285d90/",
+      "details": {
+        "country": "CHN",
+        "providerCountries": [
+          "CHN"
+        ],
+        "provider": "CAS Space",
+        "vehicle": "Kinetica 1",
+        "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+        "mission": "9 satellites",
+        "category": "Earth Science",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Minute",
+        "windowStart": "2026-09-20T03:54:00Z",
+        "windowEnd": "2026-09-20T04:15:00Z",
+        "sourceUpdated": "2026-09-21T00:10:16Z",
+        "primary": [],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "Share-ride of 9 commercial Earth observation and technology demonstration satellites to SSO, details TBD.",
+      "scope": "CHN",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:d1471f9d-e9d0-4146-8e97-90863e48bfc8",
+      "title": "Falcon 9 Block 5 | Starlink Group 15-27",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-20T01:47:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/d1471f9d-e9d0-4146-8e97-90863e48bfc8/",
+      "details": {
+        "country": "USA",
+        "providerCountries": [
+          "USA"
+        ],
+        "provider": "SpaceX",
+        "vehicle": "Falcon 9 Block 5",
+        "site": "Vandenberg SFB, CA, USA",
+        "mission": "Starlink Group 15-27",
+        "category": "Communications",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Second",
+        "windowStart": "2026-09-20T01:47:00Z",
+        "windowEnd": "2026-09-20T05:47:00Z",
+        "sourceUpdated": "2026-09-20T23:59:42Z",
+        "primary": [
+          {
+            "title": "SpaceX",
+            "url": "https://www.spacex.com/launches/sl-15-27"
+          }
+        ],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:a527b585-f01f-4ecc-9230-711dcef72ef1",
+      "title": "Long March 2D | PIESAT-2 13-16",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-19T10:50:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/a527b585-f01f-4ecc-9230-711dcef72ef1/",
+      "details": {
+        "country": "CHN",
+        "providerCountries": [
+          "CHN"
+        ],
+        "provider": "China Aerospace Science and Technology Corporation",
+        "vehicle": "Long March 2D",
+        "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+        "mission": "PIESAT-2 13-16",
+        "category": "Earth Science",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Minute",
+        "windowStart": "2026-09-19T10:43:00Z",
+        "windowEnd": "2026-09-19T11:06:00Z",
+        "sourceUpdated": "2026-09-20T23:46:44Z",
+        "primary": [],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "4 X-band synthetic-aperture radar Earth observation satellites for the Chinese Earth observation satellite company PIESAT.",
+      "scope": "CHN",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:f4c720ce-0cfd-43e6-b8dd-00273073bc01",
+      "title": "Electron | Owl By The Dozen (StriX Launch 12)",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-19T03:22:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/f4c720ce-0cfd-43e6-b8dd-00273073bc01/",
+      "details": {
+        "country": "NZL",
+        "providerCountries": [
+          "USA"
+        ],
+        "provider": "Rocket Lab",
+        "vehicle": "Electron",
+        "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+        "mission": "Owl By The Dozen (StriX Launch 12)",
+        "category": "Earth Science",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Minute",
+        "windowStart": "2026-09-19T03:22:00Z",
+        "windowEnd": "2026-09-19T03:22:00Z",
+        "sourceUpdated": "2026-09-20T23:35:11Z",
+        "primary": [
+          {
+            "title": "Owl By The Dozen",
+            "url": "https://rocketlabcorp.com/missions/launches/owl-by-the-dozen/"
+          }
+        ],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
+      "scope": "NZL",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
+      "title": "Soyuz 2.1b/Fregat | Glonass-K1 No. 20 (?)",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-17T16:50:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb/",
+      "details": {
+        "country": "RUS",
+        "providerCountries": [
+          "RUS"
+        ],
+        "provider": "Russian Space Forces",
+        "vehicle": "Soyuz 2.1b Fregat-M",
+        "site": "Plesetsk Cosmodrome, Russian Federation",
+        "mission": "Glonass-K1 No. 20 (?)",
+        "category": "Navigation",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Hour",
+        "windowStart": "2026-09-17T16:50:00Z",
+        "windowEnd": "2026-09-17T16:50:00Z",
+        "sourceUpdated": "2026-09-18T13:37:26Z",
+        "primary": [],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "Note: Satellite serial number and Cosmos designation not confirmed.\r\n\r\nGlonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressurized and weighs 935 kg,  and has an operational lifetime of 10 years.",
+      "scope": "RUS",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84",
+      "title": "Kuaizhou 11 | SpaceTY-51 & 52",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-17T02:40:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84/",
+      "details": {
+        "country": "CHN",
+        "providerCountries": [
+          "CHN"
+        ],
+        "provider": "ExPace",
+        "vehicle": "Kuaizhou 11",
+        "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+        "mission": "SpaceTY-51 & 52",
+        "category": "Earth Science",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Minute",
+        "windowStart": "2026-09-17T02:31:00Z",
+        "windowEnd": "2026-09-17T03:12:00Z",
+        "sourceUpdated": "2026-09-18T00:39:49Z",
+        "primary": [],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "2 Earth observation radar satellites built by the Chinese satellite manufacturer SpaceTY.",
+      "scope": "CHN",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:17c71937-dd80-406f-bb47-0c9ee9a24276",
+      "title": "Falcon 9 Block 5 | USSF-259",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-17T01:07:56Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/17c71937-dd80-406f-bb47-0c9ee9a24276/",
+      "details": {
+        "country": "USA",
+        "providerCountries": [
+          "USA"
+        ],
+        "provider": "SpaceX",
+        "vehicle": "Falcon 9 Block 5",
+        "site": "Vandenberg SFB, CA, USA",
+        "mission": "USSF-259",
+        "category": "Government/Top Secret",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Second",
+        "windowStart": "2026-09-17T01:00:00Z",
+        "windowEnd": "2026-09-17T05:00:00Z",
+        "sourceUpdated": "2026-09-18T00:33:50Z",
+        "primary": [
+          {
+            "title": "SpaceX",
+            "url": "https://www.spacex.com/launches/ussf259"
+          }
+        ],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "USSF-259 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX’s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:898f7df0-b6ce-4a5c-80b4-67e81842124e",
+      "title": "Long March 12 | SatNet LEO Group 25",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-17T00:32:00Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/898f7df0-b6ce-4a5c-80b4-67e81842124e/",
+      "details": {
+        "country": "CHN",
+        "providerCountries": [
+          "CHN"
+        ],
+        "provider": "China Aerospace Science and Technology Corporation",
+        "vehicle": "Long March 12",
+        "site": "Wenchang Space Launch Site, People's Republic of China",
+        "mission": "SatNet LEO Group 25",
+        "category": "Communications",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Minute",
+        "windowStart": "2026-09-17T00:25:00Z",
+        "windowEnd": "2026-09-17T00:54:00Z",
+        "sourceUpdated": "2026-09-18T00:17:31Z",
+        "primary": [],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
+      "scope": "CHN",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:launch:d793ba47-faf5-4bab-a386-39a9ccc49c90",
+      "title": "Soyuz 2.1b | Progress MS-35 (96P)",
+      "domain": "space-systems",
+      "provider": "space-launches",
+      "kind": "launch catalog",
+      "date": "2026-09-16T13:33:54Z",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/d793ba47-faf5-4bab-a386-39a9ccc49c90/",
+      "details": {
+        "country": "KAZ",
+        "providerCountries": [
+          "RUS"
+        ],
+        "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+        "vehicle": "Soyuz 2.1b",
+        "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
+        "mission": "Progress MS-35 (96P)",
+        "category": "Resupply",
+        "orbital": true,
+        "catalogStatus": "Launch Successful",
+        "outcome": "The launch vehicle successfully inserted its payload(s) into the target orbit(s).",
+        "status": "Launched",
+        "fullMissionOutcome": "Not established by launch insertion status",
+        "precision": "Second",
+        "windowStart": "2026-09-16T13:33:54Z",
+        "windowEnd": "2026-09-16T13:33:54Z",
+        "sourceUpdated": "2026-10-13T01:40:41Z",
+        "primary": [],
+        "coverage": {
+          "start": "2026-09-16T00:00:00Z",
+          "end": "2026-10-14T01:16:50.130Z"
+        },
+        "source": "The Space Devs Launch Library 2 · curated third-party catalog",
+        "maxHours": 192,
+        "methodology": "Orbital attempts use the catalog orbital-attempt field; non-orbital/unknown rows are excluded from orbital counts. Country comparisons use launch-site country, not provider nationality. Catalog success means target-orbit insertion; mission operations, landing and reuse are separate."
+      },
+      "summary": "Progress resupply mission to the International Space Station.",
+      "scope": "KAZ",
+      "retrieved": "2026-10-14T01:16:53.518Z",
+      "status": "CATALOG REPORTED"
+    },
+    {
+      "id": "space:nasa:jaxa-htv-x2",
+      "title": "JAXA HTV-X2",
+      "domain": "space-systems",
+      "provider": "space-missions",
+      "kind": "schedule",
+      "date": "2026-10-08T09:53:25-04:00",
+      "url": "https://www.nasa.gov/event/jaxa-htv-x2/",
+      "details": {
+        "country": "JPN",
+        "provider": "Not established by this source",
+        "vehicle": "Not stated",
+        "site": "Tanegashima Space Center, Japan, to deliver supplies and science to the International Space Station",
+        "category": "NASA civil mission",
+        "scheduleLabel": "No Earlier Than Fall 2026",
+        "scheduledAt": null,
+        "scheduledDate": null,
+        "precision": "Broad period / announced",
+        "timezone": "No precise timezone/date announced",
+        "sourceUpdated": "2026-10-08T09:53:25-04:00",
+        "source": "NASA official launch schedule",
+        "status": "Announced",
+        "maxHours": 192,
+        "methodology": "Displayed human schedule precision takes precedence over placeholder machine timestamps. Broad NET seasons/years are not converted into exact launch dates."
+      },
+      "summary": "JAXA’s (Japan Aerospace Exploration Agency) HTV-X uncrewed expendable cargo spacecraft will launch from Tanegashima Space Center, Japan, to deliver supplies and science to the International Space Station.",
+      "scope": "JPN",
+      "retrieved": "2026-10-14T01:16:53.709Z",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "space:nasa:roscosmos-progress-97",
+      "title": "Roscosmos Progress 97",
+      "domain": "space-systems",
+      "provider": "space-missions",
+      "kind": "schedule",
+      "date": "2026-10-08T09:53:47-04:00",
+      "url": "https://www.nasa.gov/event/roscosmos-progress-97/",
+      "details": {
+        "country": "RUS",
+        "provider": "Not established by this source",
+        "vehicle": "Not stated",
+        "site": "See source; no launch site inferred",
+        "category": "NASA civil mission",
+        "scheduleLabel": "No Earlier Than Fall 2026",
+        "scheduledAt": null,
+        "scheduledDate": null,
+        "precision": "Broad period / announced",
+        "timezone": "No precise timezone/date announced",
+        "sourceUpdated": "2026-10-08T09:53:47-04:00",
+        "source": "NASA official launch schedule",
+        "status": "Announced",
+        "maxHours": 192,
+        "methodology": "Displayed human schedule precision takes precedence over placeholder machine timestamps. Broad NET seasons/years are not converted into exact launch dates."
+      },
+      "summary": "The Roscosmos Progress 97 spacecraft will launch from Baikonur, Kazakhstan, to deliver supplies and science to the International Space Station.",
+      "scope": "RUS",
+      "retrieved": "2026-10-14T01:16:53.785Z",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "space:nasa:nasas-northrop-grumman-crs-25",
+      "title": "NASA’s Northrop Grumman CRS-25",
+      "domain": "space-systems",
+      "provider": "space-missions",
+      "kind": "schedule",
+      "date": "2026-10-08T09:54:06-04:00",
+      "url": "https://www.nasa.gov/event/nasas-northrop-grumman-crs-25/",
+      "details": {
+        "country": "Not stated",
+        "provider": "Not established by this source",
+        "vehicle": "Not stated",
+        "site": "See source; no launch site inferred",
+        "category": "NASA civil mission",
+        "scheduleLabel": "No Earlier Than Fall 2026",
+        "scheduledAt": null,
+        "scheduledDate": null,
+        "precision": "Broad period / announced",
+        "timezone": "No precise timezone/date announced",
+        "sourceUpdated": "2026-10-08T09:54:06-04:00",
+        "source": "NASA official launch schedule",
+        "status": "Announced",
+        "maxHours": 192,
+        "methodology": "Displayed human schedule precision takes precedence over placeholder machine timestamps. Broad NET seasons/years are not converted into exact launch dates."
+      },
+      "summary": "NASA’s Northrop Grumman CRS-25 cargo resupply mission will deliver supplies and science to the International Space Station as part of the agency’s Commercial Resupply Services. NASA&#039;s Commercial Resupply Services program secures reliable, cost-effective delivery of cargo, scientific experiments, and supplies to the International Space Station using private U.S. companies.",
+      "scope": "Not stated",
+      "retrieved": "2026-10-14T01:16:53.815Z",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "space:nasa:clps-flight-astrobotics-griffin-mission-one",
+      "title": "Moon Base: Astrobotic Griffin-1",
+      "domain": "space-systems",
+      "provider": "space-missions",
+      "kind": "schedule",
+      "date": "2026-09-01T12:31:28-04:00",
+      "url": "https://www.nasa.gov/event/clps-flight-astrobotics-griffin-mission-one/",
+      "details": {
+        "country": "Not stated",
+        "provider": "Not established by this source",
+        "vehicle": "Not stated",
+        "site": "See source; no launch site inferred",
+        "category": "NASA civil mission",
+        "scheduleLabel": "2026",
+        "scheduledAt": null,
+        "scheduledDate": null,
+        "precision": "Broad period / announced",
+        "timezone": "No precise timezone/date announced",
+        "sourceUpdated": "2026-09-01T12:31:28-04:00",
+        "source": "NASA official launch schedule",
+        "status": "Announced",
+        "maxHours": 192,
+        "methodology": "Displayed human schedule precision takes precedence over placeholder machine timestamps. Broad NET seasons/years are not converted into exact launch dates."
+      },
+      "summary": "The Astrobotic Griffin-1 mission will deliver more than 1,100 pounds of cargo to the Nobile Crater at the lunar South Pole, including the Astrolab FLIP rover, to mature mobility systems that inform future lunar terrain vehicle operations. The Moon Base is humanity’s first lunar outpost, a place where astronauts will live, work, and explore near the Moon’s South Pole. Through a series of crewed and uncrewed missions, NASA and its partners will build the infrastructure needed to support an enduring human presence on the Moon, unlock new scientific discoveries, and prepare for future exploration of Mars.",
+      "scope": "Not stated",
+      "retrieved": "2026-10-14T01:16:53.824Z",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "space:nasa:clps-flight-intuitive-machines-im-3",
+      "title": "Moon Base: Intuitive Machines IM-3",
+      "domain": "space-systems",
+      "provider": "space-missions",
+      "kind": "schedule",
+      "date": "2026-09-01T12:31:49-04:00",
+      "url": "https://www.nasa.gov/event/clps-flight-intuitive-machines-im-3/",
+      "details": {
+        "country": "Not stated",
+        "provider": "Not established by this source",
+        "vehicle": "Not stated",
+        "site": "See source; no launch site inferred",
+        "category": "NASA civil mission",
+        "scheduleLabel": "2026",
+        "scheduledAt": null,
+        "scheduledDate": null,
+        "precision": "Broad period / announced",
+        "timezone": "No precise timezone/date announced",
+        "sourceUpdated": "2026-09-01T12:31:49-04:00",
+        "source": "NASA official launch schedule",
+        "status": "Announced",
+        "maxHours": 192,
+        "methodology": "Displayed human schedule precision takes precedence over placeholder machine timestamps. Broad NET seasons/years are not converted into exact launch dates."
+      },
+      "summary": "Intuitive Machines&#039; IM-3 will fly the first payload selected through NASA’s Payloads and Research Investigations on the Surface of the Moon initiative. Its anchor investigation, Lunar Vertex, will fly on Intuitive Machines’ Nova-C Trinity lunar lander and study lunar swirls to improve understanding of surface evolution and material behavior under extreme conditions. The mission will include payloads from ESA (European Space Agency) and the Korea Astronomy and Space Science Institute, reflecting commercial and international participation in Moon Base activities. The Moon Base is humanity’s first lunar outpost, a place where astronauts will live, work, and explore near the Moon’s South Pole. Through a series of crewed and uncrewed missions, NASA and its partners will build the infrastructure needed to support an enduring human presence on the Moon, unlock new scientific discoveries, and prepare for future exploration of Mars.",
+      "scope": "Not stated",
+      "retrieved": "2026-10-14T01:16:53.815Z",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "space:nasa:clps-flight-firefly-aerospaces-blue-ghost-mission-2",
+      "title": "CLPS Flight: Firefly Aerospace Blue Ghost Mission 2",
+      "domain": "space-systems",
+      "provider": "space-missions",
+      "kind": "schedule",
+      "date": "2026-09-01T12:32:10-04:00",
+      "url": "https://www.nasa.gov/event/clps-flight-firefly-aerospaces-blue-ghost-mission-2/",
+      "details": {
+        "country": "Not stated",
+        "provider": "Not established by this source",
+        "vehicle": "Not stated",
+        "site": "See source; no launch site inferred",
+        "category": "NASA civil mission",
+        "scheduleLabel": "2026",
+        "scheduledAt": null,
+        "scheduledDate": null,
+        "precision": "Broad period / announced",
+        "timezone": "No precise timezone/date announced",
+        "sourceUpdated": "2026-09-01T12:32:10-04:00",
+        "source": "NASA official launch schedule",
+        "status": "Announced",
+        "maxHours": 192,
+        "methodology": "Displayed human schedule precision takes precedence over placeholder machine timestamps. Broad NET seasons/years are not converted into exact launch dates."
+      },
+      "summary": "Firefly Aerospace’s Blue Ghost Mission 2 will deliver science and technology to the lunar far side as part of the agency’s Commercial Lunar Payload Services (CLPS) deliveries to the Moon. Part of the agency’s broader Artemis campaign, Commercial Lunar Payload Services (CLPS) aims to conduct science on the Moon for the benefit of all, including experiments and demos that support missions with crew on the lunar surface.",
+      "scope": "Not stated",
+      "retrieved": "2026-10-14T01:16:53.825Z",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "space:nasa:nasas-boeing-starliner-1",
+      "title": "NASA’s Boeing Starliner-1",
+      "domain": "space-systems",
+      "provider": "space-missions",
+      "kind": "schedule",
+      "date": "2026-05-01T13:17:56-04:00",
+      "url": "https://www.nasa.gov/event/nasas-boeing-starliner-1/",
+      "details": {
+        "country": "Not stated",
+        "provider": "Not established by this source",
+        "vehicle": "Not stated",
+        "site": "See source; no launch site inferred",
+        "category": "NASA civil mission",
+        "scheduleLabel": "Under Review",
+        "scheduledAt": null,
+        "scheduledDate": null,
+        "precision": "Broad period / announced",
+        "timezone": "No precise timezone/date announced",
+        "sourceUpdated": "2026-05-01T13:17:56-04:00",
+        "source": "NASA official launch schedule",
+        "status": "Announced",
+        "maxHours": 192,
+        "methodology": "Displayed human schedule precision takes precedence over placeholder machine timestamps. Broad NET seasons/years are not converted into exact launch dates."
+      },
+      "summary": "NASA’s Boeing Starliner-1 uncrewed cargo mission will deliver supplies to the International Space Station.",
+      "scope": "Not stated",
+      "retrieved": "2026-10-14T01:16:53.817Z",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "space:nasa:clps-flight-blue-origins-blue-moon-mark-1",
+      "title": "Moon Base: Blue Origin Blue Moon Mark 1",
+      "domain": "space-systems",
+      "provider": "space-missions",
+      "kind": "schedule",
+      "date": "2026-09-22T14:46:56-04:00",
+      "url": "https://www.nasa.gov/event/clps-flight-blue-origins-blue-moon-mark-1/",
+      "details": {
+        "country": "Not stated",
+        "provider": "Not established by this source",
+        "vehicle": "Not stated",
+        "site": "See source; no launch site inferred",
+        "category": "NASA civil mission",
+        "scheduleLabel": "January 2027",
+        "scheduledAt": null,
+        "scheduledDate": null,
+        "precision": "Broad period / announced",
+        "timezone": "No precise timezone/date announced",
+        "sourceUpdated": "2026-09-22T14:46:56-04:00",
+        "source": "NASA official launch schedule",
+        "status": "Announced",
+        "maxHours": 192,
+        "methodology": "Displayed human schedule precision takes precedence over placeholder machine timestamps. Broad NET seasons/years are not converted into exact launch dates."
+      },
+      "summary": "Blue Origin’s Blue Moon Mark 1 will deliver science and technology to the lunar South Pole. The mission will land on the Shackleton Connecting Ridge to demonstrate capabilities that reduce risk for future crewed Artemis landing missions in 2028. The Moon Base is humanity’s first lunar outpost, a place where astronauts will live, work, and explore near the Moon’s South Pole. Through a series of crewed and uncrewed missions, NASA and its partners will build the infrastructure needed to support an enduring human presence on the Moon, unlock new scientific discoveries, and prepare for future exploration of Mars.",
+      "scope": "Not stated",
+      "retrieved": "2026-10-14T01:16:53.818Z",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "space:gps:56:FCSTSUMM",
+      "title": "GPS SVN 56 / PRN 16 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2025-09-04T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN56 (PRN16) FORECAST OUTAGE SUMMARY JDAY 247/2129 - JDAY 248/0315",
+        "svn": "56",
+        "prn": "16",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN56 (PRN16) FORECAST OUTAGE SUMMARY JDAY 247/2129 - JDAY 248/0315",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:57:FCSTSUMM",
+      "title": "GPS SVN 57 / PRN 29 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-08-11T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN57 (PRN29) FORECAST OUTAGE SUMMARY JDAY 223/1449 - JDAY 223/2006",
+        "svn": "57",
+        "prn": "29",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN57 (PRN29) FORECAST OUTAGE SUMMARY JDAY 223/1449 - JDAY 223/2006",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:61:FCSTSUMM",
+      "title": "GPS SVN 61 / PRN 2 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-04-09T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN61 (PRN02) FORECAST OUTAGE SUMMARY JDAY 099/2249 - JDAY 100/0420",
+        "svn": "61",
+        "prn": "2",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN61 (PRN02) FORECAST OUTAGE SUMMARY JDAY 099/2249 - JDAY 100/0420",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:65:FCSTSUMM",
+      "title": "GPS SVN 65 / PRN 24 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-08-13T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN65 (PRN24) FORECAST OUTAGE SUMMARY JDAY 225/2303 - JDAY 226/0343",
+        "svn": "65",
+        "prn": "24",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN65 (PRN24) FORECAST OUTAGE SUMMARY JDAY 225/2303 - JDAY 226/0343",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:69:FCSTSUMM",
+      "title": "GPS SVN 69 / PRN 3 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-07-09T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN69 (PRN03) FORECAST OUTAGE SUMMARY JDAY 190/2337 - JDAY 191/0755",
+        "svn": "69",
+        "prn": "3",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN69 (PRN03) FORECAST OUTAGE SUMMARY JDAY 190/2337 - JDAY 191/0755",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:70:FCSTDV",
+      "title": "GPS SVN 70 / PRN 32 · FCSTDV",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-07-01T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTDV",
+        "subject": "SVN70 (PRN32) FORECAST OUTAGE JDAY 182/2130 - JDAY 183/0930",
+        "svn": "70",
+        "prn": "32",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Forecast notice; a planned interval is not a verified current interruption.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN70 (PRN32) FORECAST OUTAGE JDAY 182/2130 - JDAY 183/0930",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:52:FCSTSUMM",
+      "title": "GPS SVN 52 / PRN 31 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-10-13T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN52 (PRN31) FORECAST OUTAGE SUMMARY JDAY 286/1813 - JDAY 286/2106",
+        "svn": "52",
+        "prn": "31",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN52 (PRN31) FORECAST OUTAGE SUMMARY JDAY 286/1813 - JDAY 286/2106",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:55:FCSTSUMM",
+      "title": "GPS SVN 55 / PRN 15 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-09-25T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN55 (PRN15) FORECAST OUTAGE SUMMARY JDAY 268/0020 - JDAY 268/0533",
+        "svn": "55",
+        "prn": "15",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN55 (PRN15) FORECAST OUTAGE SUMMARY JDAY 268/0020 - JDAY 268/0533",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:62:FCSTSUMM",
+      "title": "GPS SVN 62 / PRN 25 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-09-29T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN62 (PRN25) FORECAST OUTAGE SUMMARY JDAY 272/2206 - JDAY 273/0315",
+        "svn": "62",
+        "prn": "25",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN62 (PRN25) FORECAST OUTAGE SUMMARY JDAY 272/2206 - JDAY 273/0315",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:66:FCSTSUMM",
+      "title": "GPS SVN 66 / PRN 27 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-05-08T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN66 (PRN27) FORECAST OUTAGE SUMMARY JDAY 128/1800 - JDAY 139/2124",
+        "svn": "66",
+        "prn": "27",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN66 (PRN27) FORECAST OUTAGE SUMMARY JDAY 128/1800 - JDAY 139/2124",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:73:FCSTSUMM",
+      "title": "GPS SVN 73 / PRN 10 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2025-01-09T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN73 (PRN10) FORECAST OUTAGE SUMMARY JDAY 009/1004 - JDAY 009/1609",
+        "svn": "73",
+        "prn": "10",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN73 (PRN10) FORECAST OUTAGE SUMMARY JDAY 009/1004 - JDAY 009/1609",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:80:FCSTSUMM",
+      "title": "GPS SVN 80 / PRN 1 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-09-18T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN80 (PRN01) FORECAST OUTAGE SUMMARY JDAY 261/0309 - JDAY 261/0836",
+        "svn": "80",
+        "prn": "1",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN80 (PRN01) FORECAST OUTAGE SUMMARY JDAY 261/0309 - JDAY 261/0836",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:44:FCSTSUMM",
+      "title": "GPS SVN 44 / PRN 22 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-04-24T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN44 (PRN22) FORECAST OUTAGE SUMMARY JDAY 114/0207 - JDAY 114/0729",
+        "svn": "44",
+        "prn": "22",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN44 (PRN22) FORECAST OUTAGE SUMMARY JDAY 114/0207 - JDAY 114/0729",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:50:FCSTSUMM",
+      "title": "GPS SVN 50 / PRN 5 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-10-08T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN50 (PRN05) FORECAST OUTAGE SUMMARY JDAY 281/1609 - JDAY 281/1945",
+        "svn": "50",
+        "prn": "5",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN50 (PRN05) FORECAST OUTAGE SUMMARY JDAY 281/1609 - JDAY 281/1945",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:64:FCSTSUMM",
+      "title": "GPS SVN 64 / PRN 30 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2025-12-16T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN64 (PRN30) FORECAST OUTAGE SUMMARY JDAY 350/1927 - JDAY 351/0149",
+        "svn": "64",
+        "prn": "30",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN64 (PRN30) FORECAST OUTAGE SUMMARY JDAY 350/1927 - JDAY 351/0149",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:68:FCSTSUMM",
+      "title": "GPS SVN 68 / PRN 9 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-02-05T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN68 (PRN09) FORECAST OUTAGE SUMMARY JDAY 036/1241 - JDAY 036/1834",
+        "svn": "68",
+        "prn": "9",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN68 (PRN09) FORECAST OUTAGE SUMMARY JDAY 036/1241 - JDAY 036/1834",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:72:FCSTSUMM",
+      "title": "GPS SVN 72 / PRN 8 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2025-05-08T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN72 (PRN08) FORECAST OUTAGE SUMMARY JDAY 128/2012 - JDAY 129/1010",
+        "svn": "72",
+        "prn": "8",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN72 (PRN08) FORECAST OUTAGE SUMMARY JDAY 128/2012 - JDAY 129/1010",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:48:FCSTSUMM",
+      "title": "GPS SVN 48 / PRN 7 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-10-06T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN48 (PRN07) FORECAST OUTAGE SUMMARY JDAY 279/1708 - JDAY 279/2006",
+        "svn": "48",
+        "prn": "7",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN48 (PRN07) FORECAST OUTAGE SUMMARY JDAY 279/1708 - JDAY 279/2006",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:53:FCSTMX",
+      "title": "GPS SVN 53 / PRN 17 · FCSTMX",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-10-15T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTMX",
+        "subject": "SVN53 (PRN17) FORECAST OUTAGE JDAY 288/1530 - JDAY 288/2330",
+        "svn": "53",
+        "prn": "17",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Forecast notice; a planned interval is not a verified current interruption.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN53 (PRN17) FORECAST OUTAGE JDAY 288/1530 - JDAY 288/2330",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:58:FCSTSUMM",
+      "title": "GPS SVN 58 / PRN 12 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-10-08T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN58 (PRN12) FORECAST OUTAGE SUMMARY JDAY 281/2317 - JDAY 282/0614",
+        "svn": "58",
+        "prn": "12",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN58 (PRN12) FORECAST OUTAGE SUMMARY JDAY 281/2317 - JDAY 282/0614",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:67:FCSTDV",
+      "title": "GPS SVN 67 / PRN 6 · FCSTDV",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2025-01-02T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTDV",
+        "subject": "SVN67 (PRN06) FORECAST OUTAGE JDAY 002/1515 - JDAY 003/0315",
+        "svn": "67",
+        "prn": "6",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Forecast notice; a planned interval is not a verified current interruption.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN67 (PRN06) FORECAST OUTAGE JDAY 002/1515 - JDAY 003/0315",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:74:FCSTDV",
+      "title": "GPS SVN 74 / PRN 4 · FCSTDV",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2025-10-16T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTDV",
+        "subject": "SVN74 (PRN04) FORECAST OUTAGE JDAY 289/1815 - JDAY 290/0615",
+        "svn": "74",
+        "prn": "4",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Forecast notice; a planned interval is not a verified current interruption.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN74 (PRN04) FORECAST OUTAGE JDAY 289/1815 - JDAY 290/0615",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:82:FCSTSUMM",
+      "title": "GPS SVN 82 / PRN 20 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-04-17T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN82 (PRN20) FORECAST OUTAGE SUMMARY JDAY 107/0225 - JDAY 107/0834",
+        "svn": "82",
+        "prn": "20",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN82 (PRN20) FORECAST OUTAGE SUMMARY JDAY 107/0225 - JDAY 107/0834",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:59:FCSTSUMM",
+      "title": "GPS SVN 59 / PRN 19 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-08-20T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN59 (PRN19) FORECAST OUTAGE SUMMARY JDAY 232/2120 - JDAY 233/0348",
+        "svn": "59",
+        "prn": "19",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN59 (PRN19) FORECAST OUTAGE SUMMARY JDAY 232/2120 - JDAY 233/0348",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:71:FCSTSUMM",
+      "title": "GPS SVN 71 / PRN 26 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-07-17T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN71 (PRN26) FORECAST OUTAGE SUMMARY JDAY 198/0046 - JDAY 198/0605",
+        "svn": "71",
+        "prn": "26",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN71 (PRN26) FORECAST OUTAGE SUMMARY JDAY 198/0046 - JDAY 198/0605",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:76:FCSTSUMM",
+      "title": "GPS SVN 76 / PRN 23 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-09-11T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN76 (PRN23) FORECAST OUTAGE SUMMARY JDAY 254/0252 - JDAY 254/0834",
+        "svn": "76",
+        "prn": "23",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN76 (PRN23) FORECAST OUTAGE SUMMARY JDAY 254/0252 - JDAY 254/0834",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:78:UNUSABLE",
+      "title": "GPS SVN 78 / PRN 11 · UNUSABLE",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-06-26T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "UNUSABLE",
+        "subject": "SVN78 (PRN11) UNUSABLE JDAY 177/1612 - JDAY 177/1908",
+        "svn": "78",
+        "prn": "11",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Official notice type retained; do not infer nationwide service failure.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN78 (PRN11) UNUSABLE JDAY 177/1612 - JDAY 177/1908",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:83:FCSTSUMM",
+      "title": "GPS SVN 83 / PRN 13 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-09-15T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN83 (PRN13) FORECAST OUTAGE SUMMARY JDAY 258/1910 - JDAY 259/0149",
+        "svn": "83",
+        "prn": "13",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN83 (PRN13) FORECAST OUTAGE SUMMARY JDAY 258/1910 - JDAY 259/0149",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:81:FCSTSUMM",
+      "title": "GPS SVN 81 / PRN 21 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-04-30T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN81 (PRN21) FORECAST OUTAGE SUMMARY JDAY 120/1601 - JDAY 120/2151",
+        "svn": "81",
+        "prn": "21",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN81 (PRN21) FORECAST OUTAGE SUMMARY JDAY 120/1601 - JDAY 120/2151",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:75:FCSTSUMM",
+      "title": "GPS SVN 75 / PRN 18 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2024-09-13T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN75 (PRN18) FORECAST OUTAGE SUMMARY JDAY 257/0335 - JDAY 257/0918",
+        "svn": "75",
+        "prn": "18",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN75 (PRN18) FORECAST OUTAGE SUMMARY JDAY 257/0335 - JDAY 257/0918",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:77:FCSTSUMM",
+      "title": "GPS SVN 77 / PRN 14 · FCSTSUMM",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2025-07-31T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "FCSTSUMM",
+        "subject": "SVN77 (PRN14) FORECAST OUTAGE SUMMARY JDAY 212/0830 - JDAY 212/1322",
+        "svn": "77",
+        "prn": "14",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Summary of a notice window; not evidence of an ongoing outage.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN77 (PRN14) FORECAST OUTAGE SUMMARY JDAY 212/0830 - JDAY 212/1322",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:gps:79:UNUSABLE",
+      "title": "GPS SVN 79 / PRN 28 · UNUSABLE",
+      "domain": "space-systems",
+      "provider": "space-infrastructure",
+      "kind": "public navigation advisory",
+      "date": "2026-05-19T00:00:00.000Z",
+      "url": "https://www.navcen.uscg.gov/gps-constellation",
+      "details": {
+        "country": "USA",
+        "system": "GPS / PNT",
+        "source": "USCG NAVCEN",
+        "maxHours": 192,
+        "noticeType": "UNUSABLE",
+        "subject": "SVN79 (PRN28) UNUSABLE JDAY 139/1359 - JDAY 141/1816",
+        "svn": "79",
+        "prn": "28",
+        "sourceUpdated": "Live public table retrieved; row date is notice outage-start reference",
+        "interpretation": "Official notice type retained; do not infer nationwide service failure.",
+        "methodology": "Public advisory rows only. Outage-start date and notice text do not provide constellation-wide service availability or an active outage count."
+      },
+      "summary": "SVN79 (PRN28) UNUSABLE JDAY 139/1359 - JDAY 141/1816",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.098Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:environment:payloads",
+      "title": "Global payloads placed in orbit · 2025",
+      "domain": "space-systems",
+      "provider": "space-environment",
+      "kind": "dated annual report",
+      "date": "2025-12-31",
+      "url": "https://www.esa.int/Space_Safety/Space_Debris/ESA_Space_Environment_Report_2026",
+      "details": {
+        "source": "ESA 2026 Space Environment Report",
+        "published": "2026-09-14",
+        "maxHours": 192,
+        "operator": "ESA",
+        "bound": "More than",
+        "methodology": "ESA reports over 4,000 new payloads during 2025 globally; lower bound, not an exact active satellite count. Annual report covers data through end-2025. No live collision probability inferred."
+      },
+      "summary": "Constellation deployment increases useful capability and traffic-management demands. Payload deployments are distinct from active operational spacecraft.",
+      "value": 4000,
+      "units": "payloads · lower bound",
+      "scope": "Global",
+      "retrieved": "2026-10-14T01:16:55.446Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:milestone:crew13",
+      "title": "Crew-13 · NASA confirms orbit insertion",
+      "domain": "space-systems",
+      "provider": "space-milestones",
+      "kind": "official mission milestone",
+      "date": "2026-10-01",
+      "url": "https://www.nasa.gov/blogs/spacestation/2026/10/01/nasas-spacex-crew-13-reaches-orbit-news-conference-at-1245-p-m-edt/",
+      "details": {
+        "country": "USA",
+        "provider": "SpaceX",
+        "category": "Civil · NASA",
+        "source": "NASA mission operations blog",
+        "maxHours": 192,
+        "demonstrated": "Dragon reached orbit and separated from its launch vehicle; confirmation in NASA mission report.",
+        "missionCompletion": "Extended ISS mission and eventual crew return are separate milestones.",
+        "methodology": "Primary NASA confirmation of orbit insertion, not a claim that all mission objectives or crew return have been completed."
+      },
+      "summary": "Crew access supports ISS operations and research; launcher insertion is only one stage of mission delivery.",
+      "scope": "USA",
+      "retrieved": "2026-10-14T01:16:55.512Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:context:goes",
+      "title": "NOAA weather-system documentation",
+      "domain": "space-systems",
+      "provider": "space-context",
+      "kind": "reviewed public documentation",
+      "date": "2026-10-14T01:16:55.947Z",
+      "url": "https://www.ospo.noaa.gov/operations/goes/status.html",
+      "details": {
+        "source": "Original operator / agency documentation",
+        "maxHours": 192,
+        "methodology": "Reference-role review only; no classified telemetry, service availability or program finances inferred."
+      },
+      "summary": "Published role and subsystem status documentation; this integration does not derive complete service uptime.",
+      "scope": "Global",
+      "retrieved": "2026-10-14T01:16:55.947Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:context:landsat",
+      "title": "NASA Landsat mission documentation",
+      "domain": "space-systems",
+      "provider": "space-context",
+      "kind": "reviewed public documentation",
+      "date": "2026-10-14T01:16:55.685Z",
+      "url": "https://science.nasa.gov/mission/landsat-9/mission-details/",
+      "details": {
+        "source": "Original operator / agency documentation",
+        "maxHours": 192,
+        "methodology": "Reference-role review only; no classified telemetry, service availability or program finances inferred."
+      },
+      "summary": "NASA/USGS responsibility and mission role documentation; acquisition uptime not connected.",
+      "scope": "Global",
+      "retrieved": "2026-10-14T01:16:55.685Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:context:rocketlab",
+      "title": "Rocket Lab technology and ownership disclosure",
+      "domain": "space-systems",
+      "provider": "space-context",
+      "kind": "reviewed public documentation",
+      "date": "2026-10-14T01:16:56.000Z",
+      "url": "https://investors.rocketlabcorp.com/",
+      "details": {
+        "source": "Original operator / agency documentation",
+        "maxHours": 192,
+        "methodology": "Reference-role review only; no classified telemetry, service availability or program finances inferred."
+      },
+      "summary": "Public investor disclosure distinguishes Electron flight history from Neutron development; live financial metrics not connected.",
+      "scope": "Global",
+      "retrieved": "2026-10-14T01:16:56.000Z",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "space:context:ula",
+      "title": "ULA operating structure documentation",
+      "domain": "space-systems",
+      "provider": "space-context",
+      "kind": "reviewed public documentation",
+      "date": "2026-10-14T01:16:56.261Z",
+      "url": "https://www.ulalaunch.com/about",
+      "details": {
+        "source": "Original operator / agency documentation",
+        "maxHours": 192,
+        "methodology": "Reference-role review only; no classified telemetry, service availability or program finances inferred."
+      },
+      "summary": "Operator identifies ULS as a ULA subsidiary; no standalone equity or current parent transaction status inferred.",
+      "scope": "Global",
+      "retrieved": "2026-10-14T01:16:56.262Z",
+      "status": "OBSERVED"
+    }
+  ],
+  "health": [
+    {
+      "provider": "space-weather",
+      "status": "connected",
+      "count": 4,
+      "warnings": []
+    },
+    {
+      "provider": "space-launches",
+      "status": "connected",
+      "count": 22,
+      "warnings": []
+    },
+    {
+      "provider": "space-missions",
+      "status": "connected",
+      "count": 8,
+      "warnings": []
+    },
+    {
+      "provider": "space-infrastructure",
+      "status": "connected",
+      "count": 32,
+      "warnings": []
+    },
+    {
+      "provider": "space-environment",
+      "status": "connected",
+      "count": 1,
+      "warnings": []
+    },
+    {
+      "provider": "space-milestones",
+      "status": "connected",
+      "count": 1,
+      "warnings": []
+    },
+    {
+      "provider": "space-context",
+      "status": "connected",
+      "count": 4,
+      "warnings": []
+    }
+  ]
+}

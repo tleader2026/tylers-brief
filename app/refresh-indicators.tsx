@@ -14,6 +14,7 @@ function keysFor(tile:HTMLElement,page:string,tab:string):string[]{
  if(page==='wastewater')return ['cdc-wval'];
  if(page==='trials')return ['trials'];
  if(page==='research')return tab==='Watchlist'?[]:['pubmed'];
+ if(page==='space-systems')return ['space-context'];
  if(page==='agriculture')return ['agriculture-progress'];
  if(page==='logistics')return ['logistics-bts'];
  if(page==='governance')return ['governance'];
