@@ -1,8 +1,8 @@
-export const sidebarGroups=['Executive Summary','U.S. LongCovid','U.S. Infrastructure','U.S. ASI Progress','U.S. ASI Markets','U.S. Global'] as const;
+export const sidebarGroups=['Executive Summary','U.S. Health','U.S. Infrastructure','U.S. ASI Progress','U.S. ASI Markets','U.S. Global'] as const;
 export const unpopulatedPages=['measurements','robotics','market-signals','supply-chains'] as const;
 export const pages = [
  ['today','Overview / Today','Executive Summary','Today'],['measurements','Measurements','Executive Summary','Measurements'],
- ['research','Long COVID Research','U.S. LongCovid','Theories'],['trials','Clinical Trials','U.S. LongCovid','Active Trials'],['wastewater','Exposure Risk','U.S. LongCovid','Exposure Risk'],['population-health','U.S. Population Health & Human Capacity','U.S. LongCovid','Population Health'],
+ ['healthcare-capacity','Healthcare Capacity','U.S. Health','Healthcare Capacity'],['research','Long COVID Research','U.S. Health','Theories'],['trials','Clinical Trials','U.S. Health','Active Trials'],['wastewater','Exposure Risk','U.S. Health','Exposure Risk'],['population-health','U.S. Population Health & Human Capacity','U.S. Health','Population Health'],
  ['national-housing','Housing','U.S. Infrastructure','Housing'],['infrastructure','Utilities','U.S. Infrastructure','Utilities'],['logistics','Logistics','U.S. Infrastructure','Logistics'],['agriculture','Agriculture','U.S. Infrastructure','Agriculture'],['space-systems','Space Systems','U.S. Infrastructure','Space Systems'],
  ['tech-jobs','Tech Jobs','U.S. ASI Markets','Tech Jobs'],['companies','AI Companies & Markets','U.S. ASI Markets','Companies'],['trust-safety','Risk Factors','U.S. ASI Progress','Trust & Safety'],['capabilities','Capabilities','U.S. ASI Progress','Capabilities'],['governance','AI Governance','U.S. ASI Progress','Governance'],['robotics','Robotics','U.S. ASI Progress','Robotics'],['market-signals','Market Signals','U.S. ASI Markets','Market Signals'],['supply-chains','Supply Chains','U.S. ASI Markets','Supply Chains'],
  ['geopolitics','Geopolitics','U.S. Global','Geopolitics'],['economy','U.S. Economy & Purchasing Power','U.S. Global','Economy'],['internet','Internet','U.S. Global','Internet'],['labor','Employment Reality','U.S. Global','Labor'],
@@ -10,6 +10,7 @@ export const pages = [
  ['connections','Cross-Domain Signals','Workspace','Connections'],['library','Research Library & Notebook','Workspace','Library & notebook'],['alerts','Alerts & Briefings','Workspace','Alerts & briefings'],['settings','Sources, Data Health & Settings','Workspace','Sources & settings'],
 ] as const;
 export const tabs: Record<string,string[]> = {
+ 'healthcare-capacity':['Overview','Hospitals & Care Capacity','Research Funding','Scientists & Training','Workforce Health & Disability','Insurance & Claims','Epidemic Preparedness','Cure Pipeline & Bottlenecks','Evidence & Data Gaps'],
  capabilities:['Executive Overview','Capability Frontier','Memory, Agents & Product Utility','Compute, Energy & Internet','U.S. Continuity & Dependencies','Autonomous Science & Human Pathome','Robotics & Industrial Execution','Governance, Security & Human Agency','Evidence & Measurement Registry'],
  'trust-safety':['Executive scorecard','Internet-scale benchmarks','Threat surfaces','Investigation funnel','AI & agentic abuse','Defense economics','Distributed immunity','Evidence & methodology'],
  labor:['Employment Overview','Beyond U-3','Stable Work & Income','Methods & Sources'],

@@ -1,0 +1,8 @@
+import fs from 'node:fs';
+const q=new URL('https://data.cdc.gov/resource/mpgq-jmmr.json');
+q.searchParams.set('$select','weekendingdate,jurisdiction,numinptbeds,numinptbedsocc,numicubeds,numicubedsocc,pctinptbedsocc,pcticubedsocc,totalconfc19newadm,totalconfc19newadmper100k,numinptbedsperchosprep');
+q.searchParams.set('$where',"weekendingdate >= '2024-11-01T00:00:00' AND weekendingdate <= '2026-10-14T00:00:00'");q.searchParams.set('$order','weekendingdate DESC');q.searchParams.set('$limit','20000');
+const res=await fetch(q);if(!res.ok)throw Error(res.status);const rows=await res.json();if(!Array.isArray(rows)||rows.length>=20000)throw Error('Schema or truncated download');
+const meta=await(await fetch('https://data.cdc.gov/api/views/mpgq-jmmr.json')).json();
+fs.writeFileSync('lib/healthcare-capacity-snapshot.json',JSON.stringify({retrieved:new Date().toISOString(),sourceUpdated:new Date(meta.rowsUpdatedAt*1000).toISOString(),url:'https://data.cdc.gov/Public-Health-Surveillance/Weekly-Hospital-Respiratory-Data-HRD-Metrics-by-Ju/mpgq-jmmr',rows:rows.map(r=>{const n=k=>r[k]==null||r[k]===''||!Number.isFinite(Number(r[k]))?null:Number(r[k]);return {date:r.weekendingdate.slice(0,10),code:r.jurisdiction,beds:n('numinptbeds'),occupied:n('numinptbedsocc'),icu:n('numicubeds'),icuOccupied:n('numicubedsocc'),occupancy:n('pctinptbedsocc'),icuOccupancy:n('pcticubedsocc'),covid:n('totalconfc19newadm'),covidRate:n('totalconfc19newadmper100k'),reporting:n('numinptbedsperchosprep')};})}));
+console.log({count:rows.length,latest:rows[0],jurisdictions:[...new Set(rows.map(x=>x.jurisdiction))]});
