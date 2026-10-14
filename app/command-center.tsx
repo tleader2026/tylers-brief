@@ -259,7 +259,7 @@ export default function CommandCenter(){
 
  function overview(){return <>
 
-  <div className="welcome"><div><span className="eyebrow">YOUR PERSONAL INTELLIGENCE WORKSPACE</span><h1>Weekly Snapshot</h1><p>Health, home, technology and the wider world. Connected by evidence.</p></div><div className="date-block"><span>{new Date().toLocaleDateString('en-US',{timeZone:'America/Chicago',weekday:'long'})}</span><strong>{new Date().toLocaleDateString('en-US',{timeZone:'America/Chicago',month:'long',day:'numeric'})}</strong><span>Central time</span></div></div>
+  <div className="welcome"><div><span className="eyebrow">YOUR PERSONAL INTELLIGENCE WORKSPACE</span><h1>Weekly Snapshot</h1><p>The wider measure and macro metrics</p></div><div className="date-block"><span>{new Date().toLocaleDateString('en-US',{timeZone:'America/Chicago',weekday:'long'})}</span><strong>{new Date().toLocaleDateString('en-US',{timeZone:'America/Chicago',month:'long',day:'numeric'})}</strong><span>Central time</span></div></div>
 
   <EnergyPrices records={records} open={open}/><MarketPulse records={records} open={open}/>
 
