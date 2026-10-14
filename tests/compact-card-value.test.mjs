@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {compactCardValue as c} from '../lib/compact-card-value.ts';
+test('card overflow labels abbreviate counts and rounded currency while preserving semantic values elsewhere',()=>{assert.equal(c('1,000,000'),'1M');assert.equal(c('$13,100,000,000,000'),'$13T');assert.equal(c('$459,000,000,000'),'$459B');assert.equal(c('≈12,777,672'),'≈13M');assert.equal(c('1.50%'),'1.50%');assert.equal(c('Not available'),'Not available');assert.equal(c('935'),'935');});

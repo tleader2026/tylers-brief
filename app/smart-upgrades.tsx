@@ -1,4 +1,5 @@
 'use client';
+import FitCardValue from './fit-card-value';
 import {useEffect,useState} from 'react';
 import snapshot from '../lib/smart-upgrades-snapshot.json';
 import {deviceFootprint,parseHomeDevices,upgradeValue,type UpgradeCosts,type HomeDevice} from '../lib/smart-upgrades';
@@ -11,7 +12,7 @@ const count=(v:number)=>v.toLocaleString('en-US',{maximumFractionDigits:0});
 const dollars=(v:number)=>v.toLocaleString('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
 type Estimate=typeof snapshot.national;
 function Source({href,label}:{href:string;label:string}){return <a href={href} target="_blank" rel="noreferrer">{label} ↗</a>;}
-function Metric({title,value,children}:{title:string;value:string;children:React.ReactNode}){return <article className="su-card"><h3>{title}</h3><strong className="su-value">{value}</strong><div>{children}</div></article>;}
+function Metric({title,value,children}:{title:string;value:string;children:React.ReactNode}){return <article className="su-card"><h3>{title}</h3><strong className="su-value"><FitCardValue value={value}/></strong><div>{children}</div></article>;}
 function Bars({rows}:{rows:Estimate[]}){return <div className="su-bars">{rows.map(r=><div key={r.label} className="su-bar-row"><span>{r.label}</span><div className="su-track"><div style={{width:r.pct+'%'}}/></div><strong>{r.pct}%</strong><small>95% CI {r.low}–{r.high}% · {r.confidence}</small></div>)}</div>;}
 function EstimateTable({rows}:{rows:Estimate[]}){return <div className="su-scroll"><table><thead><tr><th>Group</th><th>Households with smart thermostat</th><th>Share of all group households</th><th>95% interval</th><th>Sample / confidence</th></tr></thead><tbody>{rows.map(r=><tr key={r.label}><th>{r.label}</th><td>{count(r.households)}</td><td>{r.pct}%</td><td>{r.low}–{r.high}%</td><td>{count(r.n)} · {r.confidence}</td></tr>)}</tbody></table></div>;}
 export default function SmartUpgrades(){
