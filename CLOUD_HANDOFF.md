@@ -42,3 +42,5 @@ Trust & Safety is implemented locally with eight subtabs and a separate typed ca
 Publication correction: use a fresh archive filename for each source version and verify the live Trust & Safety route after deployment. Reusing a prior package path can upload a cached archive; the completed page must show its eight subtabs, not the placeholder.
 
 Live verification remains required: the combined publisher reported successful versions 145–147 while the browser still loaded the placeholder. The local source and build were verified independently. Diagnose archive ingestion and deployed asset routing before treating publication metadata as proof of the page.
+
+Verified live correction October 14, 2026: separate save_site_version with an uncompressed verified tar, followed by deploy_private_site_version, succeeded in live browser verification. Version 148 now shows all eight subtabs, the trust-safety-2026-10-14 marker, correct navigation order and the Google card without a status badge. The exact underlying cause of the earlier combined-publisher mismatch is unresolved.
