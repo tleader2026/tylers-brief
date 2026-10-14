@@ -30,7 +30,7 @@ export default function LogisticsDashboard({records,health,open,loaded,onRefresh
  const matches=(r:RecordData)=>(mode==='All modes'||r.details?.mode===mode||r.details?.mode==='All modes')&&(geography==='All U.S.-relevant coverage'||r.scope===geography);
  const measurements=available.filter(r=>r.value!=null&&r.kind!=='structural exposure'&&matches(r));
  const incidents=available.filter(r=>r.kind==='official advisory'&&matches(r)&&r.details?.incident?.expires>=new Date().toISOString().slice(0,10));
- const missing=missingLogistics.filter(m=>(mode==='All modes'||m.mode===mode)&&(geography==='All U.S.-relevant coverage'||geography==='United States'||geography==='Los Angeles'&&m.mode==='Ports & Ocean'));
+ const missing=missingLogistics.filter(m=>!["truck-capacity","port-dwell","ocean-rates","reliability","air-capacity"].includes(m.id)).filter(m=>(mode==='All modes'||m.mode===mode)&&(geography==='All U.S.-relevant coverage'||geography==='United States'||geography==='Los Angeles'&&m.mode==='Ports & Ocean'));
  const summaries=measurements.flatMap(r=>{const c=metricComparison(r,comparison);return c&&c.percent!==null?[{record:r,change:c}]:[];}).sort((a,b)=>Math.abs(b.change.percent!)-Math.abs(a.change.percent!)).slice(0,4);
  const currentMode=mode==='All modes'?'Trucking':mode;
  const modeRows=measurements.filter(r=>r.details?.mode===currentMode);
