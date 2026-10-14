@@ -132,3 +132,5 @@ details{padding:12px 0;border-bottom:1px solid var(--border);font-size:12px}summ
 .metric-good{color:#8ce0bd!important}.metric-danger{color:#ff969e!important}.metric-neutral{color:#fff6de!important}
 
 .energy-price{min-height:190px}.energy-price>small{display:block;font-size:11px;line-height:1.5;color:var(--muted)}.energy-price .energy-change{font-size:11px;line-height:1.5}.energy-price strong small{font-size:13px;letter-spacing:0}
+
+.farm-income-feature{padding:28px;margin-bottom:24px}.farm-income-head{display:flex;justify-content:space-between;align-items:center;gap:24px}.farm-income-feature h2{margin:12px 0}.farm-income-head strong{font-size:40px}.farm-income-comparisons{display:flex;gap:28px}.farm-income-comparisons>div{display:grid;gap:8px}.farm-income-comparisons b{font-size:32px}.farm-income-comparisons span,.farm-income-feature footer{font-size:12px}.farm-income-feature>p{font-size:14px;line-height:1.8;max-width:1100px}.farm-income-feature footer{display:flex;flex-wrap:wrap;gap:18px;padding-top:16px;border-top:1px solid var(--border)}@media(max-width:750px){.farm-income-head{align-items:start;flex-direction:column}.farm-income-feature{padding:20px}}
