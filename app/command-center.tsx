@@ -302,7 +302,7 @@ export default function CommandCenter(){
 
  {key==='research'&&!['Publications','Drug development'].includes(tab)&&<ResearchLandscape tab={tab} records={all} open={open}/>}
 
- {key==='trials'&&tab==='Calendar'?calendar(rows):key==='trials'&&tab==='Map'?<TrialMap records={rows} open={open} onRefresh={refresh} busy={busy}/>:key==='trials'&&tab==='Top 10'?<TrialsOverview records={rows} open={open} saved={state.saved} onSave={save}/>:key==='trials'&&tab==='Changes'?table(rows.filter(r=>r.change),'Registry changes'):table(rows,key==='research'?'Publications · review required':'Source-linked evidence')}
+ {key==='trials'&&tab==='Calendar'?calendar(rows):key==='trials'&&tab==='Map'?<TrialMap records={rows} open={open} onRefresh={refresh} busy={busy}/>:key==='trials'&&tab==='Top 10'?<TrialsOverview records={rows} open={open} saved={state.saved} onSave={save}/>:key==='trials'&&tab==='Changes'?table(rows.filter(r=>r.change),'Registry changes'):key==='economy'?null:table(rows,key==='research'?'Publications · review required':'Source-linked evidence')}
 
  {key==='companies'&&tab==='Bubble indicators'&&<section className="panel form-pad"><h3>AI investment evidence board</h3><p>Track capex versus monetization, financing dependence, earnings revisions, valuation denominators, utilization and power constraints. No invented bubble probability is calculated.</p><div className="two-col"><div><span className="eyebrow">Supporting signals</span><p>{rows.filter(r=>r.details?.stance==='support').map(r=>r.title).join('; ')||'No reviewed signals saved.'}</p></div><div><span className="eyebrow">Counterevidence</span><p>{rows.filter(r=>r.details?.stance==='counter').map(r=>r.title).join('; ')||'No reviewed counterevidence saved.'}</p></div></div></section>}
 
