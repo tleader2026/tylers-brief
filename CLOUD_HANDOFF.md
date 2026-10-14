@@ -57,3 +57,6 @@ Labor now belongs to U.S. Global and has Employment Overview, Beyond U-3, Stable
 
 
 Labor Employment Overview heading is Broader Employment Stress. The unemployed/employed/civilian-force/military standalone tiles and redundant two-line employment chart were replaced by LaborPopulationChart. Census POP all-age estimate is the blue baseline; CPS civilian series keep red/green/cream, military uses cream dashed with only three DMDC dates. Full counts and population-share views retain missing months. Shares are not unemployment rates or an additive partition. Future POP dates excluded; 2026 advance-published estimates explicitly labeled.
+
+
+Thesis Lab & Scenarios is now under Governance, removed from Capabilities navigation. Legacy Capabilities thesis links redirect. The same CapabilityDashboard implementation and capability-observatory-v1 browser-storage key remain, preserving thesis edits, scenario inputs, configurations and saved views. Internal capabilityTabs indices stay stable for measurement metadata/backward compatibility; public navigation lives in lib/catalog.ts.
