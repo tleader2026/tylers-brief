@@ -161,3 +161,5 @@ GOOGL stock tile replaces Today tech put/call. Refresh market-stock with the exi
 ## Labor
 
 Refresh labor-fred (39 BLS CPS/CES/JOLTS series through FRED, since 2022) during weekly source maintenance. Retain seasonal adjustment and native cadence. Compare the pinned 2025 CPS table 11, 25 and 35 extracts in lib/labor-annual.ts with original tables before updating them; preserve the 11-month 2025 caveat. No automatic interpolation, inadequacy union or causal inference. Private runtime assertion values are not public data and must not be exported or changed by maintenance. My Career was explicitly omitted.
+
+Military Labor: review the official DMDC Strength Summary linked in lib/military-labor.ts during weekly source verification. The pinned July 31, 2026 headcount includes DoD active duty plus Coast Guard. Update only after validating all service rows and totals against the current report, archive the dated report, preserve native reference dates and keep military personnel separate from CPS civilian denominators.
