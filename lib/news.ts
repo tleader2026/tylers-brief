@@ -1,6 +1,8 @@
 import type {RecordData} from './catalog';
 import snapshot from './news-snapshot.json' with {type:'json'};
 export const newsTopics=[
+ {id:'governance-policy',label:'AI policy & commitments',query:'("artificial intelligence" OR "AI agents") (policy OR regulation OR legislation OR NIST OR "responsible scaling" OR "preparedness framework")'},
+ {id:'governance-incidents',label:'AI incidents & recourse',query:'("artificial intelligence" OR "AI agents" OR OpenAI OR Anthropic) (incident OR investigation OR appeal OR privacy OR lawsuit OR remediation OR breach)'},
  {id:'health',label:'Long COVID',query:'"long covid" (treatment OR trial OR research OR ensitrelvir)'},
  {id:'wastewater',label:'Wastewater',query:'COVID wastewater surveillance'},
  {id:'local',label:'Central Texas',query:'(Bastrop OR Smithville OR "Cedar Creek" OR Austin) (housing OR infrastructure OR "data center")'},

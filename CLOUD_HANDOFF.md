@@ -80,3 +80,36 @@ Timeline now renders `app/temporal-workspace.tsx` with an SVG graph and recorded
 
 ## Timeline temporarily disabled (2026-10-14)
 At the owner’s request, Timeline is hidden from navigation and direct `/timeline` visits redirect to Today. Do not re-enable without a new request. Implementation, thesis history, timelineGraph and saved positions remain preserved for future development; no data was deleted.
+
+## Governance rebuild (2026-10-15)
+Governance now uses `app/governance-dashboard.tsx` for Overview, Controls & Evaluations, Incidents, Continuity & Competition, Human Outcomes & Institutional Learning, and Policy tracker. The existing Thesis Lab & Scenarios route/component remains unchanged. Legacy Capability releases/Evaluations/Agent safety links resolve to Controls & Evaluations. Timeline stays disabled.
+`lib/governance-registry.ts` defines all 12 independent priority families and separate statistical components plus secondary controls, full metric contracts, feasibility and collection plans. No national denominator or composite governance score is fabricated. Six overview measures remain unknown until compatible observed cohort data is connected. Aggregate observation JSON is validated (rates, dates, IDs, cohort/protocol compatibility), stored in authenticated workspace governanceObservations, included in workspace backups, and exportable.
+`lib/governance-evidence.ts` pins primary sources and an eight-entry announcement ledger reviewed October 15. OpenAI Preparedness v2 is a pinned historical linked document, not assumed latest complete operating policy; September 2026 disclosures are separate. NIST RMF revision, Anthropic 3.4 history, METR paused TH 1.1 page and FMTI 2025 indicator breaks are explicit. Six initial OpenAI misalignment reports are a named company-reported corpus, not independent verification, national prevalence or a severe-incident count. Unknown dates/closure/affected populations remain unknown. Do not automatically count news articles as cases.
+Governance adapter checks source availability and discovers Federal Register metadata. Availability does NOT revalidate document versions or implementation. News has dedicated governance-policy and governance-incidents queries. Manual news refresh forces retrieval; one governance page-open refresh runs when coverage is absent/old. Failures retain last-good records and show source health. No private telemetry collection or individual surveillance is enabled.
+Checks: TypeScript/build plus `node --test tests/governance.test.mjs tests/news.test.mjs`.
+
+Owner removal (2026-10-15): hide the Tested governance coverage family panel in Governance. Preserve its registry definitions and stored observations; do not restore the removed panel.
+
+## Robotics first version (2026-10-15)
+Robotics is now populated with nine tabs in app/robotics-dashboard.tsx. lib/robotics-data.ts pins primary public releases reviewed 2026-10-15: final IFR 2026 U.S. installations (38,400 in 2025; prefer final U.S. PDF over rounded global and preliminary figures), IFR cross-country 2025 totals, A3 North American orders, Census 2022 spending, BLS productivity/JOLTS, BMW pilot, NIST methods and NHTSA/Waymo scope. Public snapshots are manually reviewed, not live adapters. Detailed IFR/A3 data remain licensed. No state adoption map, national robotics score or inferred productive fleet is installed.
+Useful output, accepted quality, total human support and observed unit economics remain separate. BMW components moved are not quality-accepted results or verified paid deployment. Conditions, assistance and denominators are required for imported cohorts. Operator observations and append-only thesis reviews use existing private manual evidence records; backup/restore already includes manual records. Do not overwrite imported IDs or automatically author personal beliefs. Timeline remains disabled.
+Economics and continuity workbenches are illustrative, adjustable and exportable. Continuity allocates maintenance, then support, then manual labor, with fallback constrained by spare human hours and power/connectivity/vendor capacity. No scenario is historical evidence. Tests: node --test tests/robotics.test.mjs; run TypeScript and production build.
+
+## AI Markets & Market Signals — 2026-10-15
+Replaced /market-signals placeholder with six views for demand, capital economics, expectations, value capture and emerging markets. Source snapshots are in lib/ai-market-data.ts; accounting units and exact cohorts are preserved. No cross-stack revenue total or composite health score. Market observations and forecasts import into existing owner-private manual records, with confidential rows excluded from default view/export. No licensed feed, live quotes, measured retention/customer ROI or background alerts are implied. Models are explicitly illustrative. Test with node --test tests/ai-market.test.mjs and npx tsc --noEmit. Preserve Timeline hidden status and prior user removals.
+
+Owner removal (2026-10-15): removed Robotics Deployment stages · cohort evidence panel. Preserve deployment-stage definitions and imported cohort records; do not restore the panel.
+
+Owner layout (2026-10-15): International industrial installations · 2025 belongs on Robotics Overview, after The durability hypothesis, not Deployment & Diffusion.
+
+Owner removal (2026-10-15): removed Robotics Operator evidence registry · task cohorts and Measurement gaps panels across all tabs. Preserve stored private observations and measurement definitions; do not restore panels.
+
+Robotics reliability redesign (2026-10-15): removed Spartanburg pilot panel and Overview useful-output pilot card. Useful Output & Reliability now uses app/robotics-reliability.tsx and lib/robotics-reliability.ts for private daily fleet aggregates. No numeric Optimus telemetry is connected. Tesla public vehicle API is not an Optimus feed. Imports require mutually exclusive time states and non-overlapping cohort/day; weighted uptime and sample-weighted sensors retain missing values. Preserve prior registry/gap removals. Tests: robotics-reliability.test.mjs and robotics.test.mjs.
+
+Owner removal (2026-10-15): removed Observed project economics panel from Robotics Economics; retain the economics workbench.
+
+Owner navigation (2026-10-15): Robotics Economics is renamed Calculator and placed immediately after Thesis Testing. Underlying workbench is unchanged.
+
+Owner removal (2026-10-15): removed Robotics Thesis Testing tab, its rendered panels and Overview link. Retain previously saved private thesis records. Calculator now follows Supply Dependencies.
+
+Medical map styling (2026-10-15): uses shared trial-map-canvas sizing (480 desktop / 400 compact), same OSM basemap as Housing/Utilities, scale control and padded contiguous-US fit. ResizeObserver invalidates map geometry and fits the chosen region when visible/resized. Preserve medical colors, layer definitions and state selection.
