@@ -1,4 +1,9 @@
 export const refreshGroups = {
+ 'supply-prices':'Commodity benchmarks and datacenter producer-price indexes',
+ 'progress-evidence':'International AI access, policy, deployment and continuity evidence',
+ 'data-market':'Data-market estimates, marketplace disclosures and model-usage evidence',
+ 'geopolitics-core':'Geopolitical core measurements and source vintages',
+ 'supply-chain':'AI supply-chain disclosures and physical-capacity evidence',
  'housing-smart':'Smart-home adoption and device resilience',
  'population-chronic':'Selected chronic conditions','population-work':'Survey disability and employment','population-benefits':'Disabled-worker program counts','population-function':'Functional burden reports','population-mortality':'Mortality and lifespan','population-longcovid':'Long COVID population report','population-children':'Adolescent health','population-respiratory':'Acute respiratory surveillance','population-unavailable':'Population health research gaps',
  'space-weather':'NOAA space weather','space-launches':'Orbital launch catalog','space-missions':'NASA provisional schedules','space-infrastructure':'GPS public notices','space-environment':'ESA environment baseline','space-milestones':'Primary mission milestones','space-context':'System and company documentation','space-unavailable':'Unconnected orbital feeds',

@@ -1,0 +1,29 @@
+{
+  "reviewed": "2026-10-15",
+  "source": "https://cloud.google.com/tpu/pricing",
+  "provider": "Google Cloud",
+  "unit": "USD / chip-hour",
+  "billing": "On demand",
+  "rows": [
+    {
+      "model": "TPU v5e",
+      "region": "us-central1",
+      "value": 1.2
+    },
+    {
+      "model": "Trillium",
+      "region": "us-east1",
+      "value": 2.7
+    },
+    {
+      "model": "TPU v5p",
+      "region": "us-east5",
+      "value": 4.2
+    },
+    {
+      "model": "Ironwood",
+      "region": "us-central1",
+      "value": 12
+    }
+  ]
+}

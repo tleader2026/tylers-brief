@@ -54,3 +54,8 @@ next-env.d.ts
 /.codex/
 /outputs/
 /work/
+
+# Python collector caches and incremental compiler state
+__pycache__/
+*.pyc
+*.tsbuildinfo

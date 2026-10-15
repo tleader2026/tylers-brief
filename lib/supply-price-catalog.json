@@ -1,0 +1,1154 @@
+{
+  "series": [
+    {
+      "id": "wb-aluminum",
+      "name": "Aluminum",
+      "unit": "USD/metric ton",
+      "frequency": "Monthly",
+      "provider": "World Bank Pink Sheet",
+      "source": "https://www.worldbank.org/en/research/commodity-markets",
+      "download": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+      "origin": "worldbank",
+      "column": "Aluminum",
+      "group": "Raw materials",
+      "notes": "Nominal monthly commodity benchmark; not electronic-grade material or a supplier invoice.",
+      "published": "2026-10-02"
+    },
+    {
+      "id": "wb-copper",
+      "name": "Copper",
+      "unit": "USD/metric ton",
+      "frequency": "Monthly",
+      "provider": "World Bank Pink Sheet",
+      "source": "https://www.worldbank.org/en/research/commodity-markets",
+      "download": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+      "origin": "worldbank",
+      "column": "Copper",
+      "group": "Raw materials",
+      "notes": "Nominal monthly commodity benchmark; not electronic-grade material or a supplier invoice.",
+      "published": "2026-10-02"
+    },
+    {
+      "id": "wb-nickel",
+      "name": "Nickel",
+      "unit": "USD/metric ton",
+      "frequency": "Monthly",
+      "provider": "World Bank Pink Sheet",
+      "source": "https://www.worldbank.org/en/research/commodity-markets",
+      "download": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+      "origin": "worldbank",
+      "column": "Nickel",
+      "group": "Raw materials",
+      "notes": "Nominal monthly commodity benchmark; not electronic-grade material or a supplier invoice.",
+      "published": "2026-10-02"
+    },
+    {
+      "id": "wb-zinc",
+      "name": "Zinc",
+      "unit": "USD/metric ton",
+      "frequency": "Monthly",
+      "provider": "World Bank Pink Sheet",
+      "source": "https://www.worldbank.org/en/research/commodity-markets",
+      "download": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+      "origin": "worldbank",
+      "column": "Zinc",
+      "group": "Raw materials",
+      "notes": "Nominal monthly commodity benchmark; not electronic-grade material or a supplier invoice.",
+      "published": "2026-10-02"
+    },
+    {
+      "id": "wb-tin",
+      "name": "Tin",
+      "unit": "USD/metric ton",
+      "frequency": "Monthly",
+      "provider": "World Bank Pink Sheet",
+      "source": "https://www.worldbank.org/en/research/commodity-markets",
+      "download": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+      "origin": "worldbank",
+      "column": "Tin",
+      "group": "Raw materials",
+      "notes": "Nominal monthly commodity benchmark; not electronic-grade material or a supplier invoice.",
+      "published": "2026-10-02"
+    },
+    {
+      "id": "wb-lead",
+      "name": "Lead",
+      "unit": "USD/metric ton",
+      "frequency": "Monthly",
+      "provider": "World Bank Pink Sheet",
+      "source": "https://www.worldbank.org/en/research/commodity-markets",
+      "download": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+      "origin": "worldbank",
+      "column": "Lead",
+      "group": "Raw materials",
+      "notes": "Nominal monthly commodity benchmark; not electronic-grade material or a supplier invoice.",
+      "published": "2026-10-02"
+    },
+    {
+      "id": "wb-iron",
+      "name": "Iron ore, cfr spot",
+      "unit": "USD/dry metric ton unit",
+      "frequency": "Monthly",
+      "provider": "World Bank Pink Sheet",
+      "source": "https://www.worldbank.org/en/research/commodity-markets",
+      "download": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+      "origin": "worldbank",
+      "column": "Iron ore, cfr spot",
+      "group": "Raw materials",
+      "notes": "Nominal monthly commodity benchmark; not electronic-grade material or a supplier invoice.",
+      "published": "2026-10-02"
+    },
+    {
+      "id": "wb-gold",
+      "name": "Gold",
+      "unit": "USD/troy oz",
+      "frequency": "Monthly",
+      "provider": "World Bank Pink Sheet",
+      "source": "https://www.worldbank.org/en/research/commodity-markets",
+      "download": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+      "origin": "worldbank",
+      "column": "Gold",
+      "group": "Raw materials",
+      "notes": "Nominal monthly commodity benchmark; not electronic-grade material or a supplier invoice.",
+      "published": "2026-10-02"
+    },
+    {
+      "id": "wb-silver",
+      "name": "Silver",
+      "unit": "USD/troy oz",
+      "frequency": "Monthly",
+      "provider": "World Bank Pink Sheet",
+      "source": "https://www.worldbank.org/en/research/commodity-markets",
+      "download": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+      "origin": "worldbank",
+      "column": "Silver",
+      "group": "Raw materials",
+      "notes": "Nominal monthly commodity benchmark; not electronic-grade material or a supplier invoice.",
+      "published": "2026-10-02"
+    },
+    {
+      "id": "wb-platinum",
+      "name": "Platinum",
+      "unit": "USD/troy oz",
+      "frequency": "Monthly",
+      "provider": "World Bank Pink Sheet",
+      "source": "https://www.worldbank.org/en/research/commodity-markets",
+      "download": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+      "origin": "worldbank",
+      "column": "Platinum",
+      "group": "Raw materials",
+      "notes": "Nominal monthly commodity benchmark; not electronic-grade material or a supplier invoice.",
+      "published": "2026-10-02"
+    },
+    {
+      "id": "WPU101",
+      "name": "Iron and steel",
+      "unit": "Index 1982=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU101",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU101&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Raw materials",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU066212",
+      "name": "Thermoplastic resins and plastics materials",
+      "unit": "Index Dec 2003=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU066212",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU066212&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Raw materials",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU066",
+      "name": "Plastic resins and materials",
+      "unit": "Index 1982=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU066",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU066&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Raw materials",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU067903",
+      "name": "Industrial gases",
+      "unit": "Index 1982=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU067903",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU067903&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Raw materials",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU06790303",
+      "name": "Nitrogen",
+      "unit": "Index 1982=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU06790303",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU06790303&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Raw materials",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU06790304",
+      "name": "Oxygen",
+      "unit": "Index 1982=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU06790304",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU06790304&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Raw materials",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU06790309",
+      "name": "Argon and hydrogen combined",
+      "unit": "Index Jun 2009=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU06790309",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU06790309&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Raw materials",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU06790312",
+      "name": "Other industrial gases",
+      "unit": "Index Jun 2009=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU06790312",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU06790312&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Raw materials",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU072205011",
+      "name": "Unlaminated polyethylene film and sheet",
+      "unit": "Index Dec 2011=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU072205011",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU072205011&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Raw materials",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU1151",
+      "name": "Electronic computers",
+      "unit": "Index Feb 2023=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU1151",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU1151&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Components",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU1152",
+      "name": "Computer storage devices",
+      "unit": "Index Dec 2004=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU1152",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU1152&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Components",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "PCU334413334413",
+      "name": "Semiconductor and related device manufacturing",
+      "unit": "Index Dec 1998=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/PCU334413334413",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PCU334413334413&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Components",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "PCU3344133344131",
+      "name": "Integrated circuit packages",
+      "unit": "Index Dec 1998=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/PCU3344133344131",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PCU3344133344131&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Components",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU117601",
+      "name": "Telephone and wireline data networking equipment",
+      "unit": "Index Dec 1985=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU117601",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU117601&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Components",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU1174",
+      "name": "Transformers and power regulators",
+      "unit": "Index 1982=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU1174",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU1174&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Components",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU117522",
+      "name": "Switchgear and switchboard apparatus",
+      "unit": "Index Jun 2005=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU117522",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU117522&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Components",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU1148",
+      "name": "Air conditioning and refrigeration equipment",
+      "unit": "Index 1982=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU1148",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU1148&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Components",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "WPU0542",
+      "name": "Commercial electric power",
+      "unit": "Index 1982=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/WPU0542",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPU0542&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Components",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "PCU3359213359210",
+      "name": "Fiber-optic cable from purchased strand",
+      "unit": "Index Dec 2003=100",
+      "frequency": "Monthly",
+      "provider": "BLS via FRED",
+      "source": "https://fred.stlouisfed.org/series/PCU3359213359210",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PCU3359213359210&cosd=2020-01-01",
+      "origin": "fred",
+      "group": "Components",
+      "notes": "U.S. producer price index, not seasonally adjusted. Native base retained; revisions possible."
+    },
+    {
+      "id": "usgs-silicon",
+      "name": "Silicon metal",
+      "unit": "US cents/lb silicon",
+      "frequency": "Annual",
+      "provider": "USGS Mineral Commodity Summaries 2026",
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf",
+      "download": null,
+      "origin": "manual",
+      "group": "Raw materials",
+      "published": "2026-02",
+      "notes": "Silicon metal, not polysilicon or semiconductor wafers. 2025 is estimated; same 2026 publication vintage used for all five years.",
+      "seed": [
+        {
+          "date": "2021-01-01",
+          "value": 220.31,
+          "estimated": false
+        },
+        {
+          "date": "2022-01-01",
+          "value": 361.86,
+          "estimated": false
+        },
+        {
+          "date": "2023-01-01",
+          "value": 179.69,
+          "estimated": false
+        },
+        {
+          "date": "2024-01-01",
+          "value": 170.34,
+          "estimated": false
+        },
+        {
+          "date": "2025-01-01",
+          "value": 130,
+          "estimated": true
+        }
+      ]
+    },
+    {
+      "id": "usgs-graphite",
+      "name": "Graphite flake import unit value",
+      "unit": "USD/metric ton",
+      "frequency": "Annual",
+      "provider": "USGS Mineral Commodity Summaries 2026",
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-graphite.pdf",
+      "download": null,
+      "origin": "manual",
+      "group": "Raw materials",
+      "published": "2026-02",
+      "notes": "Import unit value at foreign ports; trade mix changes can alter this value. Not a grade-specific spot quote. 2025 is estimated; same 2026 publication vintage used for all five years.",
+      "seed": [
+        {
+          "date": "2021-01-01",
+          "value": 1330,
+          "estimated": false
+        },
+        {
+          "date": "2022-01-01",
+          "value": 1200,
+          "estimated": false
+        },
+        {
+          "date": "2023-01-01",
+          "value": 1080,
+          "estimated": false
+        },
+        {
+          "date": "2024-01-01",
+          "value": 1050,
+          "estimated": false
+        },
+        {
+          "date": "2025-01-01",
+          "value": 1000,
+          "estimated": true
+        }
+      ]
+    },
+    {
+      "id": "usgs-lithium",
+      "name": "Battery-grade lithium carbonate",
+      "unit": "USD/metric ton \u00b7 annual average-real",
+      "frequency": "Annual",
+      "provider": "USGS Mineral Commodity Summaries 2026",
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf",
+      "download": null,
+      "origin": "manual",
+      "group": "Raw materials",
+      "published": "2026-02",
+      "notes": "Publisher labels this annual average-real; retain that basis. Compound price, not lithium metal; do not splice with nominal spot quotes. 2025 is estimated; same 2026 publication vintage used for all five years.",
+      "seed": [
+        {
+          "date": "2021-01-01",
+          "value": 11700,
+          "estimated": false
+        },
+        {
+          "date": "2022-01-01",
+          "value": 63700,
+          "estimated": false
+        },
+        {
+          "date": "2023-01-01",
+          "value": 39000,
+          "estimated": false
+        },
+        {
+          "date": "2024-01-01",
+          "value": 11800,
+          "estimated": false
+        },
+        {
+          "date": "2025-01-01",
+          "value": 9000,
+          "estimated": true
+        }
+      ]
+    },
+    {
+      "id": "usgs-cobalt",
+      "name": "Cobalt, U.S. spot cathode annual average",
+      "unit": "USD/lb",
+      "frequency": "Annual",
+      "provider": "USGS Mineral Commodity Summaries 2026",
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf",
+      "download": null,
+      "origin": "manual",
+      "group": "Raw materials",
+      "published": "2026-02",
+      "notes": "Annual average of U.S. cathode benchmark, not cobalt powder or a current daily quote. 2025 is estimated; same 2026 publication vintage used for all five years.",
+      "seed": [
+        {
+          "date": "2021-01-01",
+          "value": 24.21,
+          "estimated": false
+        },
+        {
+          "date": "2022-01-01",
+          "value": 30.78,
+          "estimated": false
+        },
+        {
+          "date": "2023-01-01",
+          "value": 17.2,
+          "estimated": false
+        },
+        {
+          "date": "2024-01-01",
+          "value": 16.77,
+          "estimated": false
+        },
+        {
+          "date": "2025-01-01",
+          "value": 21,
+          "estimated": true
+        }
+      ]
+    },
+    {
+      "id": "usgs-gallium",
+      "name": "Gallium import unit value",
+      "unit": "USD/kg",
+      "frequency": "Annual",
+      "provider": "USGS Mineral Commodity Summaries 2026",
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf",
+      "download": null,
+      "origin": "manual",
+      "group": "Raw materials",
+      "published": "2026-02",
+      "notes": "Trade unit value, not a constant-grade semiconductor purchase quote. 2025 is estimated; same 2026 publication vintage used for all five years.",
+      "seed": [
+        {
+          "date": "2021-01-01",
+          "value": 277,
+          "estimated": false
+        },
+        {
+          "date": "2022-01-01",
+          "value": 432,
+          "estimated": false
+        },
+        {
+          "date": "2023-01-01",
+          "value": 365,
+          "estimated": false
+        },
+        {
+          "date": "2024-01-01",
+          "value": 439,
+          "estimated": false
+        },
+        {
+          "date": "2025-01-01",
+          "value": 580,
+          "estimated": true
+        }
+      ]
+    },
+    {
+      "id": "usgs-germanium",
+      "name": "Germanium metal, Europe 99.999% minimum",
+      "unit": "USD/kg",
+      "frequency": "Annual",
+      "provider": "USGS Mineral Commodity Summaries 2026",
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf",
+      "download": null,
+      "origin": "manual",
+      "group": "Raw materials",
+      "published": "2026-02",
+      "notes": "Specific metal purity benchmark; not germanium dioxide or a wafer price. 2025 is estimated; same 2026 publication vintage used for all five years.",
+      "seed": [
+        {
+          "date": "2021-01-01",
+          "value": 1187,
+          "estimated": false
+        },
+        {
+          "date": "2022-01-01",
+          "value": 1294,
+          "estimated": false
+        },
+        {
+          "date": "2023-01-01",
+          "value": 1392,
+          "estimated": false
+        },
+        {
+          "date": "2024-01-01",
+          "value": 1991,
+          "estimated": false
+        },
+        {
+          "date": "2025-01-01",
+          "value": 4100,
+          "estimated": true
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "raw-0",
+      "name": "Silicon",
+      "group": "Raw materials",
+      "family": "Semiconductor feedstocks",
+      "series": "usgs-silicon",
+      "fit": "Grade proxy",
+      "notes": "Silicon metal annual benchmark; electronic-grade silicon and wafers are different products."
+    },
+    {
+      "id": "raw-1",
+      "name": "Graphite",
+      "group": "Raw materials",
+      "family": "Critical minerals",
+      "series": "usgs-graphite",
+      "fit": "Annual unit value",
+      "notes": "Flake import unit value; no synthetic/electronic-grade spot index."
+    },
+    {
+      "id": "raw-2",
+      "name": "Zinc Powder",
+      "group": "Raw materials",
+      "family": "Metals",
+      "series": "wb-zinc",
+      "fit": "Metal proxy",
+      "notes": "Zinc metal benchmark, not powder. Particle size, purity and fabrication premiums unavailable."
+    },
+    {
+      "id": "raw-3",
+      "name": "Lithium",
+      "group": "Raw materials",
+      "family": "Critical minerals",
+      "series": "usgs-lithium",
+      "fit": "Compound benchmark",
+      "notes": "Battery-grade lithium carbonate annual series; not lithium metal."
+    },
+    {
+      "id": "raw-4",
+      "name": "Cobalt",
+      "group": "Raw materials",
+      "family": "Critical minerals",
+      "series": "usgs-cobalt",
+      "fit": "Annual benchmark",
+      "notes": "U.S. cathode benchmark; annual, 2025 estimated."
+    },
+    {
+      "id": "raw-5",
+      "name": "Nickel",
+      "group": "Raw materials",
+      "family": "Metals",
+      "series": "wb-nickel",
+      "fit": "Commodity benchmark",
+      "notes": "Commodity benchmark; specialty alloy premiums excluded."
+    },
+    {
+      "id": "raw-6",
+      "name": "Copper",
+      "group": "Raw materials",
+      "family": "Metals",
+      "series": "wb-copper",
+      "fit": "Commodity benchmark",
+      "notes": "Refined metal benchmark; electronic foil and wire fabrication premiums excluded."
+    },
+    {
+      "id": "raw-7",
+      "name": "Aluminum",
+      "group": "Raw materials",
+      "family": "Metals",
+      "series": "wb-aluminum",
+      "fit": "Commodity benchmark",
+      "notes": "Metal benchmark; alloys and finished components differ."
+    },
+    {
+      "id": "raw-8",
+      "name": "Steel",
+      "group": "Raw materials",
+      "family": "Metals",
+      "series": "WPU101",
+      "fit": "Industry proxy",
+      "notes": "Broad iron and steel producer-price basket; not a particular steel grade."
+    },
+    {
+      "id": "raw-9",
+      "name": "Polyethylene",
+      "group": "Raw materials",
+      "family": "Polymers",
+      "series": "WPU066212",
+      "fit": "Resin-family proxy",
+      "notes": "Thermoplastic resin basket, not polyethylene resin alone."
+    },
+    {
+      "id": "raw-10",
+      "name": "Gold",
+      "group": "Raw materials",
+      "family": "Precious metals",
+      "series": "wb-gold",
+      "fit": "Commodity benchmark",
+      "notes": "Benchmark gold; plating chemistry and fabrication excluded."
+    },
+    {
+      "id": "raw-11",
+      "name": "Silver",
+      "group": "Raw materials",
+      "family": "Precious metals",
+      "series": "wb-silver",
+      "fit": "Commodity benchmark",
+      "notes": "Benchmark silver; conductive paste premiums excluded."
+    },
+    {
+      "id": "raw-12",
+      "name": "Platinum",
+      "group": "Raw materials",
+      "family": "Precious metals",
+      "series": "wb-platinum",
+      "fit": "Commodity benchmark",
+      "notes": "Benchmark platinum; process material premiums excluded."
+    },
+    {
+      "id": "raw-13",
+      "name": "Tin",
+      "group": "Raw materials",
+      "family": "Metals",
+      "series": "wb-tin",
+      "fit": "Commodity benchmark",
+      "notes": "Metal benchmark, not solder-alloy price."
+    },
+    {
+      "id": "raw-14",
+      "name": "Lead",
+      "group": "Raw materials",
+      "family": "Metals",
+      "series": "wb-lead",
+      "fit": "Commodity benchmark",
+      "notes": "Metal benchmark; battery products differ."
+    },
+    {
+      "id": "raw-15",
+      "name": "Iron ore",
+      "group": "Raw materials",
+      "family": "Metals",
+      "series": "wb-iron",
+      "fit": "Commodity benchmark",
+      "notes": "Quoted per dry metric ton unit, not steel or USD per whole ton."
+    },
+    {
+      "id": "raw-16",
+      "name": "Gallium",
+      "group": "Raw materials",
+      "family": "Semiconductor feedstocks",
+      "series": "usgs-gallium",
+      "fit": "Annual unit value",
+      "notes": "Gallium import unit value; not gallium arsenide/nitride wafers."
+    },
+    {
+      "id": "raw-17",
+      "name": "Germanium",
+      "group": "Raw materials",
+      "family": "Semiconductor feedstocks",
+      "series": "usgs-germanium",
+      "fit": "Annual benchmark",
+      "notes": "European metal 99.999% minimum; annual."
+    },
+    {
+      "id": "raw-18",
+      "name": "Nitrogen",
+      "group": "Raw materials",
+      "family": "Process gases",
+      "series": "WPU06790303",
+      "fit": "Industrial-grade proxy",
+      "notes": "Industrial gas PPI; semiconductor purity and delivery contract premiums not isolated."
+    },
+    {
+      "id": "raw-19",
+      "name": "Oxygen",
+      "group": "Raw materials",
+      "family": "Process gases",
+      "series": "WPU06790304",
+      "fit": "Industrial-grade proxy",
+      "notes": "Industrial oxygen PPI; electronic-grade premiums not isolated."
+    },
+    {
+      "id": "raw-20",
+      "name": "Argon / Hydrogen",
+      "group": "Raw materials",
+      "family": "Process gases",
+      "series": "WPU06790309",
+      "fit": "Combined-basket proxy",
+      "notes": "Combined index; no separate argon/hydrogen or ultra-high-purity quote."
+    },
+    {
+      "id": "raw-21",
+      "name": "Other industrial gases",
+      "group": "Raw materials",
+      "family": "Process gases",
+      "series": "WPU06790312",
+      "fit": "Industry proxy",
+      "notes": "Broad basket including fluorocarbon/acetylene; not specialty etch-gas prices."
+    },
+    {
+      "id": "raw-22",
+      "name": "Plastic resins",
+      "group": "Raw materials",
+      "family": "Polymers",
+      "series": "WPU066",
+      "fit": "Industry proxy",
+      "notes": "Broad resins basket, not semiconductor encapsulants."
+    },
+    {
+      "id": "raw-23",
+      "name": "Polyethylene film / sheet",
+      "group": "Raw materials",
+      "family": "Polymers",
+      "series": "WPU072205011",
+      "fit": "Finished-product index",
+      "notes": "Film and sheet index; distinct from polyethylene resin."
+    },
+    {
+      "id": "raw-24",
+      "name": "Tungsten",
+      "group": "Raw materials",
+      "family": "Critical minerals",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-25",
+      "name": "Tantalum",
+      "group": "Raw materials",
+      "family": "Critical minerals",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-26",
+      "name": "Niobium",
+      "group": "Raw materials",
+      "family": "Critical minerals",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-27",
+      "name": "Rare earths / NdPr",
+      "group": "Raw materials",
+      "family": "Critical minerals",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-28",
+      "name": "Hafnium",
+      "group": "Raw materials",
+      "family": "Semiconductor feedstocks",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-29",
+      "name": "Boron / dopants",
+      "group": "Raw materials",
+      "family": "Semiconductor feedstocks",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-30",
+      "name": "High-purity quartz",
+      "group": "Raw materials",
+      "family": "Semiconductor feedstocks",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-31",
+      "name": "Electronic-grade polysilicon / wafers",
+      "group": "Raw materials",
+      "family": "Semiconductor feedstocks",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-32",
+      "name": "Silicon carbide / GaN substrates",
+      "group": "Raw materials",
+      "family": "Semiconductor feedstocks",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-33",
+      "name": "Neon",
+      "group": "Raw materials",
+      "family": "Process gases",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-34",
+      "name": "Helium",
+      "group": "Raw materials",
+      "family": "Process gases",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-35",
+      "name": "Krypton / Xenon",
+      "group": "Raw materials",
+      "family": "Process gases",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-36",
+      "name": "Silane / specialty etch gases",
+      "group": "Raw materials",
+      "family": "Process gases",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-37",
+      "name": "Photoresists",
+      "group": "Raw materials",
+      "family": "Process chemicals",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-38",
+      "name": "Ultra-pure acids / solvents",
+      "group": "Raw materials",
+      "family": "Process chemicals",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-39",
+      "name": "Epoxy / polyimide / encapsulants",
+      "group": "Raw materials",
+      "family": "Polymers",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "raw-40",
+      "name": "High-purity alumina / ceramics",
+      "group": "Raw materials",
+      "family": "Semiconductor feedstocks",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "component-41",
+      "name": "GPUs",
+      "group": "Components",
+      "family": "Compute",
+      "series": "PCU334413334413",
+      "fit": "Broad chip-industry proxy",
+      "notes": "No GPU-specific purchase index; excludes model, memory, export, region and channel price differences."
+    },
+    {
+      "id": "component-42",
+      "name": "CPUs",
+      "group": "Components",
+      "family": "Compute",
+      "series": "PCU334413334413",
+      "fit": "Broad chip-industry proxy",
+      "notes": "No current CPU-specific index connected; older CPU series ended in 2015."
+    },
+    {
+      "id": "component-43",
+      "name": "TPUs / custom ASICs",
+      "group": "Components",
+      "family": "Compute",
+      "series": "PCU334413334413",
+      "fit": "Broad chip-industry proxy",
+      "notes": "No TPU hardware purchase index. Cloud rental list rates are shown separately."
+    },
+    {
+      "id": "component-44",
+      "name": "Servers / systems",
+      "group": "Components",
+      "family": "Compute",
+      "series": "WPU1151",
+      "fit": "Broad computer proxy",
+      "notes": "Electronic computers, not AI-server-only systems."
+    },
+    {
+      "id": "component-45",
+      "name": "Hard Drives",
+      "group": "Components",
+      "family": "Storage",
+      "series": "WPU1152",
+      "fit": "Storage-category proxy",
+      "notes": "Computer storage devices includes products beyond hard disk drives."
+    },
+    {
+      "id": "component-46",
+      "name": "SSDs / flash storage",
+      "group": "Components",
+      "family": "Storage",
+      "series": "WPU1152",
+      "fit": "Storage-category proxy",
+      "notes": "No separate enterprise SSD or NAND index connected."
+    },
+    {
+      "id": "component-47",
+      "name": "DRAM / HBM",
+      "group": "Components",
+      "family": "Memory",
+      "series": "PCU334413334413",
+      "fit": "Broad chip-industry proxy",
+      "notes": "No grade- or generation-specific DRAM/HBM price series connected."
+    },
+    {
+      "id": "component-48",
+      "name": "IC packages",
+      "group": "Components",
+      "family": "Packaging",
+      "series": "PCU3344133344131",
+      "fit": "Broad package index",
+      "notes": "Integrated circuit packages; not advanced packaging or HBM assembly alone."
+    },
+    {
+      "id": "component-49",
+      "name": "Switches / routers / networking",
+      "group": "Components",
+      "family": "Networks",
+      "series": "WPU117601",
+      "fit": "Networking-category proxy",
+      "notes": "Includes telephone and wireline equipment; not AI fabric switches alone."
+    },
+    {
+      "id": "component-50",
+      "name": "Fiber-optic cable",
+      "group": "Components",
+      "family": "Networks",
+      "series": "PCU3359213359210",
+      "fit": "Product-category index",
+      "notes": "Cable manufactured from purchased strand; may be discontinued/stale."
+    },
+    {
+      "id": "component-51",
+      "name": "Transformers / power regulators",
+      "group": "Components",
+      "family": "Power",
+      "series": "WPU1174",
+      "fit": "Equipment-category index",
+      "notes": "Broad power equipment; actual site specifications and lead times differ."
+    },
+    {
+      "id": "component-52",
+      "name": "Switchgear / switchboards",
+      "group": "Components",
+      "family": "Power",
+      "series": "WPU117522",
+      "fit": "Equipment-category index",
+      "notes": "Broad electrical distribution equipment."
+    },
+    {
+      "id": "component-53",
+      "name": "Cooling equipment",
+      "group": "Components",
+      "family": "Cooling",
+      "series": "WPU1148",
+      "fit": "Cooling-category proxy",
+      "notes": "Air-conditioning/refrigeration basket; not direct-to-chip liquid cooling."
+    },
+    {
+      "id": "component-54",
+      "name": "Electricity input",
+      "group": "Components",
+      "family": "Power",
+      "series": "WPU0542",
+      "fit": "Operating-input index",
+      "notes": "Commercial electric-power PPI, not equipment or site-specific cents/kWh."
+    },
+    {
+      "id": "component-55",
+      "name": "Optical transceivers",
+      "group": "Components",
+      "family": "Networks",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "component-56",
+      "name": "Racks / enclosures",
+      "group": "Components",
+      "family": "Systems",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "component-57",
+      "name": "Server motherboards / PCBs",
+      "group": "Components",
+      "family": "Systems",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "component-58",
+      "name": "Power supplies / UPS",
+      "group": "Components",
+      "family": "Power",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    },
+    {
+      "id": "component-59",
+      "name": "Liquid-cooling CDUs / cold plates",
+      "group": "Components",
+      "family": "Cooling",
+      "series": null,
+      "fit": "Unavailable",
+      "notes": "No verified public product-specific price index connected."
+    }
+  ]
+}
