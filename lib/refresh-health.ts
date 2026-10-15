@@ -1,4 +1,5 @@
 export const refreshGroups = {
+ 'measurements-evidence':'Thesis measurement context, standards and test artifacts',
  'supply-prices':'Commodity benchmarks and datacenter producer-price indexes',
  'progress-evidence':'International AI access, policy, deployment and continuity evidence',
  'data-market':'Data-market estimates, marketplace disclosures and model-usage evidence',

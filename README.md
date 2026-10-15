@@ -10,7 +10,7 @@ An owner-private, evidence-first dashboard for tracking U.S. health, infrastruct
 
 This overview reflects the dashboard as of **October 15, 2026**. Features range from connected public-data adapters to curated evidence registers, dated snapshots, scenario tools, and defined measures awaiting observations. A page's existence does not imply that every metric has a live feed.
 
-The deployed Site and this GitHub repository have separate publication workflows. **The latest Measurements implementation and the newest Progress mechanism-tracking update are deployed in Sites but have not yet been synchronized into this GitHub source snapshot.** Their current behavior is documented below; cloning this repository does not yet reproduce those latest additions. This README update changes documentation only.
+The deployed Site and this GitHub repository have separate publication workflows. **Measurements and the latest Progress mechanism-tracking update are synchronized with the deployed Sites source as of October 15, 2026.** Interfaces, measurement definitions, public evidence, private-workspace persistence guards, navigation, and tests are included. Private runtime records remain in the hosted database and are not committed here.
 
 ## Dashboard map
 
@@ -148,7 +148,7 @@ For implementation changes, run TypeScript, relevant domain tests, and a product
 
 ```sh
 node node_modules/typescript/bin/tsc --noEmit
-node --test tests/calculations.test.mjs tests/changes.test.mjs tests/progress.test.mjs tests/progress-market-access.test.mjs
+node --test tests/calculations.test.mjs tests/changes.test.mjs tests/measurements.test.mjs tests/progress.test.mjs tests/progress-world.test.mjs tests/progress-market-access.test.mjs
 npm run build
 ```
 
@@ -160,7 +160,7 @@ node --test tests/workspace.test.mjs
 
 Choose additional tests for the changed domain from `tests/`; some require fixtures, network access, or a running server. The workspace integration suite restores its original local test state. Do not run mutation tests against production.
 
-The latest deployed Measurements/Progress update additionally passed its measurement and world-observation tests, including milestone gates, event deduplication, panel vintages, planned-versus-actual dates, and missing-versus-zero handling. Its UI was checked on desktop and mobile. Those new test files accompany the newer Sites source and will become runnable here when that source is synchronized.
+The latest deployed Measurements/Progress update additionally passed its measurement and world-observation tests, including milestone gates, event deduplication, panel vintages, planned-versus-actual dates, and missing-versus-zero handling. Its UI was checked on desktop and mobile. Those tests are included here as `tests/measurements.test.mjs` and `tests/progress-world.test.mjs`.
 
 ## Publishing and portability
 

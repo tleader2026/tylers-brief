@@ -1,0 +1,1093 @@
+{
+  "version": "world-mechanisms-v1",
+  "reviewed": "2026-10-15",
+  "panelVintages": [
+    {
+      "id": "world-mechanisms-v1",
+      "created": "2026-10-15",
+      "members": [
+        "observation-cyber",
+        "observation-memory",
+        "observation-mcp",
+        "observation-aws",
+        "observation-korea",
+        "observation-rir",
+        "observation-incident",
+        "observation-munich",
+        "observation-a2abreak",
+        "observation-bank"
+      ],
+      "scope": "Curated ten-example mechanism discovery panel; not representative or exhaustive",
+      "change": "Initial vintage; no prior quantitative baseline"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "track-regional",
+      "mechanismId": "mechanism-regional",
+      "title": "Regional responsibility",
+      "metrics": [
+        "REG-03",
+        "REG-06"
+      ],
+      "headline": "Crisis procedures exercised",
+      "summary": "Cyber Europe rehearsed cross-border response; outcome timings remain undisclosed.",
+      "stage": "Exercised procedure",
+      "direction": "Advancing",
+      "quality": "Published exercise report",
+      "source": "source-cyber",
+      "blocker": "Response-time, remedy and smaller-member representation evidence is missing.",
+      "next": "Publish after-action findings and independently verify corrective actions.",
+      "detail": "Policy & Agreements",
+      "observation": "observation-cyber"
+    },
+    {
+      "id": "track-user",
+      "mechanismId": "mechanism-user",
+      "title": "User-owned intelligence",
+      "metrics": [
+        "USR-01",
+        "USR-02"
+      ],
+      "headline": "Memory transfer available",
+      "summary": "Claude documents user-mediated memory export/import with experimental limitations.",
+      "stage": "Available feature",
+      "direction": "Mixed",
+      "quality": "Provider documentation",
+      "source": "source-memory",
+      "blocker": "No independent preservation, exit or recovery cohort.",
+      "next": "Measure successful provider switches and semantic fidelity, including failed imports.",
+      "detail": "Mechanisms",
+      "observation": "observation-memory"
+    },
+    {
+      "id": "track-authority",
+      "mechanismId": "mechanism-authority",
+      "title": "Bounded agent authority",
+      "metrics": [
+        "AUT-01",
+        "AUT-06"
+      ],
+      "headline": "Resource-bound controls specified",
+      "summary": "MCP July revision supplies resource/audience rules; production effects remain unmeasured.",
+      "stage": "Specified",
+      "direction": "Unresolved",
+      "quality": "Versioned specification",
+      "source": "source-mcp",
+      "blocker": "No complete invalid-grant attempt or revocation-tail denominator.",
+      "next": "Independent resource-boundary tests paired with legitimate-use completion.",
+      "detail": "Mechanisms",
+      "observation": "observation-mcp"
+    },
+    {
+      "id": "track-transition",
+      "mechanismId": "mechanism-transition",
+      "title": "Cross-domain continuity",
+      "metrics": [
+        "TRN-01",
+        "TRN-04"
+      ],
+      "headline": "Deployment integration available",
+      "summary": "AWS supports third-party A2A server deployment; successful task handoffs are not established.",
+      "stage": "Available integration",
+      "direction": "Mixed",
+      "quality": "Provider release documentation",
+      "source": "source-aws",
+      "blocker": "Deployment integration exists, but version-specific security research challenges safe handoff; no destination-permission or duplicate-effect cohort.",
+      "next": "Publish a matched cross-provider handoff with destination admission and failure recovery.",
+      "detail": "Integrated Demonstrations",
+      "observation": "observation-aws"
+    },
+    {
+      "id": "track-conduit",
+      "mechanismId": "mechanism-conduit",
+      "title": "Institutional conduits",
+      "metrics": [
+        "CON-02",
+        "CON-05"
+      ],
+      "headline": "Live institutional exchange reported",
+      "summary": "UOB and HSBC report completed cross-border HKD transactions; autonomous-agent involvement is unverified.",
+      "stage": "Reported live exchange",
+      "direction": "Mixed",
+      "quality": "Named operator disclosure",
+      "source": "source-bank",
+      "blocker": "No repeat useful-exchange denominator, bounded agent authority or selective-suspension test.",
+      "next": "Measure repeat institutional exchanges under purpose limits and exercised suspension.",
+      "detail": "Policy & Agreements",
+      "observation": "observation-bank"
+    },
+    {
+      "id": "track-registry",
+      "mechanismId": "mechanism-registry",
+      "title": "Shared coordination",
+      "metrics": [
+        "RGT-02",
+        "RGT-05"
+      ],
+      "headline": "Governance draft delivered",
+      "summary": "Regional registry governance draft advances accountability and continuity provisions.",
+      "stage": "Proposed governance revision",
+      "direction": "Unresolved",
+      "quality": "Institutional draft delivery",
+      "source": "source-rir",
+      "blocker": "Draft is not adopted; signing concentration and registry-loss operation untested.",
+      "next": "Adopt bounded rules, then exercise independent recovery and cached verification.",
+      "detail": "Mechanisms",
+      "observation": "observation-rir"
+    },
+    {
+      "id": "track-continuity",
+      "mechanismId": "mechanism-continuity",
+      "title": "Internet & service continuity",
+      "metrics": [
+        "NET-01",
+        "NET-04"
+      ],
+      "headline": "Narrow recovery reported",
+      "summary": "RIPE Database web errors received a fix; this was not an Internet-wide outage.",
+      "stage": "Operator-reported recovery",
+      "direction": "Mixed",
+      "quality": "Public incident record",
+      "source": "source-incident",
+      "blocker": "No independent legitimate-workflow retention or recovery-tail sample.",
+      "next": "Measure representative endpoints and permitted work before, during and after disruption.",
+      "detail": "Connectivity",
+      "observation": "observation-incident"
+    },
+    {
+      "id": "track-us",
+      "mechanismId": "mechanism-us",
+      "title": "Durable U.S. participation",
+      "metrics": [
+        "USA-02",
+        "USA-03"
+      ],
+      "headline": "U.S. technology in EU operations",
+      "summary": "Munich and JUPITER are two operating cases, not a market-wide participation rate.",
+      "stage": "Source-reported deployment",
+      "direction": "Unresolved",
+      "quality": "Operator case disclosures",
+      "source": "source-munich",
+      "blocker": "No matched tender eligibility, recurring foreign use or support-continuity panel.",
+      "next": "Observe eligible and awarded value plus retained use and a tested provider exit.",
+      "detail": "Market Access",
+      "observation": "observation-munich"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-cyber",
+      "name": "ENISA · Cyber Europe 2026",
+      "url": "https://www.enisa.europa.eu/news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience",
+      "publicationDate": "2026-06-11",
+      "retrieved": "2026-10-15",
+      "evidenceClass": "Published exercise report"
+    },
+    {
+      "id": "source-memory",
+      "name": "Anthropic · memory import/export",
+      "url": "https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude",
+      "publicationDate": "2026-09-02",
+      "retrieved": "2026-10-15",
+      "evidenceClass": "Provider documentation"
+    },
+    {
+      "id": "source-mcp",
+      "name": "MCP · authorization revision",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization",
+      "publicationDate": "2026-07-28",
+      "retrieved": "2026-10-15",
+      "evidenceClass": "Versioned specification"
+    },
+    {
+      "id": "source-aws",
+      "name": "AWS · third-party A2A deployment",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/marketplace-a2a-server-bedrock-agentcore-runtime/",
+      "publicationDate": "2025-11-19",
+      "retrieved": "2026-10-15",
+      "evidenceClass": "Provider release documentation"
+    },
+    {
+      "id": "source-korea",
+      "name": "Commission · Korean adequacy review",
+      "url": "https://commission.europa.eu/news-and-media/news/commission-finds-republic-korea-continues-provide-adequate-level-protection-personal-data-2026-07-23_en",
+      "publicationDate": "2026-07-23",
+      "retrieved": "2026-10-15",
+      "evidenceClass": "Official review"
+    },
+    {
+      "id": "source-rir",
+      "name": "ASO AC · recommended governance draft",
+      "url": "https://www.ripe.net/about-us/news/aso-ac-delivers-recommended-draft-rir-governance-document-to-nro-ec-1/",
+      "publicationDate": "2026-07-28",
+      "retrieved": "2026-10-15",
+      "evidenceClass": "Institutional draft delivery"
+    },
+    {
+      "id": "source-incident",
+      "name": "RIPE NCC · Database web incident",
+      "url": "https://status.ripe.net/incidents/pmgjzkh7wxpn",
+      "publicationDate": "2026-10-07",
+      "retrieved": "2026-10-15",
+      "evidenceClass": "Public incident record"
+    },
+    {
+      "id": "source-munich",
+      "name": "Deutsche Telekom · Munich operational milestone",
+      "url": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/02/deutschlands-erste-ki-fabrik-fuer-die-industrie",
+      "publicationDate": "2026-02-04",
+      "retrieved": "2026-10-15",
+      "evidenceClass": "Operator case disclosures"
+    },
+    {
+      "id": "source-a2abreak",
+      "name": "A2ABreak: versioned protocol security analysis",
+      "url": "https://arxiv.org/html/2609.10871v2",
+      "publicationDate": "2026-10-13",
+      "retrieved": "2026-10-15",
+      "evidenceClass": "Independent research preprint; not production incident"
+    },
+    {
+      "id": "source-bank",
+      "name": "UOB / HSBC: live cross-border ledger transaction",
+      "url": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2026/uob-cross-border-transactions-on-swift.page",
+      "publicationDate": "2026-08-26",
+      "retrieved": "2026-10-15",
+      "evidenceClass": "Named institutional operator disclosure"
+    }
+  ],
+  "observations": [
+    {
+      "id": "observation-cyber",
+      "eventId": "event-cyber",
+      "initiative": "initiative-regional",
+      "relationshipId": "relationship-regional",
+      "milestone": "milestone-cyber",
+      "tracks": [
+        "track-regional"
+      ],
+      "definition": "Cyber Europe rehearsed cross-border response; outcome timings remain undisclosed.",
+      "value": null,
+      "missing": "Not disclosed",
+      "unit": "Scoped milestone; linked outcome rates unmeasured",
+      "numerator": null,
+      "denominator": null,
+      "geography": "EU/EFTA",
+      "workload": "Rail and maritime crisis exercise",
+      "provider": "ENISA / participating national agencies",
+      "version": "Cyber Europe 2026; revised Blueprint",
+      "period": "2026-06-11",
+      "eventDate": "2026-06-11",
+      "publicationDate": "2026-06-11",
+      "retrieved": "2026-10-15",
+      "source": "source-cyber",
+      "evidenceClass": "Published exercise report",
+      "limitation": "Response-time, remedy and smaller-member representation evidence is missing.",
+      "classification": "Real-world event",
+      "plannedDate": null,
+      "actualDate": "2026-06-11",
+      "panel": "world-mechanisms-v1"
+    },
+    {
+      "id": "observation-memory",
+      "eventId": "event-memory",
+      "initiative": "initiative-user",
+      "relationshipId": "relationship-user",
+      "milestone": "milestone-memory",
+      "tracks": [
+        "track-user"
+      ],
+      "definition": "Claude documents user-mediated memory export/import with experimental limitations.",
+      "value": null,
+      "missing": "Missing",
+      "unit": "Scoped milestone; linked outcome rates unmeasured",
+      "numerator": null,
+      "denominator": null,
+      "geography": "Provider workflow; jurisdictions unspecified",
+      "workload": "User-mediated memory import/export",
+      "provider": "Anthropic; source provider unspecified",
+      "version": "Help documentation 2026-09-02; model unspecified",
+      "period": "Actual availability date not supplied",
+      "eventDate": null,
+      "publicationDate": "2026-09-02",
+      "retrieved": "2026-10-15",
+      "source": "source-memory",
+      "evidenceClass": "Provider documentation",
+      "limitation": "No independent preservation, exit or recovery cohort.",
+      "classification": "Evidence availability only",
+      "plannedDate": null,
+      "actualDate": null,
+      "panel": "world-mechanisms-v1"
+    },
+    {
+      "id": "observation-mcp",
+      "eventId": "event-mcp",
+      "initiative": "initiative-authority",
+      "relationshipId": "relationship-authority",
+      "milestone": "milestone-mcp",
+      "tracks": [
+        "track-authority"
+      ],
+      "definition": "MCP July revision supplies resource/audience rules; production effects remain unmeasured.",
+      "value": null,
+      "missing": "Missing",
+      "unit": "Scoped milestone; linked outcome rates unmeasured",
+      "numerator": null,
+      "denominator": null,
+      "geography": "HTTP resource servers",
+      "workload": "Resource-scoped protocol authorization",
+      "provider": "Independent implementers; deployment sample unspecified",
+      "version": "MCP 2026-07-28",
+      "period": "2026-07-28",
+      "eventDate": "2026-07-28",
+      "publicationDate": "2026-07-28",
+      "retrieved": "2026-10-15",
+      "source": "source-mcp",
+      "evidenceClass": "Versioned specification",
+      "limitation": "No complete invalid-grant attempt or revocation-tail denominator.",
+      "classification": "Real-world event",
+      "plannedDate": null,
+      "actualDate": "2026-07-28",
+      "panel": "world-mechanisms-v1"
+    },
+    {
+      "id": "observation-aws",
+      "eventId": "event-aws",
+      "initiative": "initiative-transition",
+      "relationshipId": "relationship-transition",
+      "milestone": "milestone-aws",
+      "tracks": [
+        "track-transition"
+      ],
+      "definition": "AWS supports third-party A2A server deployment; successful task handoffs are not established.",
+      "value": null,
+      "missing": "Missing",
+      "unit": "Scoped milestone; linked outcome rates unmeasured",
+      "numerator": null,
+      "denominator": null,
+      "geography": "AWS Marketplace / runtime",
+      "workload": "Third-party A2A server deployment",
+      "provider": "AWS and third-party vendors",
+      "version": "Release 2025-11-19; tested A2A version undisclosed",
+      "period": "2025-11-19",
+      "eventDate": "2025-11-19",
+      "publicationDate": "2025-11-19",
+      "retrieved": "2026-10-15",
+      "source": "source-aws",
+      "evidenceClass": "Provider release documentation",
+      "limitation": "Task intent, fresh permissions and duplicate effects are not observed together.",
+      "classification": "Real-world event",
+      "plannedDate": null,
+      "actualDate": "2025-11-19",
+      "panel": "world-mechanisms-v1"
+    },
+    {
+      "id": "observation-korea",
+      "eventId": "event-korea",
+      "initiative": "initiative-conduit",
+      "relationshipId": "relationship-conduit",
+      "milestone": "milestone-korea",
+      "tracks": [
+        "track-conduit"
+      ],
+      "definition": "EU–Korea adequacy continued after review; legal scope is personal-data protection.",
+      "value": null,
+      "missing": "Not disclosed",
+      "unit": "Scoped milestone; linked outcome rates unmeasured",
+      "numerator": null,
+      "denominator": null,
+      "geography": "EU / Republic of Korea",
+      "workload": "Covered personal-data transfers",
+      "provider": "European Commission / Korean authorities",
+      "version": "First review of 2021 adequacy decision",
+      "period": "2026-07-23",
+      "eventDate": "2026-07-23",
+      "publicationDate": "2026-07-23",
+      "retrieved": "2026-10-15",
+      "source": "source-korea",
+      "evidenceClass": "Official review",
+      "limitation": "No useful exchange volume, scope-violation or selective-suspension cohort.",
+      "classification": "Real-world event",
+      "plannedDate": null,
+      "actualDate": "2026-07-23",
+      "panel": "world-mechanisms-v1"
+    },
+    {
+      "id": "observation-rir",
+      "eventId": "event-rir",
+      "initiative": "initiative-registry",
+      "relationshipId": "relationship-registry",
+      "milestone": "milestone-rir",
+      "tracks": [
+        "track-registry"
+      ],
+      "definition": "Regional registry governance draft advances accountability and continuity provisions.",
+      "value": null,
+      "missing": "Missing",
+      "unit": "Scoped milestone; linked outcome rates unmeasured",
+      "numerator": null,
+      "denominator": null,
+      "geography": "RIR governance system",
+      "workload": "Registry recognition, accountability and emergency continuity",
+      "provider": "ASO AC / NRO EC",
+      "version": "Recommended draft v3",
+      "period": "2026-07-28",
+      "eventDate": "2026-07-28",
+      "publicationDate": "2026-07-28",
+      "retrieved": "2026-10-15",
+      "source": "source-rir",
+      "evidenceClass": "Institutional draft delivery",
+      "limitation": "Draft is not adopted; signing concentration and registry-loss operation untested.",
+      "classification": "Real-world event",
+      "plannedDate": null,
+      "actualDate": "2026-07-28",
+      "panel": "world-mechanisms-v1"
+    },
+    {
+      "id": "observation-incident",
+      "eventId": "event-incident",
+      "initiative": "initiative-continuity",
+      "relationshipId": "relationship-continuity",
+      "milestone": "milestone-incident",
+      "tracks": [
+        "track-continuity"
+      ],
+      "definition": "RIPE Database web errors received a fix; this was not an Internet-wide outage.",
+      "value": null,
+      "missing": "Not disclosed",
+      "unit": "Scoped milestone; linked outcome rates unmeasured",
+      "numerator": null,
+      "denominator": null,
+      "geography": "RIPE Database web application",
+      "workload": "Intermittent HTTP 502 responses",
+      "provider": "RIPE NCC",
+      "version": "Incident pmgjzkh7wxpn; application build undisclosed",
+      "period": "First reported 2026-10-07; fix monitored that day; resolved 2026-10-08. Reporting interval is not outage duration.",
+      "eventDate": "2026-10-08",
+      "publicationDate": "2026-10-07",
+      "retrieved": "2026-10-15",
+      "source": "source-incident",
+      "evidenceClass": "Public incident record",
+      "limitation": "No independent legitimate-workflow retention or recovery-tail sample.",
+      "classification": "Real-world event",
+      "plannedDate": null,
+      "actualDate": "2026-10-08",
+      "panel": "world-mechanisms-v1"
+    },
+    {
+      "id": "observation-munich",
+      "eventId": "event-munich",
+      "initiative": "initiative-us",
+      "relationshipId": "relationship-us",
+      "milestone": "milestone-munich",
+      "tracks": [
+        "track-us"
+      ],
+      "definition": "Munich and JUPITER are two operating cases, not a market-wide participation rate.",
+      "value": null,
+      "missing": "Missing",
+      "unit": "Scoped milestone; linked outcome rates unmeasured",
+      "numerator": null,
+      "denominator": null,
+      "geography": "Germany / EU",
+      "workload": "Compute operations",
+      "provider": "Deutsche Telekom / NVIDIA; EU operator",
+      "version": "Munich initial operational disclosure",
+      "period": "2026-02-04",
+      "eventDate": "2026-02-04",
+      "publicationDate": "2026-02-04",
+      "retrieved": "2026-10-15",
+      "source": "source-munich",
+      "evidenceClass": "Operator case disclosures",
+      "limitation": "No matched tender eligibility, recurring foreign use or support-continuity panel.",
+      "classification": "Real-world event",
+      "plannedDate": null,
+      "actualDate": "2026-02-04",
+      "panel": "world-mechanisms-v1"
+    },
+    {
+      "id": "observation-bank",
+      "eventId": "event-bank-live",
+      "initiative": "initiative-bank",
+      "relationshipId": "relationship-uob-hsbc",
+      "milestone": "milestone-bank-live",
+      "tracks": [
+        "track-conduit"
+      ],
+      "definition": "UOB and HSBC report live HKD payment-message exchange with obligations matched on Swift ledger and final settlement through existing systems. AI-agent involvement is not established.",
+      "value": null,
+      "missing": "Not disclosed",
+      "unit": "Scoped milestone; linked outcome rates unmeasured",
+      "numerator": null,
+      "denominator": null,
+      "geography": "Cross-border exchange; UOB Singapore and HSBC; execution endpoints not specified",
+      "workload": "HKD tokenised-deposit obligations and settlement messaging",
+      "provider": "UOB / HSBC / Swift",
+      "version": "Release 2026-08-26; ledger build undisclosed",
+      "period": "Completed by 2026-08-26; exact transaction date not supplied",
+      "eventDate": null,
+      "publicationDate": "2026-08-26",
+      "retrieved": "2026-10-15",
+      "source": "source-bank",
+      "evidenceClass": "Named institutional operator disclosure",
+      "limitation": "Repeat volume, autonomous-agent initiation, grant revocation and selective suspension/recovery outcomes not disclosed.",
+      "classification": "Evidence availability only",
+      "plannedDate": null,
+      "actualDate": null,
+      "panel": "world-mechanisms-v1"
+    },
+    {
+      "id": "observation-a2abreak",
+      "eventId": "event-a2abreak-analysis",
+      "initiative": "initiative-a2abreak",
+      "relationshipId": "relationship-a2a-research",
+      "milestone": "milestone-a2abreak-v2",
+      "tracks": [
+        "track-authority",
+        "track-transition"
+      ],
+      "definition": "Researchers report modeled A2A v1.0.0 vulnerabilities including context injection and multi-hop identity loss. Revision v2 was published October 13; experiment dates are unspecified.",
+      "value": null,
+      "missing": "Not applicable",
+      "unit": "Research finding; production incidence unknown",
+      "numerator": null,
+      "denominator": null,
+      "geography": "Protocol model; no production jurisdiction sample",
+      "workload": "Formalized cross-agent delegation model",
+      "provider": "Purdue / University of Texas at Dallas researchers",
+      "version": "A2A v1.0.0; paper arXiv:2609.10871v2",
+      "period": "Execution date not disclosed; v1 published 2026-09-09; v2 2026-10-13",
+      "eventDate": null,
+      "publicationDate": "2026-10-13",
+      "retrieved": "2026-10-15",
+      "source": "source-a2abreak",
+      "evidenceClass": "Independent research preprint; not production incident",
+      "limitation": "Not a reproduced production exploit, prevalence estimate or finding against later protocol revisions.",
+      "classification": "Evidence availability only",
+      "plannedDate": null,
+      "actualDate": null,
+      "panel": "world-mechanisms-v1"
+    }
+  ],
+  "initiatives": [
+    {
+      "id": "initiative-regional",
+      "name": "Crisis procedures exercised",
+      "track": "track-regional",
+      "milestone": "milestone-cyber",
+      "stage": "Exercised procedure",
+      "prerequisites": [
+        "REG-03",
+        "REG-06"
+      ],
+      "actors": "ENISA / participating national agencies",
+      "scope": "EU/EFTA · Rail and maritime crisis exercise",
+      "plannedDate": null,
+      "actualDate": "2026-06-11",
+      "verification": "Published exercise report",
+      "unlocks": "Publish after-action findings and independently verify corrective actions.",
+      "next": "Publish after-action findings and independently verify corrective actions.",
+      "reversal": "Suspend the relevant conclusion if source is corrected, control is withdrawn, a bypass persists or independent replication fails.",
+      "maturity": "Prototyped",
+      "stageBoundary": "Scoped evidence class governs interpretation: legal review is not technical deployment; available service is not audited pilot success.",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "initiative-user",
+      "name": "Memory transfer available",
+      "track": "track-user",
+      "milestone": "milestone-memory",
+      "stage": "Available feature",
+      "prerequisites": [
+        "USR-01",
+        "USR-02"
+      ],
+      "actors": "Anthropic; source provider unspecified",
+      "scope": "Provider workflow; jurisdictions unspecified · User-mediated memory import/export",
+      "plannedDate": null,
+      "actualDate": null,
+      "verification": "Provider documentation",
+      "unlocks": "Measure successful provider switches and semantic fidelity, including failed imports.",
+      "next": "Measure successful provider switches and semantic fidelity, including failed imports.",
+      "reversal": "Suspend the relevant conclusion if source is corrected, control is withdrawn, a bypass persists or independent replication fails.",
+      "maturity": null,
+      "stageBoundary": "Scoped evidence class governs interpretation: legal review is not technical deployment; available service is not audited pilot success.",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "initiative-authority",
+      "name": "Resource-bound controls specified",
+      "track": "track-authority",
+      "milestone": "milestone-mcp",
+      "stage": "Specified",
+      "prerequisites": [
+        "AUT-01",
+        "AUT-06"
+      ],
+      "actors": "Independent implementers; deployment sample unspecified",
+      "scope": "HTTP resource servers · Resource-scoped protocol authorization",
+      "plannedDate": null,
+      "actualDate": "2026-07-28",
+      "verification": "Versioned specification",
+      "unlocks": "Independent resource-boundary tests paired with legitimate-use completion.",
+      "next": "Independent resource-boundary tests paired with legitimate-use completion.",
+      "reversal": "Suspend the relevant conclusion if source is corrected, control is withdrawn, a bypass persists or independent replication fails.",
+      "maturity": "Specified",
+      "stageBoundary": "Scoped evidence class governs interpretation: legal review is not technical deployment; available service is not audited pilot success.",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "initiative-transition",
+      "name": "Deployment integration available",
+      "track": "track-transition",
+      "milestone": "milestone-aws",
+      "stage": "Available integration",
+      "prerequisites": [
+        "TRN-01",
+        "TRN-04"
+      ],
+      "actors": "AWS and third-party vendors",
+      "scope": "AWS Marketplace / runtime · Third-party A2A server deployment",
+      "plannedDate": null,
+      "actualDate": "2025-11-19",
+      "verification": "Provider release documentation",
+      "unlocks": "Publish a matched cross-provider handoff with destination admission and failure recovery.",
+      "next": "Publish a matched cross-provider handoff with destination admission and failure recovery.",
+      "reversal": "Suspend the relevant conclusion if source is corrected, control is withdrawn, a bypass persists or independent replication fails.",
+      "maturity": null,
+      "stageBoundary": "Scoped evidence class governs interpretation: legal review is not technical deployment; available service is not audited pilot success.",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "initiative-conduit",
+      "name": "Recognition reviewed",
+      "track": "track-conduit",
+      "milestone": "milestone-korea",
+      "stage": "Implemented legal arrangement",
+      "prerequisites": [
+        "CON-02",
+        "CON-05"
+      ],
+      "actors": "European Commission / Korean authorities",
+      "scope": "EU / Republic of Korea · Covered personal-data transfers",
+      "plannedDate": null,
+      "actualDate": "2026-07-23",
+      "verification": "Official review",
+      "unlocks": "Measure repeat institutional exchanges under purpose limits and exercised suspension.",
+      "next": "Measure repeat institutional exchanges under purpose limits and exercised suspension.",
+      "reversal": "Suspend the relevant conclusion if source is corrected, control is withdrawn, a bypass persists or independent replication fails.",
+      "maturity": "Specified",
+      "stageBoundary": "Scoped evidence class governs interpretation: legal review is not technical deployment; available service is not audited pilot success.",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "initiative-registry",
+      "name": "Governance draft delivered",
+      "track": "track-registry",
+      "milestone": "milestone-rir",
+      "stage": "Proposed governance revision",
+      "prerequisites": [
+        "RGT-02",
+        "RGT-05"
+      ],
+      "actors": "ASO AC / NRO EC",
+      "scope": "RIR governance system · Registry recognition, accountability and emergency continuity",
+      "plannedDate": null,
+      "actualDate": "2026-07-28",
+      "verification": "Institutional draft delivery",
+      "unlocks": "Adopt bounded rules, then exercise independent recovery and cached verification.",
+      "next": "Adopt bounded rules, then exercise independent recovery and cached verification.",
+      "reversal": "Suspend the relevant conclusion if source is corrected, control is withdrawn, a bypass persists or independent replication fails.",
+      "maturity": "Proposed",
+      "stageBoundary": "Scoped evidence class governs interpretation: legal review is not technical deployment; available service is not audited pilot success.",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "initiative-continuity",
+      "name": "Narrow recovery reported",
+      "track": "track-continuity",
+      "milestone": "milestone-incident",
+      "stage": "Operator-reported recovery",
+      "prerequisites": [
+        "NET-01",
+        "NET-04"
+      ],
+      "actors": "RIPE NCC",
+      "scope": "RIPE Database web application · Intermittent HTTP 502 responses",
+      "plannedDate": null,
+      "actualDate": "2026-10-08",
+      "verification": "Public incident record",
+      "unlocks": "Measure representative endpoints and permitted work before, during and after disruption.",
+      "next": "Measure representative endpoints and permitted work before, during and after disruption.",
+      "reversal": "Suspend the relevant conclusion if source is corrected, control is withdrawn, a bypass persists or independent replication fails.",
+      "maturity": null,
+      "stageBoundary": "Scoped evidence class governs interpretation: legal review is not technical deployment; available service is not audited pilot success.",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "initiative-us",
+      "name": "U.S. technology in EU operations",
+      "track": "track-us",
+      "milestone": "milestone-munich",
+      "stage": "Source-reported deployment",
+      "prerequisites": [
+        "USA-02",
+        "USA-03"
+      ],
+      "actors": "Deutsche Telekom / NVIDIA; EU operator",
+      "scope": "Germany / EU · Compute operations",
+      "plannedDate": null,
+      "actualDate": "2026-02-04",
+      "verification": "Operator case disclosures",
+      "unlocks": "Observe eligible and awarded value plus retained use and a tested provider exit.",
+      "next": "Observe eligible and awarded value plus retained use and a tested provider exit.",
+      "reversal": "Suspend the relevant conclusion if source is corrected, control is withdrawn, a bypass persists or independent replication fails.",
+      "maturity": null,
+      "stageBoundary": "Two separate compute cases supply context; no shared architectural workflow or multi-operator mechanism deployment is established.",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "initiative-bank",
+      "name": "Live institutional exchange reported",
+      "track": "track-conduit",
+      "milestone": "milestone-bank-live",
+      "stage": "Operator-reported live transaction",
+      "prerequisites": [
+        "CON-02",
+        "CON-05"
+      ],
+      "actors": "UOB / HSBC / Swift",
+      "scope": "Cross-border exchange; UOB Singapore and HSBC; execution endpoints not specified / HKD tokenised-deposit obligations and settlement messaging",
+      "plannedDate": null,
+      "actualDate": null,
+      "verification": "Named institutional operator disclosure",
+      "unlocks": "Measure repeat institutional exchanges under purpose limits and exercised suspension.",
+      "next": "Measure repeat institutional exchanges under purpose limits and exercised suspension.",
+      "reversal": "Suspend the relevant conclusion if source is corrected, control is withdrawn, a bypass persists or independent replication fails.",
+      "maturity": "Operational pilot",
+      "stageBoundary": "Scoped evidence class governs interpretation: legal review is not technical deployment; available service is not audited pilot success.",
+      "revision": 1,
+      "supersedes": null
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "interpretation-regional",
+      "mechanism": "mechanism-regional",
+      "direction": "Advancing",
+      "rationale": "Cyber Europe rehearsed cross-border response; outcome timings remain undisclosed.",
+      "supports": [
+        "observation-cyber"
+      ],
+      "contradicts": [],
+      "counterevidence": "Response-time, remedy and smaller-member representation evidence is missing.",
+      "alternatives": "Documentation or review may advance without effective use; selection and disclosure bias remain.",
+      "reviewer": "Dashboard evidence review",
+      "reviewed": "2026-10-15",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "interpretation-user",
+      "mechanism": "mechanism-user",
+      "direction": "Mixed",
+      "rationale": "Claude documents user-mediated memory export/import with experimental limitations.",
+      "supports": [
+        "observation-memory"
+      ],
+      "contradicts": [],
+      "counterevidence": "No independent preservation, exit or recovery cohort.",
+      "alternatives": "Documentation or review may advance without effective use; selection and disclosure bias remain.",
+      "reviewer": "Dashboard evidence review",
+      "reviewed": "2026-10-15",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "interpretation-authority",
+      "mechanism": "mechanism-authority",
+      "direction": "Unresolved",
+      "rationale": "MCP July revision supplies resource/audience rules; production effects remain unmeasured.",
+      "supports": [
+        "observation-mcp"
+      ],
+      "contradicts": [
+        "observation-a2abreak"
+      ],
+      "counterevidence": "A2ABreak v2 reports modeled failures in A2A v1.0.0; applicability to later versions and production incidence are unknown.",
+      "alternatives": "Documentation or review may advance without effective use; selection and disclosure bias remain.",
+      "reviewer": "Dashboard evidence review",
+      "reviewed": "2026-10-15",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "interpretation-transition",
+      "mechanism": "mechanism-transition",
+      "direction": "Mixed",
+      "rationale": "AWS supports third-party A2A server deployment; successful task handoffs are not established.",
+      "supports": [
+        "observation-aws"
+      ],
+      "contradicts": [
+        "observation-a2abreak"
+      ],
+      "counterevidence": "A2ABreak v2 reports modeled failures in A2A v1.0.0; applicability to later versions and production incidence are unknown.",
+      "alternatives": "Documentation or review may advance without effective use; selection and disclosure bias remain.",
+      "reviewer": "Dashboard evidence review",
+      "reviewed": "2026-10-15",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "interpretation-conduit",
+      "mechanism": "mechanism-conduit",
+      "direction": "Mixed",
+      "rationale": "Named institutions report live cross-border value exchange; reviewed legal recognition remains a separate enabling condition.",
+      "supports": [
+        "observation-korea",
+        "observation-bank"
+      ],
+      "contradicts": [],
+      "counterevidence": "Repeat volume, autonomous-agent initiation, grant revocation and selective suspension/recovery outcomes not disclosed.",
+      "alternatives": "Documentation or review may advance without effective use; selection and disclosure bias remain.",
+      "reviewer": "Dashboard evidence review",
+      "reviewed": "2026-10-15",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "interpretation-registry",
+      "mechanism": "mechanism-registry",
+      "direction": "Unresolved",
+      "rationale": "Regional registry governance draft advances accountability and continuity provisions. Independent inspectable research improves the shared evidence base while identifying unresolved authority failures elsewhere.",
+      "supports": [
+        "observation-rir",
+        "observation-a2abreak"
+      ],
+      "contradicts": [],
+      "counterevidence": "Draft is not adopted; signing concentration and registry-loss operation untested.",
+      "alternatives": "Documentation or review may advance without effective use; selection and disclosure bias remain.",
+      "reviewer": "Dashboard evidence review",
+      "reviewed": "2026-10-15",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "interpretation-continuity",
+      "mechanism": "mechanism-continuity",
+      "direction": "Mixed",
+      "rationale": "RIPE Database web errors received a fix; this was not an Internet-wide outage.",
+      "supports": [
+        "observation-incident"
+      ],
+      "contradicts": [],
+      "counterevidence": "No independent legitimate-workflow retention or recovery-tail sample.",
+      "alternatives": "Documentation or review may advance without effective use; selection and disclosure bias remain.",
+      "reviewer": "Dashboard evidence review",
+      "reviewed": "2026-10-15",
+      "revision": 1,
+      "supersedes": null
+    },
+    {
+      "id": "interpretation-us",
+      "mechanism": "mechanism-us",
+      "direction": "Unresolved",
+      "rationale": "Munich and JUPITER are two operating cases, not a market-wide participation rate.",
+      "supports": [
+        "observation-munich"
+      ],
+      "contradicts": [],
+      "counterevidence": "No matched tender eligibility, recurring foreign use or support-continuity panel.",
+      "alternatives": "Documentation or review may advance without effective use; selection and disclosure bias remain.",
+      "reviewer": "Dashboard evidence review",
+      "reviewed": "2026-10-15",
+      "revision": 1,
+      "supersedes": null
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "dependency-1",
+      "fromTrack": "track-user",
+      "toTrack": "track-authority",
+      "requirement": "Exported context does not convey authority; require fresh scoped grants.",
+      "state": "Unverified across a common workflow"
+    },
+    {
+      "id": "dependency-2",
+      "fromTrack": "track-authority",
+      "toTrack": "track-transition",
+      "requirement": "Revalidate destination permissions and stop duplicate effects.",
+      "state": "Unverified across a common workflow"
+    },
+    {
+      "id": "dependency-3",
+      "fromTrack": "track-regional",
+      "toTrack": "track-conduit",
+      "requirement": "Specify recognized issuers, limits, appeal and incident contacts.",
+      "state": "Unverified across a common workflow"
+    },
+    {
+      "id": "dependency-4",
+      "fromTrack": "track-registry",
+      "toTrack": "track-authority",
+      "requirement": "Inspect trust updates without granting universal policy power.",
+      "state": "Unverified across a common workflow"
+    },
+    {
+      "id": "dependency-5",
+      "fromTrack": "track-transition",
+      "toTrack": "track-conduit",
+      "requirement": "Preserve intent within permitted institutional operations.",
+      "state": "Unverified across a common workflow"
+    },
+    {
+      "id": "dependency-6",
+      "fromTrack": "track-conduit",
+      "toTrack": "track-continuity",
+      "requirement": "Exercise selective suspension while retaining legitimate work.",
+      "state": "Unverified across a common workflow"
+    },
+    {
+      "id": "dependency-7",
+      "fromTrack": "track-continuity",
+      "toTrack": "track-us",
+      "requirement": "Test international support and vendor replacement through disruption.",
+      "state": "Unverified across a common workflow"
+    },
+    {
+      "id": "dependency-8",
+      "fromTrack": "track-regional",
+      "toTrack": "track-us",
+      "requirement": "Measure reciprocal access and representation, not supplier origin alone.",
+      "state": "Unverified across a common workflow"
+    }
+  ],
+  "demonstrations": [
+    {
+      "id": "demo-cyber2026",
+      "title": "Cyber Europe · coordinated crisis exercise",
+      "kind": "Integrated simulation",
+      "participants": "ENISA; EU/EFTA national agencies; transport operators and EU entities",
+      "jurisdictions": "EU / EFTA",
+      "mechanisms": [
+        "Crisis coordination",
+        "Institutional incident exchange",
+        "Reserve activation procedure"
+      ],
+      "operations": "Simulated rail/maritime disruption and response escalation in the same exercise, 10–11 June 2026.",
+      "repeat": "Two-day event. Sustained production operation not established.",
+      "failure": "Simulated cyber disruption; public after-action outcomes pending.",
+      "gaps": "No user-agent delegation, context migration or registry-loss test established; no response-time distribution.",
+      "source": "source-cyber",
+      "trackIds": [
+        "track-regional",
+        "track-conduit",
+        "track-continuity"
+      ],
+      "coverage": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "demo-aws2025",
+      "title": "Third-party A2A deployment on AgentCore",
+      "kind": "Deployed integration capability",
+      "participants": "AWS Marketplace / Bedrock AgentCore and third-party A2A vendors",
+      "jurisdictions": "Runtime deployments; independent cross-border jurisdictions undisclosed",
+      "mechanisms": [
+        "Third-party server distribution",
+        "Managed runtime deployment"
+      ],
+      "operations": "Procurement and configured deployment supported in one platform integration.",
+      "repeat": "No completed-task or recurring-use denominator disclosed.",
+      "failure": "No controlled handoff, revoked-grant rejection or recovery results disclosed.",
+      "gaps": "Deployment availability does not establish independent authorization, task continuity or an international institutional workflow.",
+      "source": "source-aws",
+      "trackIds": [
+        "track-transition"
+      ],
+      "coverage": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "demo-bank",
+      "title": "UOB / HSBC: live institutional value exchange",
+      "kind": "Operator-reported live transaction",
+      "participants": "UOB, HSBC and Swift",
+      "jurisdictions": "Cross-border exchange; UOB Singapore and HSBC; execution endpoints not specified",
+      "mechanisms": [
+        "Institutional payment messaging",
+        "Matched tokenised-deposit obligations",
+        "Settlement through existing systems"
+      ],
+      "operations": "HKD exchange and obligation matching reported complete by August 26, 2026.",
+      "repeat": "No recurring-volume denominator; planned SGD/USD exchanges are not counted as completed.",
+      "failure": "No selective suspension, revoked-agent grant or failure-recovery test disclosed.",
+      "gaps": "No AI-agent initiation or end-to-end authority/receipt/recovery chain established.",
+      "source": "source-bank",
+      "trackIds": [
+        "track-conduit"
+      ],
+      "coverage": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    }
+  ],
+  "trajectories": [
+    {
+      "id": "local-interop",
+      "title": "Locally controlled, interoperable systems",
+      "support": "Exercised regional crisis coordination and scoped legal recognition.",
+      "against": "No common production workflow demonstrates the full mechanism chain.",
+      "next": "Repeated independent cross-domain use plus successful correction and vendor replacement."
+    },
+    {
+      "id": "fragmentation",
+      "title": "Closed regional fragmentation",
+      "support": "Restrictions and procurement boundaries can narrow eligible exchange; inspect the existing policy register.",
+      "against": "Missing data is not exclusion; continued recognition and shared interfaces are countervailing.",
+      "next": "Dated denial clauses, challenge outcomes and legitimate work lost under matched scope."
+    },
+    {
+      "id": "concentration",
+      "title": "Concentrated proprietary dependence",
+      "support": "Available memory migration still depends on provider extraction and import behavior.",
+      "against": "Export/import creates an exit path; no comparative switch-failure cohort is connected.",
+      "next": "Independent switch success, full cost and continuity through withdrawal of a dominant provider."
+    },
+    {
+      "id": "weak-accountability",
+      "title": "Open integration with weak accountability",
+      "support": "Third-party agent deployment is available without published end-to-end authority outcomes.",
+      "against": "Resource-bound authorization rules exist; deployment counts do not establish harm.",
+      "next": "Revoked/invalid-grant rejection and reconstructable effects paired with legitimate completion."
+    }
+  ]
+}
