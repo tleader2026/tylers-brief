@@ -77,3 +77,6 @@ Timeline now renders `app/temporal-workspace.tsx` with an SVG graph and recorded
 - Authoring is closed by default. Historical snapshots are read-only; dragging layout is independent. Planned tests may lack results. Existing dashboard source attachment copies dated references into the new snapshot rather than dynamically exposing future evidence.
 - Workspace PUT uses X-Timeline-Revision plus atomic compare-and-set on workspace value, verifies existing graph events remain immutable, and retains graph when an old client omits it. Conflicts show errors; export before reload. Backup includes graph, positions and histories.
 - Tests: `node --test tests/temporal-graph.test.mjs tests/thesis-timeline.test.mjs`. Preserve personal graph/history during maintenance; no automatic authoring.
+
+## Timeline temporarily disabled (2026-10-14)
+At the owner’s request, Timeline is hidden from navigation and direct `/timeline` visits redirect to Today. Do not re-enable without a new request. Implementation, thesis history, timelineGraph and saved positions remain preserved for future development; no data was deleted.
