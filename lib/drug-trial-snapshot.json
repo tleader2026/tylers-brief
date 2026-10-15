@@ -1,0 +1,265 @@
+[
+  {
+    "id": "NCT05552755",
+    "title": "Evaluate REC-4881 in Participants With Familial Adenomatous Polyposis (FAP)",
+    "status": "RECRUITING",
+    "start": {
+      "date": "2023-07-10",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+    },
+    "updated": "2026-06-05",
+    "phase": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "sponsor": "Recursion Pharmaceuticals Inc.",
+    "hasResults": false,
+    "primaryEndpoints": [
+      {
+        "measure": "Part 1: Maximum (Peak) Plasma Drug Concentration (Cmax) of REC-4881",
+        "timeFrame": "Day 1 through Day 43"
+      },
+      {
+        "measure": "Part 1: Time to Reach Cmax (Tmax) of REC-4881",
+        "timeFrame": "Day 1 through Day 43"
+      },
+      {
+        "measure": "Part 1: Area Under the Plasma Concentration-time Curve (AUC) of REC-4881",
+        "timeFrame": "Day 1 through Day 43"
+      },
+      {
+        "measure": "Part 2: Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)",
+        "timeFrame": "Day 1 through up to Week 37"
+      },
+      {
+        "measure": "Part 2: Number of Participants With Dose-limiting Toxicities (DLTs)",
+        "timeFrame": "First 28 days of treatment"
+      },
+      {
+        "measure": "Part 2: Number of Participants Who Discontinued Treatment",
+        "timeFrame": "Day 1 through up to Week 37"
+      },
+      {
+        "measure": "Part 2: Number of Participants With Dose Modification Due to Toxicity",
+        "timeFrame": "Day 1 through up to Week 37"
+      },
+      {
+        "measure": "Part 2: Percent Change From Baseline in Polyp Burden",
+        "timeFrame": "Baseline, up to Week 37"
+      }
+    ],
+    "retrieved": "2026-10-15",
+    "url": "https://clinicaltrials.gov/study/NCT05552755"
+  },
+  {
+    "id": "NCT05938920",
+    "title": "Study Evaluating INS018_055 Administered Orally to Subjects With Idiopathic Pulmonary Fibrosis (IPF)",
+    "status": "COMPLETED",
+    "start": {
+      "date": "2023-06-19",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2024-08-08",
+      "type": "ACTUAL"
+    },
+    "updated": "2025-12-11",
+    "phase": [
+      "PHASE2"
+    ],
+    "countries": [
+      "China"
+    ],
+    "sponsor": "InSilico Medicine Hong Kong Limited",
+    "hasResults": true,
+    "primaryEndpoints": [
+      {
+        "measure": "Percentage of Participants Who Had at Least 1 Treatment-emergent Adverse Event (TEAE)",
+        "description": "TEAEs were either events with start date on or after the start of the Treatment Period and up to 17 days after EOT (end of treatment), or events with start date prior to the start of the Treatment Period whose severity worsened on or after the start of the Treatment Period and up to 17 days after EOT.\n\nCTCAE=Common Terminology Criteria for Adverse Events",
+        "timeFrame": "From first dose of study drug until end of study (EOS) visit i.e. up to 13 weeks (+10 days)"
+      }
+    ],
+    "retrieved": "2026-10-15",
+    "url": "https://clinicaltrials.gov/study/NCT05938920"
+  },
+  {
+    "id": "NCT07687459",
+    "title": "Study Evaluation Rentosertib (INS018_055) Administered Orally in Patients With Idiopathic Pulmonary Fibrosis (IPF)",
+    "status": "RECRUITING",
+    "start": {
+      "date": "2026-09-09",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2029-10-30",
+      "type": "ESTIMATED"
+    },
+    "updated": "2026-10-13",
+    "phase": [
+      "PHASE3"
+    ],
+    "countries": [
+      "China"
+    ],
+    "sponsor": "InSilico Medicine Hong Kong Limited",
+    "hasResults": false,
+    "primaryEndpoints": [
+      {
+        "measure": "the annual rate of forced vital capacity (FVC; mL) decline over 52 weeks.",
+        "timeFrame": "Weeks 0,4,12,26,39,52"
+      }
+    ],
+    "retrieved": "2026-10-15",
+    "url": "https://clinicaltrials.gov/study/NCT07687459"
+  },
+  {
+    "id": "NCT06678659",
+    "title": "A Study of REC-1245 in Participants With Unresectable, Locally Advanced, or Metastatic Cancer",
+    "status": "RECRUITING",
+    "start": {
+      "date": "2024-11-21",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2028-10-30",
+      "type": "ESTIMATED"
+    },
+    "updated": "2026-08-20",
+    "phase": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "countries": [
+      "Canada",
+      "United States"
+    ],
+    "sponsor": "Recursion Pharmaceuticals Inc.",
+    "hasResults": false,
+    "primaryEndpoints": [
+      {
+        "measure": "Phase 1-Part 1A (Dose Finding)- Number of Participants With Dose Limiting Toxicities (DLTs)",
+        "description": "To characterize the incidence of DLTs",
+        "timeFrame": "Initiation of study drug through 4 weeks"
+      },
+      {
+        "measure": "Phase 1 and 2 - Number of Participants With a Treatment-emergent Adverse Event",
+        "description": "To characterize the incidence of treatment emergent adverse events",
+        "timeFrame": "Initiation of study drug through 30 days after the last dose (up to approximately 24 months)"
+      },
+      {
+        "measure": "Phase 2- Objective Response Rate (ORR)",
+        "description": "To assess tumor response",
+        "timeFrame": "Initiation from study drug until disease progression (up to approximately 24 months)"
+      }
+    ],
+    "retrieved": "2026-10-15",
+    "url": "https://clinicaltrials.gov/study/NCT06678659"
+  },
+  {
+    "id": "NCT05085561",
+    "title": "The Symptomatic Cerebral Cavernous Malformation Trial of REC-994",
+    "status": "COMPLETED",
+    "start": {
+      "date": "2022-03-17",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2025-06-30",
+      "type": "ACTUAL"
+    },
+    "updated": "2026-06-23",
+    "phase": [
+      "PHASE2"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "sponsor": "Recursion Pharmaceuticals Inc.",
+    "hasResults": false,
+    "primaryEndpoints": [
+      {
+        "measure": "Incidence and severity of adverse events (AEs)",
+        "timeFrame": "Up to 24 months"
+      }
+    ],
+    "retrieved": "2026-10-15",
+    "url": "https://clinicaltrials.gov/study/NCT05085561"
+  },
+  {
+    "id": "NCT05130866",
+    "title": "Efficacy and Safety of REC-2282 in Patients With Progressive Neurofibromatosis Type 2 (NF2) Mutated Meningiomas",
+    "status": "TERMINATED",
+    "start": {
+      "date": "2022-06-20",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2025-08-18",
+      "type": "ACTUAL"
+    },
+    "updated": "2026-08-17",
+    "phase": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "countries": [
+      "United Kingdom",
+      "United States"
+    ],
+    "sponsor": "Recursion Pharmaceuticals Inc.",
+    "hasResults": false,
+    "primaryEndpoints": [
+      {
+        "measure": "Cohort A: Number of Participants with Progression-free survival (PFS) at 6 Months",
+        "description": "In Cohort A, PFS is defined as the number of participants who are alive and progression-free at 6 months with progression defined as having an increase of 20% or more in the target tumor identified.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Cohort B: Number of Participants with PFS up to 3 years",
+        "description": "In Cohort B, PFS is defined as the time from the date of randomization until disease progression or death from any cause, whichever occurs first.",
+        "timeFrame": "Up to 3 years"
+      }
+    ],
+    "retrieved": "2026-10-15",
+    "url": "https://clinicaltrials.gov/study/NCT05130866"
+  },
+  {
+    "id": "NCT07317544",
+    "title": "Study of ABS-201 Evaluating Single and Multiple Ascending Doses in Adults With and Without Androgenetic Alopecia",
+    "status": "RECRUITING",
+    "start": {
+      "date": "2025-12-03",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2028-07",
+      "type": "ESTIMATED"
+    },
+    "updated": "2026-09-03",
+    "phase": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "sponsor": "Absci Pty Ltd.",
+    "hasResults": false,
+    "primaryEndpoints": [
+      {
+        "measure": "Incidence rate of treatment-emergent adverse events (TEAEs) and serious TEAEs",
+        "description": "Safety assessments based on reporting of Treatment Emergent Adverse Events, together with clinically significant changes in vital signs, 12-lead ECG parameters, physical examination findings and clinical safety laboratory tests, and change in neurobehavioral symptoms (PHQ-9 and GAD-7).",
+        "timeFrame": "From enrollment to the end of the Study (SAD approximately 12 months, MAD approximately 18 months)"
+      }
+    ],
+    "retrieved": "2026-10-15",
+    "url": "https://clinicaltrials.gov/study/NCT07317544"
+  }
+]

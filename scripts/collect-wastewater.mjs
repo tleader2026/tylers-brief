@@ -1,0 +1,6 @@
+import ts from 'typescript';import {readFile,writeFile} from 'node:fs/promises';
+const cache=new Map();async function module(name){if(cache.has(name))return cache.get(name);let source=await readFile(new URL('../lib/'+name+'.ts',import.meta.url),'utf8');for(const m of [...source.matchAll(/from '(\.\/[^']+)'/g)]){if(m[1]==='./catalog')continue;source=source.replaceAll("from '"+m[1]+"'",'from '+JSON.stringify(await module(m[1].slice(2))));}const url='data:text/javascript;base64,'+Buffer.from(ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText).toString('base64');cache.set(name,url);return url;}
+const {collectWastewater}=await import(await module('wastewater-adapter'));
+const records=await collectWastewater(async url=>{const r=await fetch(url,{signal:AbortSignal.timeout(45000)});if(!r.ok)throw Error('CDC HTTP '+r.status);return r.json();});
+await writeFile(new URL('../lib/wastewater-multi-snapshot.json',import.meta.url),JSON.stringify({retrieved:new Date().toISOString(),warnings:records.warnings,records}));
+console.log(JSON.stringify({records:records.length,pathogens:[...new Set(records.map(r=>r.details.pathogen))],latest:[...new Set(records.map(r=>r.date))].sort().at(-1),warnings:records.warnings}));

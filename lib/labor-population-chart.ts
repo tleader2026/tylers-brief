@@ -15,3 +15,10 @@ export function populationChartRows(metrics:LaborMetric[]):(Record<string,number
  return [...rows.values()].sort((a,b)=>String(a.month).localeCompare(String(b.month))).map(r=>({month:String(r.month),militaryDate:r.militaryDate?String(r.militaryDate):null,...Object.fromEntries(populationLines.map(l=>[l.id,typeof r[l.id]==='number'?r[l.id]:null]))}));
 }
 export function populationShare(value:number|null,population:number|null){return value===null||population===null||population<=0?null:value/population*100;}
+export function populationCoverage(rows:ReturnType<typeof populationChartRows>){
+ const row=[...rows].reverse().find(r=>[r.POP,r.CE16OV,r.CLF16OV].every(v=>typeof v==='number'&&Number.isFinite(v))&&Number(r.POP)>0&&Number(r.CE16OV)>=0&&Number(r.CLF16OV)>=Number(r.CE16OV)&&Number(r.CLF16OV)<=Number(r.POP));
+ if(!row)return null;
+ const population=Number(row.POP),employment=Number(row.CE16OV),laborForce=Number(row.CLF16OV);
+ const compare=(covered:number)=>({covered,remainder:population-covered,coveredShare:100*covered/population,remainderShare:100*(population-covered)/population});
+ return {month:row.month,population,employment:compare(employment),laborForce:compare(laborForce)};
+}

@@ -1,0 +1,690 @@
+[
+  {
+    "family": "AI Capabilities Epistemology",
+    "level": "Director",
+    "track": "Management",
+    "title": "Director of AI Capabilities Epistemology",
+    "focus": "Establish how the organization evaluates knowledge, capability, and uncertainty.",
+    "id": "future-ai-role-1"
+  },
+  {
+    "family": "AI Capabilities Epistemology",
+    "level": "Manager",
+    "track": "Management",
+    "title": "Manager of AI Capability Research",
+    "focus": "Lead investigations into capability boundaries and evaluation methods.",
+    "id": "future-ai-role-2"
+  },
+  {
+    "family": "AI Capabilities Epistemology",
+    "level": "Principal IC",
+    "track": "Individual Contributor",
+    "title": "Principal AI Capabilities Epistemologist",
+    "focus": "Develop frameworks for distinguishing understanding, inference, memorization, and unsupported claims.",
+    "id": "future-ai-role-3"
+  },
+  {
+    "family": "AI Capabilities Epistemology",
+    "level": "Staff IC",
+    "track": "Individual Contributor",
+    "title": "Staff AI Capabilities Researcher",
+    "focus": "Investigate capabilities across models, tools, and operating environments.",
+    "id": "future-ai-role-4"
+  },
+  {
+    "family": "AI Capabilities Epistemology",
+    "level": "Senior IC",
+    "track": "Individual Contributor",
+    "title": "Senior AI Capabilities Epistemologist",
+    "focus": "Study reliability, generalization, uncertainty, and failure patterns.",
+    "id": "future-ai-role-5"
+  },
+  {
+    "family": "AI Capabilities Epistemology",
+    "level": "IC",
+    "track": "Individual Contributor",
+    "title": "AI Capabilities Epistemologist",
+    "focus": "Test claims about what systems know and can do.",
+    "id": "future-ai-role-6"
+  },
+  {
+    "family": "AI Capabilities Epistemology",
+    "level": "Associate IC",
+    "track": "Individual Contributor",
+    "title": "AI Capability Research Analyst",
+    "focus": "Collect evidence, reproduce evaluations, and document limitations.",
+    "id": "future-ai-role-7"
+  },
+  {
+    "family": "Training Data Anthropology",
+    "level": "Director",
+    "track": "Management",
+    "title": "Director of Training Data Anthropology",
+    "focus": "Set the research agenda for understanding the human origins of training data.",
+    "id": "future-ai-role-8"
+  },
+  {
+    "family": "Training Data Anthropology",
+    "level": "Manager",
+    "track": "Management",
+    "title": "Manager of Training Data Research",
+    "focus": "Lead studies of dataset communities, representation, and context.",
+    "id": "future-ai-role-9"
+  },
+  {
+    "family": "Training Data Anthropology",
+    "level": "Principal IC",
+    "track": "Individual Contributor",
+    "title": "Principal Training Data Anthropologist",
+    "focus": "Develop methods for tracing cultural patterns from data into model behavior.",
+    "id": "future-ai-role-10"
+  },
+  {
+    "family": "Training Data Anthropology",
+    "level": "Staff IC",
+    "track": "Individual Contributor",
+    "title": "Staff Training Data Anthropologist",
+    "focus": "Investigate patterns across datasets, languages, and institutions.",
+    "id": "future-ai-role-11"
+  },
+  {
+    "family": "Training Data Anthropology",
+    "level": "Senior IC",
+    "track": "Individual Contributor",
+    "title": "Senior Training Data Anthropologist",
+    "focus": "Examine historical context, missing perspectives, and embedded assumptions.",
+    "id": "future-ai-role-12"
+  },
+  {
+    "family": "Training Data Anthropology",
+    "level": "IC",
+    "track": "Individual Contributor",
+    "title": "Training Data Anthropologist",
+    "focus": "Study the people, practices, and environments behind training material.",
+    "id": "future-ai-role-13"
+  },
+  {
+    "family": "Training Data Anthropology",
+    "level": "Associate IC",
+    "track": "Individual Contributor",
+    "title": "Training Data Research Analyst",
+    "focus": "Document dataset composition, origins, and contextual gaps.",
+    "id": "future-ai-role-14"
+  },
+  {
+    "family": "Model Provenance",
+    "level": "Director",
+    "track": "Management",
+    "title": "Director of Model Provenance",
+    "focus": "Own the strategy for model lineage, traceability, and supporting evidence.",
+    "id": "future-ai-role-15"
+  },
+  {
+    "family": "Model Provenance",
+    "level": "Manager",
+    "track": "Management",
+    "title": "Manager of Model Provenance",
+    "focus": "Lead provenance operations across model development and deployment.",
+    "id": "future-ai-role-16"
+  },
+  {
+    "family": "Model Provenance",
+    "level": "Principal IC",
+    "track": "Individual Contributor",
+    "title": "Principal Model Provenance Architect",
+    "focus": "Design lineage systems spanning data, training, fine-tuning, tools, and model versions.",
+    "id": "future-ai-role-17"
+  },
+  {
+    "family": "Model Provenance",
+    "level": "Staff IC",
+    "track": "Individual Contributor",
+    "title": "Staff Model Provenance Engineer",
+    "focus": "Build provenance infrastructure across teams and technical systems.",
+    "id": "future-ai-role-18"
+  },
+  {
+    "family": "Model Provenance",
+    "level": "Senior IC",
+    "track": "Individual Contributor",
+    "title": "Senior Model Provenance Researcher",
+    "focus": "Investigate attribution gaps, inherited dependencies, and uncertain origins.",
+    "id": "future-ai-role-19"
+  },
+  {
+    "family": "Model Provenance",
+    "level": "IC",
+    "track": "Individual Contributor",
+    "title": "Model Provenance Engineer",
+    "focus": "Implement lineage records, evidence capture, and verification.",
+    "id": "future-ai-role-20"
+  },
+  {
+    "family": "Model Provenance",
+    "level": "Associate IC",
+    "track": "Individual Contributor",
+    "title": "Model Provenance Analyst",
+    "focus": "Review documentation, trace dependencies, and flag missing evidence.",
+    "id": "future-ai-role-21"
+  },
+  {
+    "family": "Model Provenance",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Training Data Provenance Investigator",
+    "focus": "Trace the origins and transformations of training material.",
+    "id": "future-ai-role-22"
+  },
+  {
+    "family": "Model Provenance",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Synthetic Data Lineage Researcher",
+    "focus": "Study how generated material moves between datasets and models.",
+    "id": "future-ai-role-23"
+  },
+  {
+    "family": "Model Provenance",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "AI Output Attribution Researcher",
+    "focus": "Investigate which sources or system components contributed to an output.",
+    "id": "future-ai-role-24"
+  },
+  {
+    "family": "Model Provenance",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Model Lineage Auditor",
+    "focus": "Independently examine provenance claims and records.",
+    "id": "future-ai-role-25"
+  },
+  {
+    "family": "Model Provenance",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Agent Action Provenance Engineer",
+    "focus": "Record how autonomous systems arrived at decisions and actions.",
+    "id": "future-ai-role-26"
+  },
+  {
+    "family": "Design Foresight",
+    "level": "Executive",
+    "track": "Executive Leadership",
+    "title": "VP of Design Foresight",
+    "focus": "Set organization-wide direction for anticipating how emerging capabilities change human needs, products, and institutions.",
+    "id": "future-ai-role-27"
+  },
+  {
+    "family": "Design Foresight",
+    "level": "Director",
+    "track": "Management",
+    "title": "Director of Design Foresight",
+    "focus": "Guide research into future human needs and consequences of emerging capabilities.",
+    "id": "future-ai-role-28"
+  },
+  {
+    "family": "Design Foresight",
+    "level": "Manager",
+    "track": "Management",
+    "title": "Manager of Design Foresight",
+    "focus": "Lead scenario development, exploratory research, and future experience studies.",
+    "id": "future-ai-role-29"
+  },
+  {
+    "family": "Design Foresight",
+    "level": "Principal IC",
+    "track": "Individual Contributor",
+    "title": "Principal Design Foresight Strategist",
+    "focus": "Connect technological change to long-term product and institutional decisions.",
+    "id": "future-ai-role-30"
+  },
+  {
+    "family": "Design Foresight",
+    "level": "Staff IC",
+    "track": "Individual Contributor",
+    "title": "Staff Design Foresight Researcher",
+    "focus": "Explore consequences that span products, organizations, and societies.",
+    "id": "future-ai-role-31"
+  },
+  {
+    "family": "Design Foresight",
+    "level": "Senior IC",
+    "track": "Individual Contributor",
+    "title": "Senior Design Foresight Researcher",
+    "focus": "Develop scenarios and investigate behavioral changes.",
+    "id": "future-ai-role-32"
+  },
+  {
+    "family": "Design Foresight",
+    "level": "IC",
+    "track": "Individual Contributor",
+    "title": "Design Foresight Researcher",
+    "focus": "Study emerging needs, interactions, and possible futures.",
+    "id": "future-ai-role-33"
+  },
+  {
+    "family": "Design Foresight",
+    "level": "Associate IC",
+    "track": "Individual Contributor",
+    "title": "Foresight Research Analyst",
+    "focus": "Track signals, assemble evidence, and maintain scenario assumptions.",
+    "id": "future-ai-role-34"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "Executive",
+    "track": "Executive Leadership",
+    "title": "Chief Wisdom Officer",
+    "focus": "Establish organizational practices for sound judgment, competing objectives, uncertainty, and long-term consequences.",
+    "id": "future-ai-role-35"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "Director",
+    "track": "Management",
+    "title": "Director of Wisdom and Judgment Research",
+    "focus": "Develop organizational approaches to judgment, uncertainty, and long-term consequences.",
+    "id": "future-ai-role-36"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "Manager",
+    "track": "Management",
+    "title": "Manager of Applied Judgment Research",
+    "focus": "Lead studies of decision quality and competing objectives.",
+    "id": "future-ai-role-37"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "Principal IC",
+    "track": "Individual Contributor",
+    "title": "Principal Wisdom and Judgment Researcher",
+    "focus": "Develop frameworks connecting knowledge, values, context, and action.",
+    "id": "future-ai-role-38"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "Staff IC",
+    "track": "Individual Contributor",
+    "title": "Staff Decision Systems Researcher",
+    "focus": "Investigate how people and AI systems make consequential decisions together.",
+    "id": "future-ai-role-39"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "Senior IC",
+    "track": "Individual Contributor",
+    "title": "Senior Applied Judgment Researcher",
+    "focus": "Study tradeoffs, reversibility, commitment, and delayed consequences.",
+    "id": "future-ai-role-40"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "IC",
+    "track": "Individual Contributor",
+    "title": "Judgment Researcher",
+    "focus": "Examine decision processes and whether outcomes support their underlying reasoning.",
+    "id": "future-ai-role-41"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "Associate IC",
+    "track": "Individual Contributor",
+    "title": "Decision Research Analyst",
+    "focus": "Track assumptions, decisions, outcomes, and subsequent revisions.",
+    "id": "future-ai-role-42"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Human–AI Judgment Researcher",
+    "focus": "Study how human and AI judgment interact, including when delegation or intervention improves decisions.",
+    "id": "future-ai-role-43"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Long-Horizon Decision Scientist",
+    "focus": "Investigate decisions whose consequences emerge over extended periods.",
+    "id": "future-ai-role-44"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Value Interpretation Researcher",
+    "focus": "Study how systems interpret values and resolve ambiguity among competing objectives.",
+    "id": "future-ai-role-45"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Institutional Memory Researcher",
+    "focus": "Investigate how organizations preserve experience, decision context, and lessons across time.",
+    "id": "future-ai-role-46"
+  },
+  {
+    "family": "Wisdom and Judgment",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Decision Consequence Analyst",
+    "focus": "Trace intended and unintended consequences back to decisions and their assumptions.",
+    "id": "future-ai-role-47"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "Director",
+    "track": "Management",
+    "title": "Director of Systems Cartography",
+    "focus": "Establish how the organization maps complex technological and human systems.",
+    "id": "future-ai-role-48"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "Manager",
+    "track": "Management",
+    "title": "Manager of Systems Mapping Research",
+    "focus": "Lead investigations into dependencies, relationships, and structural change.",
+    "id": "future-ai-role-49"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "Principal IC",
+    "track": "Individual Contributor",
+    "title": "Principal Systems Cartographer",
+    "focus": "Develop methods for mapping systems whose boundaries remain uncertain.",
+    "id": "future-ai-role-50"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "Staff IC",
+    "track": "Individual Contributor",
+    "title": "Staff Systems Cartographer",
+    "focus": "Connect findings across technical, institutional, economic, and social domains.",
+    "id": "future-ai-role-51"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "Senior IC",
+    "track": "Individual Contributor",
+    "title": "Senior Systems Cartographer",
+    "focus": "Identify hidden dependencies, feedback loops, and emerging structures.",
+    "id": "future-ai-role-52"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "IC",
+    "track": "Individual Contributor",
+    "title": "Systems Cartographer",
+    "focus": "Build and update evidence-based maps of relationships and uncertainties.",
+    "id": "future-ai-role-53"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "Associate IC",
+    "track": "Individual Contributor",
+    "title": "Systems Mapping Analyst",
+    "focus": "Gather evidence, document connections, and track changes.",
+    "id": "future-ai-role-54"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "AI Ecosystem Cartographer",
+    "focus": "Map relationships among models, organizations, infrastructure, users, and institutions.",
+    "id": "future-ai-role-55"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Knowledge Systems Cartographer",
+    "focus": "Map how knowledge is created, connected, transformed, and used across systems.",
+    "id": "future-ai-role-56"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Institutional Systems Cartographer",
+    "focus": "Map relationships, responsibilities, incentives, and information flows across institutions.",
+    "id": "future-ai-role-57"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Emergent Systems Researcher",
+    "focus": "Study structures and behaviors that arise from interactions among system components.",
+    "id": "future-ai-role-58"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Cross-System Dependency Analyst",
+    "focus": "Identify dependencies and pathways through which changes propagate between systems.",
+    "id": "future-ai-role-59"
+  },
+  {
+    "family": "Systems Cartography",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Uncertainty Mapping Researcher",
+    "focus": "Map known unknowns, conflicting evidence, and poorly understood relationships.",
+    "id": "future-ai-role-60"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "Director",
+    "track": "Management",
+    "title": "Director of Advanced Intelligence Research",
+    "focus": "Set research priorities for understanding increasingly capable systems.",
+    "id": "future-ai-role-61"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "Manager",
+    "track": "Management",
+    "title": "Manager of Advanced Intelligence Evaluation",
+    "focus": "Lead investigations into autonomy, generalization, and capability changes.",
+    "id": "future-ai-role-62"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "Principal IC",
+    "track": "Individual Contributor",
+    "title": "Principal ASI Epistemologist",
+    "focus": "Investigate how knowledge claims could be assessed when systems exceed human expertise.",
+    "id": "future-ai-role-63"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "Staff IC",
+    "track": "Individual Contributor",
+    "title": "Staff Advanced Intelligence Researcher",
+    "focus": "Develop evaluation approaches across multiple domains and operating conditions.",
+    "id": "future-ai-role-64"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "Senior IC",
+    "track": "Individual Contributor",
+    "title": "Senior Emergent Capabilities Researcher",
+    "focus": "Study unexpected capabilities and changes across system generations.",
+    "id": "future-ai-role-65"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "IC",
+    "track": "Individual Contributor",
+    "title": "Advanced Intelligence Researcher",
+    "focus": "Investigate reasoning, adaptation, autonomy, and system limitations.",
+    "id": "future-ai-role-66"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "Associate IC",
+    "track": "Individual Contributor",
+    "title": "Advanced Intelligence Research Analyst",
+    "focus": "Maintain evaluation evidence and track unresolved capability claims.",
+    "id": "future-ai-role-67"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Recursive Improvement Researcher",
+    "focus": "Study whether system modifications produce sustained, verifiable improvement.",
+    "id": "future-ai-role-68"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Intelligence Transition Researcher",
+    "focus": "Investigate changes between bounded capability and broader competence.",
+    "id": "future-ai-role-69"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Human–ASI Interaction Researcher",
+    "focus": "Explore how people could interpret and work with substantially more capable systems.",
+    "id": "future-ai-role-70"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Advanced Intelligence Interpretability Scientist",
+    "focus": "Study mechanisms behind advanced system behavior.",
+    "id": "future-ai-role-71"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Autonomous Systems Behavior Researcher",
+    "focus": "Investigate behavior over extended tasks and changing environments.",
+    "id": "future-ai-role-72"
+  },
+  {
+    "family": "Advanced Intelligence and ASI Research",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Intelligence Measurement Scientist",
+    "focus": "Develop measurements that remain meaningful as capabilities change.",
+    "id": "future-ai-role-73"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "Director",
+    "track": "Management",
+    "title": "Director of Knowledge Integrity",
+    "focus": "Set standards for preserving evidence and meaning across knowledge systems.",
+    "id": "future-ai-role-74"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "Manager",
+    "track": "Management",
+    "title": "Manager of Knowledge Integrity Research",
+    "focus": "Lead work on evidence quality, interpretation, and information transformation.",
+    "id": "future-ai-role-75"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "Principal IC",
+    "track": "Individual Contributor",
+    "title": "Principal Epistemic Integrity Architect",
+    "focus": "Design systems that preserve distinctions between observation, inference, and speculation.",
+    "id": "future-ai-role-76"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "Staff IC",
+    "track": "Individual Contributor",
+    "title": "Staff Knowledge Integrity Researcher",
+    "focus": "Investigate how claims change across models, agents, and institutions.",
+    "id": "future-ai-role-77"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "Senior IC",
+    "track": "Individual Contributor",
+    "title": "Senior Semantic Provenance Researcher",
+    "focus": "Trace changes in meaning through summarization, translation, and reuse.",
+    "id": "future-ai-role-78"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "IC",
+    "track": "Individual Contributor",
+    "title": "Knowledge Integrity Researcher",
+    "focus": "Study evidence loss, distorted interpretation, and unsupported certainty.",
+    "id": "future-ai-role-79"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "Associate IC",
+    "track": "Individual Contributor",
+    "title": "Evidence Integrity Analyst",
+    "focus": "Check claim lineage, supporting sources, and uncertainty records.",
+    "id": "future-ai-role-80"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Semantic Lineage Researcher",
+    "focus": "Trace how meaning changes as information moves through systems and representations.",
+    "id": "future-ai-role-81"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Evidence Architecture Engineer",
+    "focus": "Build structures that connect claims to evidence, assumptions, and revision histories.",
+    "id": "future-ai-role-82"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Machine Knowledge Curator",
+    "focus": "Organize and maintain machine-accessible knowledge with context, provenance, and revision controls.",
+    "id": "future-ai-role-83"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Epistemic Drift Researcher",
+    "focus": "Study how repeated transformation or reuse changes claims and their apparent certainty.",
+    "id": "future-ai-role-84"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Multi-Agent Knowledge Integrity Engineer",
+    "focus": "Preserve evidence, attribution, and uncertainty as information passes between autonomous agents.",
+    "id": "future-ai-role-85"
+  },
+  {
+    "family": "Knowledge Integrity and Meaning",
+    "level": "Specialist IC — Unspecified Seniority",
+    "track": "Individual Contributor",
+    "title": "Human Context Preservation Researcher",
+    "focus": "Investigate how human intent, circumstances, and nuance can survive machine processing.",
+    "id": "future-ai-role-86"
+  }
+]

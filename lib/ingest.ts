@@ -13,12 +13,12 @@ import fredSnapshot from './fred-snapshot.json';
 import {sourceChanges} from './changes';
 import {governanceAdapter} from './governance-adapter';
 import {newsAdapter} from './news';
-import {activityRecords} from './wastewater-activity';
-import activitySnapshot from './wastewater-activity-snapshot.json';
+import {collectWastewater} from './wastewater-adapter';
+import multiSnapshot from './wastewater-multi-snapshot.json';
 import {geopoliticsAdapter} from './geopolitics-adapter';
 export async function activityAdapter():Promise<RecordData[]>{
- try{const cutoff=new Date(Date.now()-26*7*86400000).toISOString().slice(0,10);const where=encodeURIComponent("pathogen_target='SARS-CoV-2' AND week_end>='"+cutoff+"'");const rows=await retrieve('https://data.cdc.gov/resource/atcp-73re.json?$where='+where+'&$order=week_end%20DESC&$limit=50000');if(!Array.isArray(rows)||rows.length>=50000)throw new Error('Unexpected or truncated CDC activity response');const records=activityRecords(rows,timestamp());if(!records.length)throw new Error('No valid activity rows');return records;}
- catch{return (activitySnapshot as RecordData[]).map(r=>({...r,status:'VERIFIED SNAPSHOT',summary:'Dated CDC snapshot; runtime refresh unavailable. '+r.summary}));}
+ try{return await collectWastewater(url=>retrieve(url));}
+ catch{return (multiSnapshot.records as RecordData[]).map(r=>({...r,status:'VERIFIED SNAPSHOT',summary:'Dated CDC snapshot; runtime refresh unavailable. '+r.summary}));}
 }
 async function retrieve(url:string,json=true):Promise<any>{
  let failure:any;
