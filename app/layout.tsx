@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import coreStyles from "./globals.css?raw";
+import "./tile-typography.css";
 import CommandCenter from './command-center';
 import {requireChatGPTUser} from './chatgpt-auth';
 export const dynamic='force-dynamic';
@@ -21,6 +23,7 @@ export default async function RootLayout({
   await requireChatGPTUser('/');
   return (
     <html lang="en">
+      <head><style id="dashboard-core-styles" dangerouslySetInnerHTML={{__html:coreStyles.replace(/@import\s+url\([^;]+;/g,'')}}/></head>
       <body className="antialiased"><CommandCenter/>{children}</body>
     </html>
   );

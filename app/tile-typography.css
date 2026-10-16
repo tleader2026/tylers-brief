@@ -1,0 +1,74 @@
+/* Shared typography contract for dashboard tiles. Keep chart axes and headings separate. */
+:root {
+  --tile-metric-size: 32px;
+  --tile-copy-size: 14px;
+  --tile-metric-leading: 1.2;
+  --tile-copy-leading: 1.6;
+}
+html body main :is(
+  .metric > strong, .market-card > strong, .chart-number, .calc-result > strong,
+  .labor-value, .labor-math-grid strong, .labor-callout strong,
+  .company-value, .bubble-count > strong, .bubble-gauge-value, .macro-value,
+  .infra-stat > strong, .infra-av-card > strong, .log-value,
+  .space-snapshot-tile strong, .farm-income-head strong, .ph-number,
+  .im-card > strong, .ts-value, .ts-strip b, .cap-number, .su-value,
+  .su-state-grid strong, .su-history strong, .su-results b, .credit-number,
+  .hc-metric > strong, .hc-scenario-result,
+  .aim-card > strong, .aim-results strong, .aim-large, .aim-emerging-value,
+  .dm-market-size strong, .dm-quality strong, .dd-card > strong, .dd-cohort strong,
+  .exposure-summary strong, .geo-summary-measure > strong, .geo-model-results strong,
+  .gov-heartbeat > strong, .gov-public-findings strong, .m-summary strong,
+  .progress-indicator > strong, .progress-stats strong, .progress-large,
+  .reach-pair strong, .reach-number, .robot-number, .robot-stages strong,
+  .robot-reference strong, .robot-model-results strong, .sc-metric > strong,
+  .sc-results strong, .sc-outlook-range strong, .sp-summary strong,
+  .event-category-counts strong, .history-comparison strong
+) {
+  font-size: var(--tile-metric-size) !important;
+  line-height: var(--tile-metric-leading) !important;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+  min-width: 0;
+  max-width: 100%;
+}
+/* Descriptions, scope, uncertainty, dates and source notes share one reading size. */
+html body main :is(
+  .panel, .metric, .market-card, .company-card, .bubble-gauge, .labor-card,
+  .macro-card, .infra-stat, .infra-av-card, .log-card, .space-snapshot-tile,
+  .ph-card, .hc-metric, .im-card, .ts-card, .cap-card, .su-card,
+  .aim-card, .dm-card, .dm-quality, .dd-card, .geo-summary, .gov-heartbeat,
+  .progress-indicator, .reach-card, .pw-track, .robot-headline, .sc-metric,
+  .sp-summary, .m-summary, .exposure-summary, .event-category-counts,
+  .history-comparison, .labor-math-grid, .progress-stats
+) :is(p, small, dd, dt, figcaption, footer) {
+  font-size: var(--tile-copy-size) !important;
+  line-height: var(--tile-copy-leading) !important;
+}
+html body main :is(
+  .company-scope, .company-measure-title, .company-basis, .company-claim-source,
+  .company-report-metric > b, .chart-number > span,
+  .ph-count, .ph-count span, .ph-universe, .ph-fresh, .ph-small,
+  .hc-scope, .labor-card dl, .geo-summary-measure > span,
+  .sc-metric > span, .sp-summary span, .m-summary span, .progress-stats span,
+  .reach-key, .dm-type, .aim-status, .robot-change,
+  .labor-population-headline p, .labor-population-bar-legend
+) {
+  font-size: var(--tile-copy-size) !important;
+  line-height: var(--tile-copy-leading) !important;
+}
+/* Existing compact-number spans inherit the primary value size, not a note size. */
+html body main .fit-card-value,
+html body main .fit-card-value > span {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+html body main :is(.panel, .metric, .company-card, .robot-headline, .sc-metric)
+:is(p, small, dd, dt, figcaption, footer) :is(span, a, b, strong) {
+  font-size: inherit !important;
+}
+@media (max-width: 700px) {
+  :root { --tile-metric-size: 28px; }
+}
+
+/* Explicit visual exception requested for the population remainder headline. */
+html body main .labor-population-headline > strong { font-size: clamp(42px, 5vw, 72px) !important; line-height: 1.1 !important; }

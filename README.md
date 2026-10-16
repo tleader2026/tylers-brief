@@ -10,7 +10,7 @@ An owner-private, evidence-first dashboard for tracking U.S. health, infrastruct
 
 This overview reflects the dashboard as of **October 15, 2026**. Features range from connected public-data adapters to curated evidence registers, dated snapshots, scenario tools, and defined measures awaiting observations. A page's existence does not imply that every metric has a live feed.
 
-The deployed Site and this GitHub repository have separate publication workflows. **Measurements and the latest Progress mechanism-tracking update are synchronized with the deployed Sites source as of October 15, 2026.** Interfaces, measurement definitions, public evidence, private-workspace persistence guards, navigation, and tests are included. Private runtime records remain in the hosted database and are not committed here.
+The deployed Site and this GitHub repository have separate publication workflows. **The full source is synchronized with deployed Sites version 242 (October 15, 2026), including shared header/metric typography, scope-based tan and blue headers, requested section removals, and the shortened Capabilities title.** Interfaces, measurement definitions, public evidence, private-workspace persistence guards, navigation, and tests are included. Private runtime records remain in the hosted database and are not committed here.
 
 ## Dashboard map
 

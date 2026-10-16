@@ -185,3 +185,7 @@ Measurements is implemented with eight tabs, 20 executive indicators and 78 metr
 ## Measurements / Progress source synchronization — 2026-10-15
 
 GitHub includes deployed Measurements and Progress source from Sites commit `e9597cad4454494e70edfe60fbef030999951bcf`: 78 measurement definitions, 20 priority indicators, eight Measurements views, append-only evidence/forecast histories and server preservation guards. Progress links eight observation tracks to these definitions and preserves its detail views. Public evidence and tests are included. Private D1 records, browser-local user state, credentials and cloud schedules are excluded. README describes current navigation; older dated notes may describe superseded states.
+
+
+## Full source synchronization - 2026-10-15
+GitHub synchronized with deployed Sites version 242, source commit 213ced450990012e2904fbc477d5e24735710388. Includes uniform header scopes and typography, inline base-style delivery safeguard, requested Smart Upgrades removals and shortened Capabilities title. Preserve the current Sites access policy; older owner-private notes predate the owner-authorized viewer grant.
