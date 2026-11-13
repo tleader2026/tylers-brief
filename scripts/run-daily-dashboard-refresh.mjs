@@ -15,7 +15,7 @@ async function request(path = '', method = 'GET') {
 
 const { providers } = await request();
 if (!Array.isArray(providers) || !providers.length ||
-    providers.some(id => typeof id !== 'string' || !/^[a-z0-9-]+$/.test(id))) {
+    providers.some(id => typeof id !== 'string' || !id.length || id.length > 160)) {
   throw new Error('Site returned an invalid source list');
 }
 
@@ -26,7 +26,7 @@ async function run() {
     let result;
     for (let attempt = 0; attempt < 2; attempt++) {
       try {
-        const { health } = await request('?provider=' + provider, 'POST');
+        const { health } = await request('?provider=' + encodeURIComponent(provider), 'POST');
         if (health?.provider !== provider) throw new Error('Missing source readback');
         result = { provider, status: health.status, count: health.count, message: health.message };
         if (result.status !== 'error') break;
